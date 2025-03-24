@@ -148,9 +148,6 @@ def match_protocols(eigenlayer_data, ivynet_data):
     return ivynet_data
 
 
-
-
-
 def merge_avs_data():
     """Fetch and merge AVS data from EigenLayer and IvyNet."""
     eigen_data = fetch_eigenlayer_data()
@@ -210,6 +207,26 @@ def get_merged_avs():
             }
             for avs in avs_list
         ])
+
+import re
+
+@app.route("/api/avs/overall_status", methods=["GET"])
+def get_avs_overall_status():
+    """API Route to fetch AVS names and statuses in key-value pairs"""
+    with app.app_context():
+        avs_list = AVS.query.all()
+        avs_status = {
+            avs.avs_name: avs.status
+            for avs in avs_list
+            if not re.match(
+                r'^(heuristic_|determined_|gallant_|stupefied_|modest_|objective_|upbeat_|nice_|youthful_)', 
+                avs.avs_name.lower()
+            )
+            and avs.avs_name.strip().lower() != "avs testnet"
+            # the database contains some testnet entries that we want to exclude
+        }
+        return jsonify(avs_status)
+
 
 # Run Flask app
 if __name__ == "__main__":

@@ -208,25 +208,32 @@ def get_merged_avs():
             for avs in avs_list
         ])
 
-import re
-
 @app.route("/api/avs/overall_status", methods=["GET"])
 def get_avs_overall_status():
-    """API Route to fetch AVS names and statuses in key-value pairs"""
+    """API Route to fetch AVS names and statuses exactly as in database"""
     with app.app_context():
         avs_list = AVS.query.all()
-        avs_status = {
-            avs.avs_name: avs.status
-            for avs in avs_list
-            if not re.match(
-                r'^(heuristic_|determined_|gallant_|stupefied_|modest_|objective_|upbeat_|nice_|youthful_)', 
-                avs.avs_name.lower()
-            )
-            and avs.avs_name.strip().lower() != "avs testnet"
-            # the database contains some testnet entries that we want to exclude
+        avs_status_dict = {
+            avs.avs_name: avs.status for avs in avs_list
         }
-        return jsonify(avs_status)
+        return jsonify(avs_status_dict)
 
+@app.route("/api/avs/by_name/<string:protocol_name>", methods=["GET"])
+def get_avs_by_name(protocol_name):
+    """Query AVS info by protocol name"""
+    avs_entry = AVS.query.filter_by(protocol_name=protocol_name).first()
+    if not avs_entry:
+        return jsonify({"error": "AVS protocol name not found"}), 404
+
+    return jsonify({
+        "protocol_name": avs_entry.protocol_name,
+        "total_staked": avs_entry.total_staked,
+        "network_apy": avs_entry.network_apy,
+        "node_count": avs_entry.node_count,
+        "uptime": avs_entry.uptime,
+        "status": avs_entry.status,
+        "errors": json.loads(avs_entry.errors) if avs_entry.errors else []
+    })
 
 # Run Flask app
 if __name__ == "__main__":

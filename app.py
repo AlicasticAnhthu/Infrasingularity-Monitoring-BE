@@ -4,6 +4,11 @@ from flask_apscheduler import APScheduler
 import requests
 import os
 import json
+import re
+from urllib.parse import urljoin
+from difflib import SequenceMatcher
+from datetime import datetime
+
 
 # Flask App Initialization
 app = Flask(__name__)
@@ -20,14 +25,30 @@ scheduler.init_app(app)
 scheduler.start()
 
 # API Sources
-EIGENLAYER_API = "https://api.u--1.com/v2/latest-avs-balances"
-IVYNET_API = "https://api1.test.ivynet.dev/machine"
+EIGENLAYER_API = os.getenv("EIGENLAYER_API")
+IVYNET_API = os.getenv("IVYNET_API")
+OPERATOR_AVS_DATA_VALINFO_URL = os.getenv("OPERATOR_AVS_DATA_VALINFO_URL")
+OPERATOR_AVS_DATA_STAKEINFO_URL = os.getenv("OPERATOR_AVS_DATA_STAKEINFO_URL")
+MARKET_DATA_URL = os.getenv("MARKET_DATA_URL")
 
 # IvyNet API Credentials
 IVYNET_USERNAME = os.getenv("IVYNET_USERNAME")
 IVYNET_PASSWORD = os.getenv("IVYNET_PASSWORD")
 
-# Database Model
+# Slack Webhook URL
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL")
+
+def send_slack_alert(message):
+    payload = {"text": message}
+    headers = {"Content-type": "application/json"}
+    try:
+        response = requests.post(SLACK_WEBHOOK_URL, json=payload, headers=headers)
+        if response.status_code != 200:
+            print(f"Slack Error: {response.status_code} - {response.text}")
+    except Exception as e:
+        print(f"Slack Exception: {e}")
+
+# Models
 class AVS(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     avs_name = db.Column(db.String(100), nullable=False)
@@ -38,205 +59,278 @@ class AVS(db.Model):
     uptime = db.Column(db.Float, nullable=True)
     status = db.Column(db.String(50), nullable=True)
     errors = db.Column(db.Text, nullable=True)
+    operator_address = db.Column(db.String(100), nullable=True)
+    total_eth_tvl = db.Column(db.Float, nullable=True)
+    total_eigen_tvl = db.Column(db.Float, nullable=True)
+    validation_success_score = db.Column(db.Float, nullable=True)
+    eth_tvl_usd = db.Column(db.Float, nullable=True)
+    eigen_tvl_usd = db.Column(db.Float, nullable=True)
+    opt_in_date = db.Column(db.DateTime, nullable=True)
+    operator_rank = db.Column(db.Integer, nullable=True)
 
-# Ensure database tables exist
+class AlertLog(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    timestamp = db.Column(db.DateTime, default=db.func.now())
+    avs_name = db.Column(db.String(100), nullable=False)
+    protocol_name = db.Column(db.String(100), nullable=False)
+    message = db.Column(db.Text, nullable=False)
+
 with app.app_context():
     db.create_all()
 
 def fetch_eigenlayer_data():
-    """Fetch AVS data from EigenLayer."""
     try:
         response = requests.get(EIGENLAYER_API, timeout=10)
         response.raise_for_status()
         eigen_data = response.json()
-
-        if not isinstance(eigen_data, dict):
-            print("⚠ Unexpected EigenLayer response format!")
-            return {}
-
         eigen_mapping = {}
         for protocol, avs in eigen_data.items():
             protocol_name = avs.get("metadata", {}).get("name", protocol).strip().lower()
-            total_staked = (
-                avs.get("total_staked") or 
-                avs.get("totalUsdValue") or 
-                avs.get("totalValueDenominatedInEth") or 
-                0.0
-            )
-
-            print(f"📌 Extracted: {protocol_name} | Total Staked: {total_staked} | APY: {avs.get('network_apy')}")
-
+            total_staked = avs.get("total_staked") or avs.get("totalUsdValue") or avs.get("totalValueDenominatedInEth") or 0.0
             if protocol_name:
                 eigen_mapping[protocol_name] = {
                     "total_staked": total_staked,
                     "network_apy": avs.get("network_apy"),
                 }
-
-        print("🔍 EigenLayer Processed Data:", json.dumps(eigen_mapping, indent=2))
         return eigen_mapping
     except requests.exceptions.RequestException as e:
         print(f"❌ Request Error fetching EigenLayer data: {e}")
         return {}
 
+def fetch_operator_data_by_addresses():
+    operator_addresses = [addr.strip().lower() for addr in os.getenv("OPERATOR_ADDRESSES", "").split(",")]
+    operator_data_map = {}
+    try:
+        market_resp = requests.get(MARKET_DATA_URL, timeout=10)
+        market_resp.raise_for_status()
+        market_prices = market_resp.json().get("data", [])
+        price_map = {item["coinName"].lower(): float(item["price"]) for item in market_prices if item.get("price")}
+    except Exception as e:
+        print(f"⚠ Failed to fetch market prices: {e}")
+        price_map = {}
+
+    for address in operator_addresses:
+        valinfo_url = OPERATOR_AVS_DATA_VALINFO_URL.replace("OPERATOR_ADDRESS", address)
+        stakeinfo_url = OPERATOR_AVS_DATA_STAKEINFO_URL.replace("OPERATOR_ADDRESS", address)
+        valinfo_data = []
+        eth_tvl, eigen_tvl = 0, 0
+        try:
+            valinfo_response = requests.get(valinfo_url, timeout=10)
+            if valinfo_response.status_code == 200:
+                valinfo_data = valinfo_response.json().get("data", [])
+                for avs in valinfo_data:
+                    if avs.get("isHasBlocksStats"):
+                        try:
+                            blocks = avs.get("blocksCount", 0)
+                            misses = avs.get("blocksMissesCount", 0)
+                            avs["validationSuccessScore"] = ((blocks - misses) * 100 / blocks) if blocks else None
+                        except:
+                            avs["validationSuccessScore"] = None
+        except Exception as e:
+            print(f"⚠ Error fetching valinfo for {address}: {e}")
+
+        try:
+            stakeinfo_response = requests.get(stakeinfo_url, timeout=10)
+            if stakeinfo_response.status_code == 200:
+                for token in stakeinfo_response.json():
+                    symbol = token.get("symbol", "").lower()
+                    tvl = float(token.get("tvl", "0") or 0)
+                    if "eth" in symbol:
+                        eth_tvl += tvl
+                    elif symbol == "eigen":
+                        eigen_tvl += tvl
+        except Exception as e:
+            print(f"⚠ Error fetching stakeinfo for {address}: {e}")
+
+        eth_usd = eth_tvl * price_map.get("eth", 0)
+        eigen_usd = eigen_tvl * price_map.get("eigen", 0)
+
+        operator_data_map[address] = [
+            {
+                **avs,
+                "ethTvl": eth_tvl,
+                "eigenTvl": eigen_tvl,
+                "ethTvlUsd": eth_usd,
+                "eigenTvlUsd": eigen_usd
+            } for avs in valinfo_data
+        ]
+        print(f"\nDebug: Operator data map for {address}:")
+        print(json.dumps(operator_data_map[address], indent=2))
+
+    return operator_data_map
+
+def clean_protocol_name(name):
+    return re.sub(r'^(is-|tt-)|(-mainnet|-testnet)$', '', name).strip().lower()
 
 def fetch_ivynet_data():
-    """Fetch AVS data from IvyNet."""
     try:
         response = requests.get(IVYNET_API, auth=(IVYNET_USERNAME, IVYNET_PASSWORD), timeout=10)
         response.raise_for_status()
         ivynet_data = response.json()
+        if not isinstance(ivynet_data, list): return {}
 
-        if not isinstance(ivynet_data, list):
-            print("⚠ Unexpected IvyNet response format!")
-            return {}
+        configured_addresses = [addr.strip().lower() for addr in os.getenv("OPERATOR_ADDRESSES", "").split(",")]
+        operator_info_map = fetch_operator_data_by_addresses()
 
         ivynet_avs = []
         for machine in ivynet_data:
-            for avs in machine.get("avs_list", []):
+            if not machine or not isinstance(machine, dict):
+                continue
+            avs_list = machine.get("avs_list", [])
+            if not isinstance(avs_list, list):
+                continue
+
+            for avs in avs_list:
+                if not avs or not isinstance(avs, dict):
+                    continue
+                name = avs.get("avs_name", "")
+                operator_address = avs.get("operator_address")
+                operator_address = operator_address.lower() if isinstance(operator_address, str) else ""
+
+                valinfo_data = operator_info_map.get(operator_address, []) if operator_address in configured_addresses else []
+
+                # fuzzy match
+                matched = None
+                best_score = 0.0
+                for v in valinfo_data:
+                    if not v or not v.get("name"): continue
+                    score = SequenceMatcher(None, v["name"].lower(), name.lower()).ratio()
+                    if score > best_score:
+                        best_score = score
+                        matched = v
+
+                validation_score = matched.get("validationSuccessScore") if matched else None
+
                 ivynet_avs.append({
-                    "avs_name": avs.get("avs_name", ""),
-                    "protocol_name": avs.get("avs_name", "").lower(),  # Store lowercase for easy matching
-                    "node_count": 1,  
+                    "avs_name": name,
+                    "protocol_name": name.lower(),
+                    "node_count": 1,
                     "uptime": avs.get("uptime", 0),
                     "status": machine.get("status", "Unknown"),
-                    "errors": json.dumps(machine.get("errors", []))
+                    "errors": json.dumps(machine.get("errors", [])),
+                    "operator_address": operator_address,
+                    "opt_in_date": (
+                        datetime.fromisoformat(matched["optInDate"])
+                        if matched and matched.get("optInDate")
+                        else None
+                    ),
+                    "operator_rank": matched.get("operatorRank") if matched else None,
+                    "total_eth_tvl": matched.get("ethTvl") if matched else None,
+                    "total_eigen_tvl": matched.get("eigenTvl") if matched else None,
+                    "validation_success_score": validation_score,
+                    "eth_tvl_usd": matched.get("ethTvlUsd") if matched else None,
+                    "eigen_tvl_usd": matched.get("eigenTvlUsd") if matched else None,
                 })
 
-        # Aggregate node counts and uptime per AVS
-        aggregated_avs = {}
+        # Aggregate node counts and uptimes per AVS
+        aggregated = {}
         for avs in ivynet_avs:
-            name = avs["avs_name"]
-            if name in aggregated_avs:
-                aggregated_avs[name]["node_count"] += 1
-                aggregated_avs[name]["uptime"] += avs["uptime"]
+            key = avs["avs_name"]
+            if key in aggregated:
+                aggregated[key]["node_count"] += 1
+                aggregated[key]["uptime"] += avs["uptime"]
             else:
-                aggregated_avs[name] = avs
+                aggregated[key] = avs
 
-        return aggregated_avs
+        print("\n✅ Debug: Aggregated IvyNet data:")
+        print(json.dumps(aggregated, indent=2, default=_json_serializer))
+        return aggregated
+
     except requests.exceptions.RequestException as e:
         print(f"❌ Request Exception for IvyNet: {e}")
         return {}
 
-import re
-
-def clean_protocol_name(protocol_name):
-    """Normalize IvyNet protocol names by removing prefixes and suffixes."""
-    return re.sub(r'^(is-|tt-)|(-mainnet|-testnet)$', '', protocol_name).strip().lower()
-
 def match_protocols(eigenlayer_data, ivynet_data):
-    """Match IvyNet protocols to EigenLayer based on cleaned name similarity."""
-    eigenlayer_protocols = {name.lower(): data for name, data in eigenlayer_data.items()}
-    
     for ivy_avs in ivynet_data.values():
-        ivy_protocol_name = clean_protocol_name(ivy_avs["protocol_name"])
-
-        matched_protocol = None
-        for eigen_name in eigenlayer_protocols.keys():
-            if re.search(re.escape(ivy_protocol_name), eigen_name, re.IGNORECASE) or re.search(re.escape(eigen_name), ivy_protocol_name, re.IGNORECASE):
-                matched_protocol = eigen_name
-                break
-
-        if matched_protocol:
-            ivy_avs["total_staked"] = eigenlayer_protocols[matched_protocol].get("total_staked", 0.0)
-            ivy_avs["network_apy"] = eigenlayer_protocols[matched_protocol].get("network_apy", None)
-            print(f"✅ Matched: {ivy_avs['protocol_name']} <-> {matched_protocol} | Total Staked: {ivy_avs['total_staked']}")
+        clean_name = clean_protocol_name(ivy_avs["protocol_name"])
+        match = next((k for k in eigenlayer_data if clean_name in k or k in clean_name), None)
+        if match:
+            ivy_avs["total_staked"] = eigenlayer_data[match].get("total_staked", 0.0)
+            ivy_avs["network_apy"] = eigenlayer_data[match].get("network_apy")
         else:
-            print(f"⚠ No match found for: {ivy_avs['protocol_name']} | Setting total_staked to 0.0")
             ivy_avs["total_staked"] = 0.0
             ivy_avs["network_apy"] = None
-
     return ivynet_data
 
-
 def merge_avs_data():
-    """Fetch and merge AVS data from EigenLayer and IvyNet."""
     eigen_data = fetch_eigenlayer_data()
     ivynet_data = fetch_ivynet_data()
-
-    print("🔍 EigenLayer Protocols Available:", list(eigen_data.keys()))
-    print("🔍 IvyNet Protocols Available:", list(ivynet_data.keys()))
-
     merged_data = match_protocols(eigen_data, ivynet_data)
-
     with app.app_context():
-        for avs_name, ivynet_entry in merged_data.items():
-            protocol_name = ivynet_entry["protocol_name"]
-
-            existing_entry = AVS.query.filter_by(avs_name=avs_name).first()
-            if existing_entry:
-                existing_entry.total_staked = ivynet_entry["total_staked"]
-                existing_entry.network_apy = ivynet_entry["network_apy"]
-                existing_entry.node_count = ivynet_entry["node_count"]
-                existing_entry.uptime = ivynet_entry["uptime"]
-                existing_entry.status = ivynet_entry["status"]
-                existing_entry.errors = ivynet_entry["errors"]
+        for name, data in merged_data.items():
+            avs = AVS.query.filter_by(avs_name=name).first()
+            if avs:
+                for key, val in data.items():
+                    if hasattr(avs, key):
+                        setattr(avs, key, val)
             else:
-                new_avs = AVS(
-                    avs_name=avs_name,
-                    protocol_name=protocol_name,
-                    total_staked=ivynet_entry["total_staked"],
-                    network_apy=ivynet_entry["network_apy"],
-                    node_count=ivynet_entry["node_count"],
-                    uptime=ivynet_entry["uptime"],
-                    status=ivynet_entry["status"],
-                    errors=ivynet_entry["errors"]
-                )
-                db.session.add(new_avs)
+                db.session.add(AVS(**data))
 
+            if data["status"].lower() == "error" or json.loads(data.get("errors", "[]")):
+                msg = f"🚨 AVS Alert: {name} ({data['protocol_name']}) has issues."
+                db.session.add(AlertLog(avs_name=name, protocol_name=data["protocol_name"], message=msg))
+                send_slack_alert(msg)
         db.session.commit()
-        print("✅ AVS data updated in database.")
 
-# Schedule periodic AVS data fetching
+def _json_serializer(obj):
+    if isinstance(obj, datetime):
+        return obj.isoformat()
+    raise TypeError(f"Type {type(obj)} not serializable")
+
+# Schedule periodic fetch
 scheduler.add_job(id="fetch_merged_avs_data", func=merge_avs_data, trigger="interval", minutes=1)
 
 @app.route("/api/avs", methods=["GET"])
 def get_merged_avs():
-    """API Route to fetch merged AVS data"""
     with app.app_context():
         avs_list = AVS.query.all()
-        return jsonify([
-            {
-                "avs_name": avs.avs_name,
-                "protocol_name": avs.protocol_name,
-                "total_staked": avs.total_staked,
-                "network_apy": avs.network_apy,
-                "node_count": avs.node_count,
-                "uptime": avs.uptime,
-                "status": avs.status,
-                "errors": json.loads(avs.errors) if avs.errors else []
-            }
-            for avs in avs_list
-        ])
+        return jsonify([{
+            "avs_name": a.avs_name,
+            "protocol_name": a.protocol_name,
+            "total_staked": a.total_staked,
+            "network_apy": a.network_apy,
+            "node_count": a.node_count,
+            "uptime": a.uptime,
+            "status": a.status,
+            "errors": json.loads(a.errors) if a.errors else [],
+            "operator_address": a.operator_address,
+            "total_eth_tvl": a.total_eth_tvl,
+            "total_eigen_tvl": a.total_eigen_tvl,
+            "validation_success_score": a.validation_success_score,
+            "eth_tvl_usd": a.eth_tvl_usd,
+            "eigen_tvl_usd": a.eigen_tvl_usd,
+        } for a in avs_list])
 
 @app.route("/api/avs/overall_status", methods=["GET"])
 def get_avs_overall_status():
-    """API Route to fetch AVS names and statuses exactly as in database"""
     with app.app_context():
-        avs_list = AVS.query.all()
-        avs_status_dict = {
-            avs.avs_name: avs.status for avs in avs_list
-        }
-        return jsonify(avs_status_dict)
+        return jsonify({a.avs_name: a.status for a in AVS.query.all()})
 
 @app.route("/api/avs/by_name/<string:protocol_name>", methods=["GET"])
 def get_avs_by_name(protocol_name):
-    """Query AVS info by protocol name"""
-    avs_entry = AVS.query.filter_by(protocol_name=protocol_name).first()
-    if not avs_entry:
+    avs = AVS.query.filter_by(protocol_name=protocol_name).first()
+    if not avs:
         return jsonify({"error": "AVS protocol name not found"}), 404
-
     return jsonify({
-        "protocol_name": avs_entry.protocol_name,
-        "total_staked": avs_entry.total_staked,
-        "network_apy": avs_entry.network_apy,
-        "node_count": avs_entry.node_count,
-        "uptime": avs_entry.uptime,
-        "status": avs_entry.status,
-        "errors": json.loads(avs_entry.errors) if avs_entry.errors else []
+        "protocol_name": avs.protocol_name,
+        "total_staked": avs.total_staked,
+        "network_apy": avs.network_apy,
+        "node_count": avs.node_count,
+        "uptime": avs.uptime,
+        "status": avs.status,
+        "errors": json.loads(avs.errors) if avs.errors else [],
+        "operator_address": avs.operator_address
     })
 
-# Run Flask app
+@app.route("/api/alerts", methods=["GET"])
+def get_alert_logs():
+    with app.app_context():
+        return jsonify([{
+            "timestamp": log.timestamp.isoformat(),
+            "avs_name": log.avs_name,
+            "protocol_name": log.protocol_name,
+            "message": log.message
+        } for log in AlertLog.query.order_by(AlertLog.timestamp.desc()).all()])
+
 if __name__ == "__main__":
     app.run(debug=True, port=5001)
-
-

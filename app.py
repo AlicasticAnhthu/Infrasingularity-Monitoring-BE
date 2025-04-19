@@ -1,12 +1,17 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from flask_apscheduler import APScheduler
 import requests
 import os
 import json
+from werkzeug.security import generate_password_hash, check_password_hash
+from enum import Enum
+from flask_cors import CORS
+import re
 
 # Flask App Initialization
 app = Flask(__name__)
+CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}}, supports_credentials=True)
 
 # Database setup
 DATABASE_FILE = "avs.db"
@@ -38,6 +43,19 @@ class AVS(db.Model):
     uptime = db.Column(db.Float, nullable=True)
     status = db.Column(db.String(50), nullable=True)
     errors = db.Column(db.Text, nullable=True)
+
+class AccessGroupEnum(Enum):
+    READ = 'read'
+
+class Account(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(80), unique=True, nullable=False)
+    password_hash = db.Column(db.String(128), nullable=False)
+    access_group = db.Column(db.Enum(AccessGroupEnum), nullable=False)
+    allowlist = db.Column(db.PickleType, nullable=False, default=[])
+
+    def check_password(self, password):
+        return check_password_hash(self.password_hash, password)
 
 # Ensure database tables exist
 with app.app_context():
@@ -117,7 +135,6 @@ def fetch_ivynet_data():
         print(f"❌ Request Exception for IvyNet: {e}")
         return {}
 
-import re
 
 def clean_protocol_name(protocol_name):
     """Normalize IvyNet protocol names by removing prefixes and suffixes."""
@@ -235,8 +252,93 @@ def get_avs_by_name(protocol_name):
         "errors": json.loads(avs_entry.errors) if avs_entry.errors else []
     })
 
+@app.route('/api/account/create', methods=['POST'])
+def create_account():
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+    allowlist = data.get('allowlist', [])
+
+    # Validate required fields
+    if not username or not password:
+        return jsonify({"error": "Username and password are required"}), 400
+
+    # Fetch valid AVS names from database
+    valid_avs_names = {avs.avs_name for avs in AVS.query.all()}
+
+    # Check if allowlist values are valid
+    invalid = [name for name in allowlist if name not in valid_avs_names]
+    if invalid:
+        return jsonify({
+            "error": "Invalid AVS names in allowlist",
+            "invalid_values": invalid
+        }), 400
+
+    if Account.query.filter_by(username=username).first():
+        return jsonify({'error': 'Username already exists'}), 409
+
+    password_hash = generate_password_hash(password)
+    new_account = Account(
+        username=username,
+        password_hash=password_hash,
+        access_group=AccessGroupEnum.READ,
+        allowlist=allowlist
+    )
+    db.session.add(new_account)
+    db.session.commit()
+
+    return jsonify({'message': 'Account created successfully'}), 201
+
+@app.route('/api/login', methods=['POST'])
+def login():
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+
+    account = Account.query.filter_by(username=username).first()
+    if account and account.check_password(password):
+        return jsonify({
+            'username': account.username,
+            'access_group': account.access_group.value,
+            'allowlist': account.allowlist
+        }), 200
+    else:
+        return jsonify({'error': 'Invalid username or password'}), 401
+    
+@app.route('/api/account/<int:account_id>', methods=['GET'])
+def get_account(account_id):
+    account = Account.query.get(account_id)
+    if not account:
+        return jsonify({'error': 'Account not found'}), 404
+
+    return jsonify({
+        'id': account.id,
+        'username': account.username,
+        'access_group': account.access_group.value,
+        'allowlist': account.allowlist
+    }), 200
+
+@app.route('/api/accounts', methods=['GET'])
+def get_accounts():
+    accounts = Account.query.all()
+    return jsonify([{
+        'id': account.id,
+        'username': account.username,
+        'access_group': account.access_group.value,
+        'allowlist': account.allowlist
+    } for account in accounts]), 200
+
+@app.route('/api/account/<int:account_id>', methods=['DELETE'])
+def delete_account(account_id):
+    account = Account.query.get(account_id)
+    if not account:
+        return jsonify({'error': 'Account not found'}), 404
+    db.session.delete(account)
+    db.session.commit()
+    return jsonify({'message': 'Account deleted successfully'}), 200
+
 # Run Flask app
 if __name__ == "__main__":
     app.run(debug=True, port=5001)
-
+    
 

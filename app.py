@@ -337,6 +337,29 @@ def delete_account(account_id):
     db.session.commit()
     return jsonify({'message': 'Account deleted successfully'}), 200
 
+@app.route('/api/account/avs_status', methods=['GET'])
+def get_filtered_avs_status_by_username():
+    username = request.args.get('username')
+
+    if not username:
+        return jsonify({"error": "Username is required"}), 400
+
+    account = Account.query.filter_by(username=username).first()
+    if not account:
+        return jsonify({"error": "Account not found"}), 404
+
+    allowlist = account.allowlist
+    avs_entries = AVS.query.filter(AVS.avs_name.in_(allowlist)).all()
+
+    return jsonify([
+        {
+            "avs_name": avs.avs_name,
+            "status": avs.status
+        }
+        for avs in avs_entries
+    ])
+
+
 # Run Flask app
 if __name__ == "__main__":
     app.run(debug=True, port=5001)

@@ -1,84 +1,84 @@
 {
   "0x870679e138bcdf293b7ff14dd44b70fc97e12fc0": {
     "avsAddress": "0x870679e138bcdf293b7ff14dd44b70fc97e12fc0",
-    "totalUsdValue": 6976288006.7542515,
-    "totalValueDenominatedInEth": 4397781.032045395,
+    "totalUsdValue": 7459360355.410526,
+    "totalValueDenominatedInEth": 4394787.285491555,
     "shares": {
       "ETH": {
         "amount": 3059651.553947761,
-        "usdValue": 4853586453.058412
+        "usdValue": 5193207775.546614
       },
       "stETH": {
         "amount": 947038.9854238122,
-        "usdValue": 1500914736.048928
+        "usdValue": 1605524662.3788433
       },
       "rETH": {
         "amount": 9859.45916541807,
-        "usdValue": 17610571.58290314
+        "usdValue": 18840736.30297236
       },
       "cbETH": {
         "amount": 3971.4533779012913,
-        "usdValue": 6897580.512205179
+        "usdValue": 7383646.691126521
       },
       "ETHx": {
         "amount": 78907.8227259602,
-        "usdValue": 132140618.09334747
+        "usdValue": 141033529.71456316
       },
       "ankrETH": {
         "amount": 677.0923218521219,
-        "usdValue": 1282020.1440412444
+        "usdValue": 1367882.2213753117
       },
       "OETH": {
         "amount": 5153.237031324357,
-        "usdValue": 8174682.967530455
+        "usdValue": 8746692.278007459
       },
       "osETH": {
         "amount": 16222.916130769094,
-        "usdValue": 26848926.196422845
+        "usdValue": 28753496.550175153
       },
       "swETH": {
         "amount": 10016.227879864575,
-        "usdValue": 17275989.847190432
+        "usdValue": 18471727.131488662
       },
       "wBETH": {
         "amount": 28241.44674907449,
-        "usdValue": 47790458.60325139
+        "usdValue": 51095555.116295554
       },
       "sfrxETH": {
         "amount": 7283.3651688490345,
-        "usdValue": 12898548.379424887
+        "usdValue": 13813848.880194146
       },
       "LsETH": {
         "amount": 8281.879483987517,
-        "usdValue": 14141392.037703536
+        "usdValue": 15151118.784391291
       },
       "mETH": {
         "amount": 2692.7099666954923,
-        "usdValue": 4537620.20037691
+        "usdValue": 4858510.447108011
       },
       "bEIGEN": {
         "amount": 394420511.97182775,
-        "usdValue": 331708439.409331
+        "usdValue": 350621297.37889224
       },
       "reALT": {
         "amount": 3841512.021346552,
-        "usdValue": 113533.42922320362
+        "usdValue": 114839.54331046148
       },
       "ETHFI": {
         "amount": 2947.2178987802663,
-        "usdValue": 1529.261264972801
+        "usdValue": 1526.3582553425022
       },
       "ARPA": {
         "amount": 183594.65877535692,
-        "usdValue": 4433.774290493115
+        "usdValue": 4369.589597785251
       },
       "SolvBTC": {
         "amount": 0.0026443483445,
-        "usdValue": 233.326720525302
+        "usdValue": 240.2998671097485
       },
       "uniBTC": {
         "amount": 0.017196370000000002,
-        "usdValue": 1496.6516702099998
+        "usdValue": 1542.3424252999998
       },
       "slisBNB": {
         "amount": 0,
@@ -86,11 +86,11 @@
       },
       "tBTC": {
         "amount": 3.7726962633451198,
-        "usdValue": 332781.99199714634
+        "usdValue": 342790.95518380095
       },
       "KERNEL": {
         "amount": 130101.01,
-        "usdValue": 25597.633919519998
+        "usdValue": 24200.739375150002
       },
       "RATT": {
         "amount": 0,
@@ -106,7 +106,7 @@
       },
       "MARSH": {
         "amount": 12000.0261,
-        "usdValue": 363.603910836786
+        "usdValue": 366.160276396869
       },
       "ASTR": {
         "amount": 18453355,
@@ -291,84 +291,84 @@
   },
   "0xd25c2c5802198cb8541987b73a8db4c9bcae5cc7": {
     "avsAddress": "0xd25c2c5802198cb8541987b73a8db4c9bcae5cc7",
-    "totalUsdValue": 6157602771.264759,
-    "totalValueDenominatedInEth": 3881690.1831060313,
+    "totalUsdValue": 6585499973.566533,
+    "totalValueDenominatedInEth": 3879940.125354402,
     "shares": {
       "ETH": {
         "amount": 2675202.7761750757,
-        "usdValue": 4243727667.902046
+        "usdValue": 4540675176.05748
       },
       "stETH": {
         "amount": 943485.8066038518,
-        "usdValue": 1495283480.5961146
+        "usdValue": 1599500922.793576
       },
       "rETH": {
         "amount": 8377.627798035655,
-        "usdValue": 14963783.667739375
+        "usdValue": 16009060.288100278
       },
       "cbETH": {
         "amount": 3310.447136152016,
-        "usdValue": 5749551.481597455
+        "usdValue": 6154717.1065911045
       },
       "ETHx": {
         "amount": 78887.42367455344,
-        "usdValue": 132106457.43388069
+        "usdValue": 140997070.08200282
       },
       "ankrETH": {
         "amount": 676.0795621620399,
-        "usdValue": 1280102.5645888494
+        "usdValue": 1365836.2138666175
       },
       "OETH": {
         "amount": 5134.3650490044365,
-        "usdValue": 8144745.964536718
+        "usdValue": 8714660.484976212
       },
       "osETH": {
         "amount": 13398.25466814128,
-        "usdValue": 22174111.475773815
+        "usdValue": 23747066.57381361
       },
       "swETH": {
         "amount": 9401.906029585578,
-        "usdValue": 16216407.519829208
+        "usdValue": 17338807.06164113
       },
       "wBETH": {
         "amount": 24213.856605514495,
-        "usdValue": 40974930.286417715
+        "usdValue": 43808677.92496106
       },
       "sfrxETH": {
         "amount": 2572.1471910354467,
-        "usdValue": 4555169.7894361345
+        "usdValue": 4878411.526933558
       },
       "LsETH": {
         "amount": 360.92807884694406,
-        "usdValue": 616288.3039119453
+        "usdValue": 660292.6552849647
       },
       "mETH": {
         "amount": 2619.2610560819385,
-        "usdValue": 4413847.76865648
+        "usdValue": 4725985.108709763
       },
       "bEIGEN": {
         "amount": 198477503.8379997,
-        "usdValue": 166919977.68276545
+        "usdValue": 176437172.46930134
       },
       "reALT": {
         "amount": 3726239.222143239,
-        "usdValue": 110126.61541734124
+        "usdValue": 111393.53675286994
       },
       "ETHFI": {
         "amount": 2241.0736424758297,
-        "usdValue": 1162.8550148287861
+        "usdValue": 1160.6475572909474
       },
       "ARPA": {
         "amount": 183594.65877535692,
-        "usdValue": 4433.774290493115
+        "usdValue": 4369.589597785251
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.017439200000000002,
-        "usdValue": 1517.7858936
+        "usdValue": 1564.1218479999998
       },
       "slisBNB": {
         "amount": 0,
@@ -376,11 +376,11 @@
       },
       "tBTC": {
         "amount": 3.7726962633451198,
-        "usdValue": 332781.99199714634
+        "usdValue": 342790.95518380095
       },
       "KERNEL": {
         "amount": 130101.01,
-        "usdValue": 25597.633919519998
+        "usdValue": 24200.739375150002
       },
       "RATT": {
         "amount": 0,
@@ -396,7 +396,7 @@
       },
       "MARSH": {
         "amount": 13451.394269940905,
-        "usdValue": 407.58074374171963
+        "usdValue": 410.44629426304505
       },
       "ASTR": {
         "amount": 18453355,
@@ -531,72 +531,72 @@
   },
   "0x9fc952bdcbb7daca7d420fa55b942405b073a89d": {
     "avsAddress": "0x9fc952bdcbb7daca7d420fa55b942405b073a89d",
-    "totalUsdValue": 444708445.55462945,
-    "totalValueDenominatedInEth": 280339.68275923486,
+    "totalUsdValue": 475822577.42463243,
+    "totalValueDenominatedInEth": 280337.57772525656,
     "shares": {
       "ETH": {
         "amount": 279305.668361934,
-        "usdValue": 443068167.83590317
+        "usdValue": 474071097.02407783
       },
       "stETH": {
         "amount": 427.1671910651255,
-        "usdValue": 676995.9227595641
+        "usdValue": 724180.8106846178
       },
       "rETH": {
         "amount": 63.7413550718893,
-        "usdValue": 113852.2587752058
+        "usdValue": 121805.26764752544
       },
       "cbETH": {
         "amount": 146.1545479972074,
-        "usdValue": 253839.75741606986
+        "usdValue": 271727.61254544806
       },
       "ETHx": {
         "amount": 4.025290035372443,
-        "usdValue": 6740.8311990354
+        "usdValue": 7194.481386021875
       },
       "ankrETH": {
         "amount": 5,
-        "usdValue": 9467.1
+        "usdValue": 10101.15
       },
       "OETH": {
         "amount": 0.5043890926482154,
-        "usdValue": 800.122505449717
+        "usdValue": 856.1096947336689
       },
       "osETH": {
         "amount": 3.2832228493526707,
-        "usdValue": 5433.73381567867
+        "usdValue": 5819.184178192674
       },
       "swETH": {
         "amount": 166.35535390324083,
-        "usdValue": 286929.71441230975
+        "usdValue": 306789.2165612787
       },
       "wBETH": {
         "amount": 4.701404999999999,
-        "usdValue": 7955.76455505
+        "usdValue": 8505.9699822
       },
       "sfrxETH": {
         "amount": 0.39789347546594017,
-        "usdValue": 704.6534293111614
+        "usdValue": 754.6567023729662
       },
       "LsETH": {
         "amount": 0.6589029286374433,
-        "usdValue": 1125.0833396777207
+        "usdValue": 1205.4167847371978
       },
       "mETH": {
         "amount": 16.278670113894073,
-        "usdValue": 27432.000942428604
+        "usdValue": 29371.930059901355
       },
       "bEIGEN": {
         "amount": 295341.67689931224,
-        "usdValue": 248382.9409556754
+        "usdValue": 262544.86970467435
       },
       "reALT": {
         "amount": 17830.811000908,
-        "usdValue": 526.9782074127954
+        "usdValue": 533.040683153104
       },
       "ETHFI": {
         "amount": 175.1,
-        "usdValue": 90.8564133
+        "usdValue": 90.68393979999999
       },
       "ARPA": {
         "amount": 0,
@@ -661,84 +661,84 @@
   },
   "0x71a77037870169d47aad6c2c9360861a4c0df2bf": {
     "avsAddress": "0x71a77037870169d47aad6c2c9360861a4c0df2bf",
-    "totalUsdValue": 1917912917.7110448,
-    "totalValueDenominatedInEth": 1209032.8040439792,
+    "totalUsdValue": 2051110072.4483488,
+    "totalValueDenominatedInEth": 1208440.4074943727,
     "shares": {
       "ETH": {
         "amount": 492640.88136053004,
-        "usdValue": 781486082.919836
+        "usdValue": 836169220.750855
       },
       "stETH": {
         "amount": 603997.5747776534,
-        "usdValue": 957245556.3863646
+        "usdValue": 1023963128.496304
       },
       "rETH": {
         "amount": 7856.351927163784,
-        "usdValue": 14032701.55822287
+        "usdValue": 15012938.588175092
       },
       "cbETH": {
         "amount": 2548.11918186302,
-        "usdValue": 4425547.913867873
+        "usdValue": 4737412.220536089
       },
       "ETHx": {
         "amount": 5544.971590693442,
-        "usdValue": 9285720.325207053
+        "usdValue": 9910638.623478202
       },
       "ankrETH": {
         "amount": 275.8785053796854,
-        "usdValue": 522353.87965600396
+        "usdValue": 557338.0329232018
       },
       "OETH": {
         "amount": 5091.646265325063,
-        "usdValue": 8076980.303610452
+        "usdValue": 8642153.039061533
       },
       "osETH": {
         "amount": 12364.929449334206,
-        "usdValue": 20463958.238648113
+        "usdValue": 21915600.955999956
       },
       "swETH": {
         "amount": 10075.635941349323,
-        "usdValue": 17378456.871639315
+        "usdValue": 18581286.290317595
       },
       "wBETH": {
         "amount": 24638.506870721747,
-        "usdValue": 41693527.71170406
+        "usdValue": 44576972.17078463
       },
       "sfrxETH": {
         "amount": 2305.8116549808014,
-        "usdValue": 4083500.208504801
+        "usdValue": 4373271.559186237
       },
       "LsETH": {
         "amount": 1908.933722167227,
-        "usdValue": 3259523.4199377615
+        "usdValue": 3492260.6193443905
       },
       "mETH": {
         "amount": 1831.8071729540043,
-        "usdValue": 3086869.85750344
+        "usdValue": 3305166.318304369
       },
       "bEIGEN": {
         "amount": 62343975.04874358,
-        "usdValue": 52431407.70394346
+        "usdValue": 55420863.65150575
       },
       "reALT": {
         "amount": 3520131.0444563353,
-        "usdValue": 104035.22013503854
+        "usdValue": 105232.06469015371
       },
       "ETHFI": {
         "amount": 1891.8249140310081,
-        "usdValue": 981.6357868671516
+        "usdValue": 979.772339326831
       },
       "ARPA": {
         "amount": 184083.09647093128,
-        "usdValue": 4445.569963153696
+        "usdValue": 4381.214512627459
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.017088680000000002,
-        "usdValue": 1487.27908644
+        "usdValue": 1532.6837091999998
       },
       "slisBNB": {
         "amount": 0,
@@ -746,11 +746,11 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 0.01,
-        "usdValue": 0.00196752
+        "usdValue": 0.00186015
       },
       "RATT": {
         "amount": 0,
@@ -766,7 +766,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 18453355,
@@ -825,84 +825,84 @@
   },
   "0x6026b61bdd2252160691cb3f6005b6b72e0ec044": {
     "avsAddress": "0x6026b61bdd2252160691cb3f6005b6b72e0ec044",
-    "totalUsdValue": 1886187774.3600237,
-    "totalValueDenominatedInEth": 1189033.5962227192,
+    "totalUsdValue": 2017169856.1049762,
+    "totalValueDenominatedInEth": 1188444.0506828271,
     "shares": {
       "ETH": {
         "amount": 474008.31132511003,
-        "usdValue": 751928864.4212484
+        "usdValue": 804543786.9783357
       },
       "stETH": {
         "amount": 603402.5945050687,
-        "usdValue": 956302601.9013586
+        "usdValue": 1022954452.4903884
       },
       "rETH": {
         "amount": 7746.841243729829,
-        "usdValue": 13837097.955900475
+        "usdValue": 14803671.337880647
       },
       "cbETH": {
         "amount": 2474.0999185963014,
-        "usdValue": 4296991.99761887
+        "usdValue": 4599797.086655872
       },
       "ETHx": {
         "amount": 5534.813282854837,
-        "usdValue": 9268709.01973437
+        "usdValue": 9892482.476712108
       },
       "ankrETH": {
         "amount": 247.3831343999004,
-        "usdValue": 468400.1743354595
+        "usdValue": 499770.82960871083
       },
       "OETH": {
         "amount": 5091.439528075903,
-        "usdValue": 8076652.352177364
+        "usdValue": 8641802.139793789
       },
       "osETH": {
         "amount": 12339.887259171426,
-        "usdValue": 20422513.413928714
+        "usdValue": 21871216.178155445
       },
       "swETH": {
         "amount": 9863.727530130986,
-        "usdValue": 17012957.243969925
+        "usdValue": 18190489.036516964
       },
       "wBETH": {
         "amount": 24627.577486521746,
-        "usdValue": 41675032.898466974
+        "usdValue": 44557198.291714616
       },
       "sfrxETH": {
         "amount": 2270.710649336602,
-        "usdValue": 4021337.7315491494
+        "usdValue": 4306697.938851279
       },
       "LsETH": {
         "amount": 1908.8751623187704,
-        "usdValue": 3259423.4284109236
+        "usdValue": 3492153.4882008284
       },
       "mETH": {
         "amount": 1821.4963280663023,
-        "usdValue": 3069494.5372409294
+        "usdValue": 3286562.254656591
       },
       "bEIGEN": {
         "amount": 61958982.82402031,
-        "usdValue": 52107628.472966745
+        "usdValue": 55078623.65836133
       },
       "reALT": {
         "amount": 3497745.215107093,
-        "usdValue": 103373.62127555246
+        "usdValue": 104562.85464868887
       },
       "ETHFI": {
         "amount": 1891.8249140310081,
-        "usdValue": 981.6357868671516
+        "usdValue": 979.772339326831
       },
       "ARPA": {
         "amount": 184082.9961492769,
-        "usdValue": 4445.567540405807
+        "usdValue": 4381.2121249520205
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.017088680000000002,
-        "usdValue": 1487.27908644
+        "usdValue": 1532.6837091999998
       },
       "slisBNB": {
         "amount": 0,
@@ -910,11 +910,11 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 0.01,
-        "usdValue": 0.00196752
+        "usdValue": 0.00186015
       },
       "RATT": {
         "amount": 0,
@@ -930,7 +930,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 18453355,
@@ -982,84 +982,84 @@
   },
   "0x35f4f28a8d3ff20eed10e087e8f96ea2641e6aa2": {
     "avsAddress": "0x35f4f28a8d3ff20eed10e087e8f96ea2641e6aa2",
-    "totalUsdValue": 4630034747.494834,
-    "totalValueDenominatedInEth": 2918726.8315944034,
+    "totalUsdValue": 4953233667.16106,
+    "totalValueDenominatedInEth": 2918267.425801299,
     "shares": {
       "ETH": {
         "amount": 2244533.3810881544,
-        "usdValue": 3560548193.0877604
+        "usdValue": 3809691398.3885455
       },
       "stETH": {
         "amount": 601209.5613232666,
-        "usdValue": 952826973.2631791
+        "usdValue": 1019236581.4069467
       },
       "rETH": {
         "amount": 6390.591742703878,
-        "usdValue": 11414619.347147964
+        "usdValue": 12211973.478885127
       },
       "cbETH": {
         "amount": 2685.4813976911096,
-        "usdValue": 4664117.236695941
+        "usdValue": 4992793.304959356
       },
       "ETHx": {
         "amount": 5292.354941431915,
-        "usdValue": 8862683.432020715
+        "usdValue": 9459131.833920088
       },
       "ankrETH": {
         "amount": 621.5306042393572,
-        "usdValue": 1176818.4766788837
+        "usdValue": 1255634.7726024766
       },
       "OETH": {
         "amount": 3530.01848419753,
-        "usdValue": 5599738.921852226
+        "usdValue": 5991570.973598152
       },
       "osETH": {
         "amount": 12225.31156751796,
-        "usdValue": 20232890.64424222
+        "usdValue": 21668142.222268835
       },
       "swETH": {
         "amount": 6597.408497495515,
-        "usdValue": 11379210.17648027
+        "usdValue": 12166808.802911276
       },
       "wBETH": {
         "amount": 4499.196714911831,
-        "usdValue": 7613585.672940949
+        "usdValue": 8140126.6644870825
       },
       "sfrxETH": {
         "amount": 2304.4094474315348,
-        "usdValue": 4081016.955023351
+        "usdValue": 4370612.090282072
       },
       "LsETH": {
         "amount": 23.352600887291246,
-        "usdValue": 39874.79954105867
+        "usdValue": 42721.94864123723
       },
       "mETH": {
         "amount": 2253.8286869900517,
-        "usdValue": 3798039.4118812857
+        "usdValue": 4066628.1765098902
       },
       "bEIGEN": {
         "amount": 44458064.535785794,
-        "usdValue": 37389321.19072491
+        "usdValue": 39521129.843280375
       },
       "reALT": {
         "amount": 2322444.7536863205,
-        "usdValue": 68638.36833055686
+        "usdValue": 69427.99954681018
       },
       "ETHFI": {
         "amount": 1885.4228769258302,
-        "usdValue": 978.3138786479055
+        "usdValue": 976.4567371141335
       },
       "ARPA": {
         "amount": 183594.2754057823,
-        "usdValue": 4433.765032194561
+        "usdValue": 4369.5804735127
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00339564,
-        "usdValue": 295.53273612
+        "usdValue": 304.5549516
       },
       "slisBNB": {
         "amount": 0,
@@ -1067,11 +1067,11 @@
       },
       "tBTC": {
         "amount": 3.7726962633451198,
-        "usdValue": 332781.99199714634
+        "usdValue": 342790.95518380095
       },
       "KERNEL": {
         "amount": 0.01,
-        "usdValue": 0.00196752
+        "usdValue": 0.00186015
       },
       "RATT": {
         "amount": 0,
@@ -1087,7 +1087,7 @@
       },
       "MARSH": {
         "amount": 13351.394269940905,
-        "usdValue": 404.5507177417196
+        "usdValue": 407.39496526304504
       },
       "ASTR": {
         "amount": 0,
@@ -1157,84 +1157,84 @@
   },
   "0x23221c5bb90c7c57ecc1e75513e2e4257673f0ef": {
     "avsAddress": "0x23221c5bb90c7c57ecc1e75513e2e4257673f0ef",
-    "totalUsdValue": 6180650893.166477,
-    "totalValueDenominatedInEth": 3896219.484824296,
+    "totalUsdValue": 6610147393.367573,
+    "totalValueDenominatedInEth": 3894461.500110511,
     "shares": {
       "ETH": {
         "amount": 2678866.081854298,
-        "usdValue": 4249538842.9671087
+        "usdValue": 4546892978.052936
       },
       "stETH": {
         "amount": 947930.6710232627,
-        "usdValue": 1502327923.9712174
+        "usdValue": 1607036345.8924475
       },
       "rETH": {
         "amount": 9154.648187195278,
-        "usdValue": 16351666.406040723
+        "usdValue": 17493891.860357072
       },
       "cbETH": {
         "amount": 3251.9578816647645,
-        "usdValue": 5647967.929296544
+        "usdValue": 6045975.054433497
       },
       "ETHx": {
         "amount": 78890.85676552201,
-        "usdValue": 132112206.55667849
+        "usdValue": 141003206.1141528
       },
       "ankrETH": {
         "amount": 356.0105065655534,
-        "usdValue": 674077.4133413499
+        "usdValue": 719223.1056789277
       },
       "OETH": {
         "amount": 5151.928939830102,
-        "usdValue": 8172607.915831287
+        "usdValue": 8744472.028152429
       },
       "osETH": {
         "amount": 15988.06564557268,
-        "usdValue": 26460248.643422782
+        "usdValue": 28337247.550213024
       },
       "swETH": {
         "amount": 9701.787112566419,
-        "usdValue": 16733642.411754575
+        "usdValue": 17891841.757252753
       },
       "wBETH": {
         "amount": 24218.956412314492,
-        "usdValue": 40983560.23048273
+        "usdValue": 43817904.69941589
       },
       "sfrxETH": {
         "amount": 2680.9363218235717,
-        "usdValue": 4747830.988496672
+        "usdValue": 5084744.256060241
       },
       "LsETH": {
         "amount": 2236.995762932461,
-        "usdValue": 3819692.6351648057
+        "usdValue": 4092427.1585815325
       },
       "mETH": {
         "amount": 2616.820985251331,
-        "usdValue": 4409735.883296281
+        "usdValue": 4721582.440108681
       },
       "bEIGEN": {
         "amount": 199890536.89066377,
-        "usdValue": 168108341.30612198
+        "usdValue": 177693292.44056624
       },
       "reALT": {
         "amount": 3746692.648165301,
-        "usdValue": 110731.10333323064
+        "usdValue": 112004.97883360683
       },
       "ETHFI": {
         "amount": 167374.4199795065,
-        "usdValue": 86847.74116222626
+        "usdValue": 86682.87735854645
       },
       "ARPA": {
         "amount": 183594.65877535692,
-        "usdValue": 4433.774290493115
+        "usdValue": 4369.589597785251
       },
       "SolvBTC": {
         "amount": 0.0026443483445,
-        "usdValue": 233.326720525302
+        "usdValue": 240.2998671097485
       },
       "uniBTC": {
         "amount": 0.017439200000000002,
-        "usdValue": 1517.7858936
+        "usdValue": 1564.1218479999998
       },
       "slisBNB": {
         "amount": 0,
@@ -1242,11 +1242,11 @@
       },
       "tBTC": {
         "amount": 3.7726962633451198,
-        "usdValue": 332781.99199714634
+        "usdValue": 342790.95518380095
       },
       "KERNEL": {
         "amount": 130101.01,
-        "usdValue": 25597.633919519998
+        "usdValue": 24200.739375150002
       },
       "RATT": {
         "amount": 460,
@@ -1262,7 +1262,7 @@
       },
       "MARSH": {
         "amount": 13351.394269940905,
-        "usdValue": 404.5507177417196
+        "usdValue": 407.39496526304504
       },
       "ASTR": {
         "amount": 18453355,
@@ -1423,76 +1423,76 @@
   },
   "0xed2f4d90b073128ae6769a9a8d51547b1df766c8": {
     "avsAddress": "0xed2f4d90b073128ae6769a9a8d51547b1df766c8",
-    "totalUsdValue": 859991119.0843496,
-    "totalValueDenominatedInEth": 542129.6580036498,
+    "totalUsdValue": 919461190.6821237,
+    "totalValueDenominatedInEth": 541713.5193611833,
     "shares": {
       "ETH": {
         "amount": 278855.8249244,
-        "usdValue": 442354572.19407415
+        "usdValue": 473307568.76068264
       },
       "stETH": {
         "amount": 189209.54507869156,
-        "usdValue": 299868747.51796424
+        "usdValue": 320768833.86735654
       },
       "rETH": {
         "amount": 3848.0452673527284,
-        "usdValue": 6873224.53473475
+        "usdValue": 7353345.142742349
       },
       "cbETH": {
         "amount": 1358.1427078217796,
-        "usdValue": 2358808.6735177883
+        "usdValue": 2525031.7595280968
       },
       "ETHx": {
         "amount": 5172.646298905857,
-        "usdValue": 8662216.945073726
+        "usdValue": 9245174.182960415
       },
       "ankrETH": {
         "amount": 342.4997804039825,
-        "usdValue": 648495.9342125086
+        "usdValue": 691928.3313655376
       },
       "OETH": {
         "amount": 2300.4433950067128,
-        "usdValue": 3649239.366367048
+        "usdValue": 3904588.5832127933
       },
       "osETH": {
         "amount": 224.9641675518756,
-        "usdValue": 372315.6972983541
+        "usdValue": 398726.49056894437
       },
       "swETH": {
         "amount": 5254.524772033518,
-        "usdValue": 9063004.326803409
+        "usdValue": 9690289.49408877
       },
       "wBETH": {
         "amount": 23062.800766929035,
-        "usdValue": 39027102.085805
+        "usdValue": 41726141.659558706
       },
       "sfrxETH": {
         "amount": 463.5086019422893,
-        "usdValue": 820855.1936957166
+        "usdValue": 879104.3197018043
       },
       "LsETH": {
         "amount": 335.48903061718204,
-        "usdValue": 572850.8746691446
+        "usdValue": 613753.6972819912
       },
       "mETH": {
         "amount": 1404.156275129515,
-        "usdValue": 2366213.947034503
+        "usdValue": 2533547.2503416874
       },
       "bEIGEN": {
         "amount": 51495296.28202186,
-        "usdValue": 43307647.16377295
+        "usdValue": 45776898.115792185
       },
       "reALT": {
         "amount": 1345747.1503676067,
-        "usdValue": 39772.69575093838
+        "usdValue": 40230.24978206336
       },
       "ETHFI": {
         "amount": 1312.375454725284,
-        "usdValue": 680.9693130742196
+        "usdValue": 679.6766232513152
       },
       "ARPA": {
         "amount": 170095.079217681,
-        "usdValue": 4107.762144091153
+        "usdValue": 4048.2969043966514
       },
       "SolvBTC": {
         "amount": 0,
@@ -1500,7 +1500,7 @@
       },
       "uniBTC": {
         "amount": 0.01404356,
-        "usdValue": 1222.25315748
+        "usdValue": 1259.5668964
       },
       "slisBNB": {
         "amount": 0,
@@ -1512,7 +1512,7 @@
       },
       "KERNEL": {
         "amount": 0.01,
-        "usdValue": 0.00196752
+        "usdValue": 0.00186015
       },
       "RATT": {
         "amount": 0,
@@ -1528,7 +1528,7 @@
       },
       "MARSH": {
         "amount": 1351.3681699409046,
-        "usdValue": 40.946806904933595
+        "usdValue": 41.23468886617611
       },
       "ASTR": {
         "amount": 18453355,
@@ -1589,84 +1589,84 @@
   },
   "0xe5445838c475a2980e6a88054ff1514230b83aeb": {
     "avsAddress": "0xe5445838c475a2980e6a88054ff1514230b83aeb",
-    "totalUsdValue": 2802050624.8030353,
-    "totalValueDenominatedInEth": 1766384.2256310426,
+    "totalUsdValue": 2996601787.1862254,
+    "totalValueDenominatedInEth": 1765490.1769767783,
     "shares": {
       "ETH": {
         "amount": 751604.7777893872,
-        "usdValue": 1192285691.1028602
+        "usdValue": 1275713821.4374824
       },
       "stETH": {
         "amount": 824067.4936023803,
-        "usdValue": 1306023367.2357326
+        "usdValue": 1397049862.5790517
       },
       "rETH": {
         "amount": 7728.219758526427,
-        "usdValue": 13803837.003889566
+        "usdValue": 14768086.983160906
       },
       "cbETH": {
         "amount": 2737.344207424169,
-        "usdValue": 4754192.04601222
+        "usdValue": 5089215.603558865
       },
       "ETHx": {
         "amount": 78867.83627120031,
-        "usdValue": 132073655.97647746
+        "usdValue": 140962061.1242417
       },
       "ankrETH": {
         "amount": 611.0252154788255,
-        "usdValue": 1156927.363491918
+        "usdValue": 1234411.4710667874
       },
       "OETH": {
         "amount": 5128.602675081357,
-        "usdValue": 8135604.995535058
+        "usdValue": 8704879.892469088
       },
       "osETH": {
         "amount": 12361.282097364481,
-        "usdValue": 20457921.87113821
+        "usdValue": 21909136.389368813
       },
       "swETH": {
         "amount": 9113.588147793465,
-        "usdValue": 15719116.837314172
+        "usdValue": 16807096.99039775
       },
       "wBETH": {
         "amount": 24192.796488874494,
-        "usdValue": 40939292.14643832
+        "usdValue": 43770575.1195313
       },
       "sfrxETH": {
         "amount": 2057.9995311394887,
-        "usdValue": 3644634.849666789
+        "usdValue": 3903263.6507450887
       },
       "LsETH": {
         "amount": 350.18696109642,
-        "usdValue": 597947.737941748
+        "usdValue": 640642.5322386236
       },
       "mETH": {
         "amount": 2030.500784925849,
-        "usdValue": 3421698.3977177953
+        "usdValue": 3663673.176257408
       },
       "bEIGEN": {
         "amount": 69625190.19820581,
-        "usdValue": 58554924.207071505
+        "usdValue": 61893521.70226567
       },
       "reALT": {
         "amount": 3653723.388594058,
-        "usdValue": 107983.45636692864
+        "usdValue": 109225.72231905062
       },
       "ETHFI": {
         "amount": 1859.7144652181455,
-        "usdValue": 964.974220855787
+        "usdValue": 963.1424021075471
       },
       "ARPA": {
         "amount": 518966.65282798954,
-        "usdValue": 12532.940872465382
+        "usdValue": 12351.510130636718
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.017439200000000002,
-        "usdValue": 1517.7858936
+        "usdValue": 1564.1218479999998
       },
       "slisBNB": {
         "amount": 0,
@@ -1674,11 +1674,11 @@
       },
       "tBTC": {
         "amount": 3.7726962633451198,
-        "usdValue": 332781.99199714634
+        "usdValue": 342790.95518380095
       },
       "KERNEL": {
         "amount": 130101.01,
-        "usdValue": 25597.633919519998
+        "usdValue": 24200.739375150002
       },
       "RATT": {
         "amount": 0,
@@ -1694,7 +1694,7 @@
       },
       "MARSH": {
         "amount": 7051.368169940904,
-        "usdValue": 213.65828890493358
+        "usdValue": 215.1604418661761
       },
       "ASTR": {
         "amount": 18453355,
@@ -1778,76 +1778,76 @@
   },
   "0xd50e0931703302b080880c45148f5d83ea66ae2a": {
     "avsAddress": "0xd50e0931703302b080880c45148f5d83ea66ae2a",
-    "totalUsdValue": 200912334.34123436,
-    "totalValueDenominatedInEth": 126653.09290763173,
+    "totalUsdValue": 214731425.1650629,
+    "totalValueDenominatedInEth": 126512.04555715063,
     "shares": {
       "ETH": {
         "amount": 83415.913208281,
-        "usdValue": 132324331.44056031
+        "usdValue": 141583497.8066795
       },
       "stETH": {
         "amount": 18362.61975542493,
-        "usdValue": 29101997.919385202
+        "usdValue": 31130332.897569425
       },
       "rETH": {
         "amount": 1546.6795918780347,
-        "usdValue": 2762617.2198288725
+        "usdValue": 2955596.432507494
       },
       "cbETH": {
         "amount": 895.1937844247911,
-        "usdValue": 1554763.6128511329
+        "usdValue": 1664326.3801268833
       },
       "ETHx": {
         "amount": 409.884268314375,
-        "usdValue": 686400.3934046187
+        "usdValue": 732594.3504436489
       },
       "ankrETH": {
         "amount": 22.086221180812686,
-        "usdValue": 41818.49290817436
+        "usdValue": 44619.24661611321
       },
       "OETH": {
         "amount": 23.536835446914985,
-        "usdValue": 37336.95280615018
+        "usdValue": 39949.54154075774
       },
       "osETH": {
         "amount": 151.70901743533082,
-        "usdValue": 251078.42385547253
+        "usdValue": 268889.06250238034
       },
       "swETH": {
         "amount": 5914.1821126531195,
-        "usdValue": 10200781.307904098
+        "usdValue": 10906816.368512629
       },
       "wBETH": {
         "amount": 3573.0871796123383,
-        "usdValue": 6046413.8562117955
+        "usdValue": 6464572.248841828
       },
       "sfrxETH": {
         "amount": 211.05349485651814,
-        "usdValue": 373767.2972510994
+        "usdValue": 400290.38994971797
       },
       "LsETH": {
         "amount": 19.383189042993397,
-        "usdValue": 33096.98912280166
+        "usdValue": 35460.18753092341
       },
       "mETH": {
         "amount": 503.5565883948054,
-        "usdValue": 848568.3849335065
+        "usdValue": 908577.2235725153
       },
       "bEIGEN": {
         "amount": 19733044.09998865,
-        "usdValue": 16595529.554178657
+        "usdValue": 17541748.75181721
       },
       "reALT": {
         "amount": 1358297.6792638756,
-        "usdValue": 40143.618600129106
+        "usdValue": 40605.43981107883
       },
       "ETHFI": {
         "amount": 477.5395827658578,
-        "usdValue": 247.7871713242966
+        "usdValue": 247.3167948352722
       },
       "ARPA": {
         "amount": 505960.0875802074,
-        "usdValue": 12218.834923044491
+        "usdValue": 12041.951276426451
       },
       "SolvBTC": {
         "amount": 0,
@@ -1855,7 +1855,7 @@
       },
       "uniBTC": {
         "amount": 0.01404356,
-        "usdValue": 1222.25315748
+        "usdValue": 1259.5668964
       },
       "slisBNB": {
         "amount": 0,
@@ -1867,7 +1867,7 @@
       },
       "KERNEL": {
         "amount": 0.01,
-        "usdValue": 0.00196752
+        "usdValue": 0.00186015
       },
       "RATT": {
         "amount": 0,
@@ -1934,84 +1934,84 @@
   },
   "0xf7fcff55d5fdaf2c3bbeb140be5e62a2c7d26db3": {
     "avsAddress": "0xf7fcff55d5fdaf2c3bbeb140be5e62a2c7d26db3",
-    "totalUsdValue": 5828444573.24655,
-    "totalValueDenominatedInEth": 3674192.2016027975,
+    "totalUsdValue": 6234725770.490884,
+    "totalValueDenominatedInEth": 3673276.559806568,
     "shares": {
       "ETH": {
         "amount": 2538194.363671431,
-        "usdValue": 4026388482.9792643
+        "usdValue": 4308128057.346793
       },
       "stETH": {
         "amount": 941813.04413879,
-        "usdValue": 1492632403.0033615
+        "usdValue": 1596665071.8589327
       },
       "rETH": {
         "amount": 8462.519170499832,
-        "usdValue": 15115413.24157998
+        "usdValue": 16171281.758483246
       },
       "cbETH": {
         "amount": 3099.5769360462727,
-        "usdValue": 5383314.226755804
+        "usdValue": 5762671.44795851
       },
       "ETHx": {
         "amount": 78883.57162178197,
-        "usdValue": 132100006.70926853
+        "usdValue": 140990185.23104337
       },
       "ankrETH": {
         "amount": 350.7010682065805,
-        "usdValue": 664024.4165637034
+        "usdValue": 708496.8190229799
       },
       "OETH": {
         "amount": 5137.594031412822,
-        "usdValue": 8149868.163910788
+        "usdValue": 8720141.101397611
       },
       "osETH": {
         "amount": 12342.740515879574,
-        "usdValue": 20427235.55378069
+        "usdValue": 21876273.29034496
       },
       "swETH": {
         "amount": 8918.151962155902,
-        "usdValue": 15382028.504326502
+        "usdValue": 16446677.485568665
       },
       "wBETH": {
         "amount": 24142.783143144497,
-        "usdValue": 40854659.06266055
+        "usdValue": 43680088.97390276
       },
       "sfrxETH": {
         "amount": 2662.8830486420306,
-        "usdValue": 4715859.363823091
+        "usdValue": 5050503.876545935
       },
       "LsETH": {
         "amount": 2224.550212451782,
-        "usdValue": 3798441.7332635424
+        "usdValue": 4069658.895165664
       },
       "mETH": {
         "amount": 2559.0540355625676,
-        "usdValue": 4312389.908028261
+        "usdValue": 4617352.377446251
       },
       "bEIGEN": {
         "amount": 69010810.83938777,
-        "usdValue": 58038229.93754679
+        "usdValue": 61347367.32810628
       },
       "reALT": {
         "amount": 3656680.4524016227,
-        "usdValue": 108070.85049524043
+        "usdValue": 109314.12184905699
       },
       "ETHFI": {
         "amount": 2238.5620677972292,
-        "usdValue": 1161.5518014248298
+        "usdValue": 1159.3468177880495
       },
       "ARPA": {
         "amount": 518966.65877535695,
-        "usdValue": 12532.941016093113
+        "usdValue": 12351.510272185249
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.017088680000000002,
-        "usdValue": 1487.27908644
+        "usdValue": 1532.6837091999998
       },
       "slisBNB": {
         "amount": 0,
@@ -2019,11 +2019,11 @@
       },
       "tBTC": {
         "amount": 3.7726962633451198,
-        "usdValue": 332781.99199714634
+        "usdValue": 342790.95518380095
       },
       "KERNEL": {
         "amount": 130101.01,
-        "usdValue": 25597.633919519998
+        "usdValue": 24200.739375150002
       },
       "RATT": {
         "amount": 0,
@@ -2039,7 +2039,7 @@
       },
       "MARSH": {
         "amount": 12000.0261,
-        "usdValue": 363.603910836786
+        "usdValue": 366.160276396869
       },
       "ASTR": {
         "amount": 18453355,
@@ -2130,8 +2130,8 @@
   },
   "0xb6827e919b55b45290cf54f006ee4a231e06f088": {
     "avsAddress": "0xb6827e919b55b45290cf54f006ee4a231e06f088",
-    "totalUsdValue": 3.75405503103343,
-    "totalValueDenominatedInEth": 0.0023665181243591646,
+    "totalUsdValue": 4.01570308525178,
+    "totalValueDenominatedInEth": 0.0023659080699289354,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -2139,11 +2139,11 @@
       },
       "stETH": {
         "amount": 0.002368713147006603,
-        "usdValue": 3.754055031033414
+        "usdValue": 4.015703085251763
       },
       "rETH": {
         "amount": 9.000071604e-18,
-        "usdValue": 1.607556789620064e-14
+        "usdValue": 1.719850683023172e-14
       },
       "cbETH": {
         "amount": 0,
@@ -2248,84 +2248,84 @@
   },
   "0x1de75eaab2df55d467494a172652579e6fa4540e": {
     "avsAddress": "0x1de75eaab2df55d467494a172652579e6fa4540e",
-    "totalUsdValue": 2768604410.201013,
-    "totalValueDenominatedInEth": 1745300.0719911577,
+    "totalUsdValue": 2961127632.214968,
+    "totalValueDenominatedInEth": 1744590.0786033089,
     "shares": {
       "ETH": {
         "amount": 970073.244415988,
-        "usdValue": 1538846589.08197
+        "usdValue": 1646524719.2121441
       },
       "stETH": {
         "amount": 599264.529033756,
-        "usdValue": 949744388.8391486
+        "usdValue": 1015939148.7162173
       },
       "rETH": {
         "amount": 6519.53174570802,
-        "usdValue": 11644926.822913839
+        "usdValue": 12458368.798825828
       },
       "cbETH": {
         "amount": 2148.731454150573,
-        "usdValue": 3731895.3022541753
+        "usdValue": 3994878.5449276622
       },
       "ETHx": {
         "amount": 78405.07332392425,
-        "usdValue": 131298703.88971004
+        "usdValue": 140134955.6533163
       },
       "ankrETH": {
         "amount": 266.55429193270044,
-        "usdValue": 504699.2274312138
+        "usdValue": 538500.9771911995
       },
       "OETH": {
         "amount": 5106.8939363827985,
-        "usdValue": 8101167.989162761
+        "usdValue": 8668033.21610125
       },
       "osETH": {
         "amount": 12221.389976171695,
-        "usdValue": 20226400.410564154
+        "usdValue": 21661191.593766715
       },
       "swETH": {
         "amount": 6857.115646333846,
-        "usdValue": 11827153.066796618
+        "usdValue": 12645755.532655952
       },
       "wBETH": {
         "amount": 24008.427525431827,
-        "usdValue": 40627301.14281101
+        "usdValue": 43437007.41611228
       },
       "sfrxETH": {
         "amount": 2348.117082424416,
-        "usdValue": 4158421.4282903434
+        "usdValue": 4453509.302038619
       },
       "LsETH": {
         "amount": 329.6185672012488,
-        "usdValue": 562826.9996818042
+        "usdValue": 603014.0953949806
       },
       "mETH": {
         "amount": 2274.693367106552,
-        "usdValue": 3833199.5275796074
+        "usdValue": 4104274.736137694
       },
       "bEIGEN": {
         "amount": 51236405.68627901,
-        "usdValue": 43089919.654972024
+        "usdValue": 45546756.54403478
       },
       "reALT": {
         "amount": 2377573.85985109,
-        "usdValue": 70267.6737806286
+        "usdValue": 71076.048892978
       },
       "ETHFI": {
         "amount": 1696.9083558889429,
-        "usdValue": 880.4968984287224
+        "usdValue": 878.8254436981716
       },
       "ARPA": {
         "amount": 183584.4452690672,
-        "usdValue": 4433.527636358919
+        "usdValue": 4369.3465142928535
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -2333,7 +2333,7 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 0,
@@ -2353,7 +2353,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -2399,84 +2399,84 @@
   },
   "0x07e26bf8060e33fa3771d88128b75493750515c1": {
     "avsAddress": "0x07e26bf8060e33fa3771d88128b75493750515c1",
-    "totalUsdValue": 1987693251.2337184,
-    "totalValueDenominatedInEth": 1253021.6168450997,
+    "totalUsdValue": 2125646141.6583207,
+    "totalValueDenominatedInEth": 1252354.383179554,
     "shares": {
       "ETH": {
         "amount": 444821.308081659,
-        "usdValue": 705628937.4360973
+        "usdValue": 755004102.6331617
       },
       "stETH": {
         "amount": 654977.9865532153,
-        "usdValue": 1038041861.9888636
+        "usdValue": 1110390730.3835316
       },
       "rETH": {
         "amount": 6594.514430368817,
-        "usdValue": 11778857.894947562
+        "usdValue": 12601655.460424686
       },
       "cbETH": {
         "amount": 2189.040004431544,
-        "usdValue": 3801902.7892966587
+        "usdValue": 4069819.3954390357
       },
       "ETHx": {
         "amount": 78397.53500559884,
-        "usdValue": 131286080.07107592
+        "usdValue": 140121482.2662069
       },
       "ankrETH": {
         "amount": 592.5955210312746,
-        "usdValue": 1122032.2114310362
+        "usdValue": 1197179.249453012
       },
       "OETH": {
         "amount": 5079.7940499077795,
-        "usdValue": 8058178.897249708
+        "usdValue": 8622036.03678947
       },
       "osETH": {
         "amount": 12279.811505439366,
-        "usdValue": 20323088.04150215
+        "usdValue": 21764737.912240736
       },
       "swETH": {
         "amount": 6502.786226377035,
-        "usdValue": 11216005.683255114
+        "usdValue": 11992308.302960003
       },
       "wBETH": {
         "amount": 4510.654143448642,
-        "usdValue": 7632974.048085226
+        "usdValue": 8160855.902493023
       },
       "sfrxETH": {
         "amount": 2144.269150394751,
-        "usdValue": 3797414.8945830883
+        "usdValue": 4066885.198713197
       },
       "LsETH": {
         "amount": 2204.6380675698783,
-        "usdValue": 3764441.546756244
+        "usdValue": 4033231.0199543643
       },
       "mETH": {
         "amount": 1760.6752985675132,
-        "usdValue": 2967001.9793810453
+        "usdValue": 3176821.6547113354
       },
       "bEIGEN": {
         "amount": 45027839.51262465,
-        "usdValue": 37868503.08579636
+        "usdValue": 40027633.01826623
       },
       "reALT": {
         "amount": 2352060.1062003276,
-        "usdValue": 69513.63112028269
+        "usdValue": 70313.33155639081
       },
       "ETHFI": {
         "amount": 1519.3967812103424,
-        "usdValue": 788.389160024766
+        "usdValue": 786.8925541952738
       },
       "ARPA": {
         "amount": 183584.36535288658,
-        "usdValue": 4433.52570639914
+        "usdValue": 4369.344612271771
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -2484,7 +2484,7 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 0,
@@ -2504,7 +2504,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -2564,84 +2564,84 @@
   },
   "0x1f2c296448f692af840843d993ffc0546619dcdb": {
     "avsAddress": "0x1f2c296448f692af840843d993ffc0546619dcdb",
-    "totalUsdValue": 5919750531.212282,
-    "totalValueDenominatedInEth": 3731750.549203365,
+    "totalUsdValue": 6332462537.888685,
+    "totalValueDenominatedInEth": 3730859.5538193653,
     "shares": {
       "ETH": {
         "amount": 2589578.6570448494,
-        "usdValue": 4107900415.243385
+        "usdValue": 4395343646.175363
       },
       "stETH": {
         "amount": 947376.7220605449,
-        "usdValue": 1501449997.9576545
+        "usdValue": 1606097230.6764624
       },
       "rETH": {
         "amount": 8686.371234618136,
-        "usdValue": 15515248.844425531
+        "usdValue": 16599047.383368835
       },
       "cbETH": {
         "amount": 3025.5581327677532,
-        "usdValue": 5254759.109409702
+        "usdValue": 5625057.169279151
       },
       "ETHx": {
         "amount": 78884.12265216072,
-        "usdValue": 132100929.47576137
+        "usdValue": 140991170.09865987
       },
       "ankrETH": {
         "amount": 323.2856027258592,
-        "usdValue": 612115.4259131963
+        "usdValue": 653111.2731948624
       },
       "OETH": {
         "amount": 5138.220605056363,
-        "usdValue": 8150862.110213009
+        "usdValue": 8721204.597374266
       },
       "osETH": {
         "amount": 12362.95078806917,
-        "usdValue": 20460683.554254476
+        "usdValue": 21912093.976773802
       },
       "swETH": {
         "amount": 11095.464020344381,
-        "usdValue": 19137456.342289988
+        "usdValue": 20462032.8370387
       },
       "wBETH": {
         "amount": 24745.572924263815,
-        "usdValue": 41874705.958168484
+        "usdValue": 44770680.357495084
       },
       "sfrxETH": {
         "amount": 2724.102475801484,
-        "usdValue": 4824276.520545397
+        "usdValue": 5166614.478679368
       },
       "LsETH": {
         "amount": 1919.9119179324705,
-        "usdValue": 3278268.798988872
+        "usdValue": 3512344.4600231997
       },
       "mETH": {
         "amount": 2616.010422208599,
-        "usdValue": 4408369.962984821
+        "usdValue": 4720119.924999419
       },
       "bEIGEN": {
         "amount": 64567363.82985368,
-        "usdValue": 54301282.11563461
+        "usdValue": 57397351.77863993
       },
       "reALT": {
         "amount": 3695318.340180544,
-        "usdValue": 109212.76854029828
+        "usdValue": 110469.17677595966
       },
       "ETHFI": {
         "amount": 2228.6103929941205,
-        "usdValue": 1156.3880465479683
+        "usdValue": 1154.1928653108691
       },
       "ARPA": {
         "amount": 519455.1068454814,
-        "usdValue": 12544.736939297005
+        "usdValue": 12363.135433943826
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.017088680000000002,
-        "usdValue": 1487.27908644
+        "usdValue": 1532.6837091999998
       },
       "slisBNB": {
         "amount": 0,
@@ -2649,11 +2649,11 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 130101.01,
-        "usdValue": 25597.633919519998
+        "usdValue": 24200.739375150002
       },
       "RATT": {
         "amount": 0,
@@ -2669,7 +2669,7 @@
       },
       "MARSH": {
         "amount": 12000.0261,
-        "usdValue": 363.603910836786
+        "usdValue": 366.160276396869
       },
       "ASTR": {
         "amount": 18453355,
@@ -2755,84 +2755,84 @@
   },
   "0x22cac0e6a1465f043428e8aef737b3cb09d0eeda": {
     "avsAddress": "0x22cac0e6a1465f043428e8aef737b3cb09d0eeda",
-    "totalUsdValue": 5965734522.278823,
-    "totalValueDenominatedInEth": 3760738.389655822,
+    "totalUsdValue": 6381273844.384706,
+    "totalValueDenominatedInEth": 3759617.422987242,
     "shares": {
       "ETH": {
         "amount": 2642541.181585647,
-        "usdValue": 4191915927.172944
+        "usdValue": 4485237998.32895
       },
       "stETH": {
         "amount": 893588.0270620607,
-        "usdValue": 1416202984.6893063
+        "usdValue": 1514908718.158582
       },
       "rETH": {
         "amount": 9458.568585538209,
-        "usdValue": 16894516.864744924
+        "usdValue": 18074662.467162527
       },
       "cbETH": {
         "amount": 3563.6220247076635,
-        "usdValue": 6189263.096292019
+        "usdValue": 6625414.795895995
       },
       "ETHx": {
         "amount": 78891.35694267541,
-        "usdValue": 132113044.1633431
+        "usdValue": 141004100.0907826
       },
       "ankrETH": {
         "amount": 650.0148776880595,
-        "usdValue": 1230751.1697121256
+        "usdValue": 1313179.5563517483
       },
       "OETH": {
         "amount": 5151.928939830102,
-        "usdValue": 8172607.915831287
+        "usdValue": 8744472.028152429
       },
       "osETH": {
         "amount": 14395.775872512117,
-        "usdValue": 23825009.06900755
+        "usdValue": 25515073.15644048
       },
       "swETH": {
         "amount": 9732.100319481808,
-        "usdValue": 16785926.63104223
+        "usdValue": 17947744.767181963
       },
       "wBETH": {
         "amount": 24210.57391465449,
-        "usdValue": 40969375.28411749
+        "usdValue": 43802738.74934952
       },
       "sfrxETH": {
         "amount": 2681.020017800947,
-        "usdValue": 4747979.210724766
+        "usdValue": 5084902.996361811
       },
       "LsETH": {
         "amount": 8239.386483796472,
-        "usdValue": 14068834.81494732
+        "usdValue": 15073380.815051783
       },
       "mETH": {
         "amount": 2584.186709080083,
-        "usdValue": 4354742.232806303
+        "usdValue": 4662699.762927375
       },
       "bEIGEN": {
         "amount": 104384420.18401936,
-        "usdValue": 87787506.14360067
+        "usdValue": 92792843.47584449
       },
       "reALT": {
         "amount": 3710413.147551457,
-        "usdValue": 109658.88591146888
+        "usdValue": 110920.42638163637
       },
       "ETHFI": {
         "amount": 2892.1520138984743,
-        "usdValue": 1500.688513427682
+        "usdValue": 1497.839743693992
       },
       "ARPA": {
         "amount": 183594.65877535692,
-        "usdValue": 4433.774290493115
+        "usdValue": 4369.589597785251
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.017196370000000002,
-        "usdValue": 1496.6516702099998
+        "usdValue": 1542.3424252999998
       },
       "slisBNB": {
         "amount": 0,
@@ -2840,11 +2840,11 @@
       },
       "tBTC": {
         "amount": 3.7726962633451198,
-        "usdValue": 332781.99199714634
+        "usdValue": 342790.95518380095
       },
       "KERNEL": {
         "amount": 130101.01,
-        "usdValue": 25597.633919519998
+        "usdValue": 24200.739375150002
       },
       "RATT": {
         "amount": 0,
@@ -2860,7 +2860,7 @@
       },
       "MARSH": {
         "amount": 12000.0261,
-        "usdValue": 363.603910836786
+        "usdValue": 366.160276396869
       },
       "ASTR": {
         "amount": 18453355,
@@ -2966,84 +2966,84 @@
   },
   "0xe8e59c6c8b56f2c178f63bcfc4ce5e5e2359c8fc": {
     "avsAddress": "0xe8e59c6c8b56f2c178f63bcfc4ce5e5e2359c8fc",
-    "totalUsdValue": 5805489390.970417,
-    "totalValueDenominatedInEth": 3659721.488079591,
+    "totalUsdValue": 6209812602.747396,
+    "totalValueDenominatedInEth": 3658598.6159047186,
     "shares": {
       "ETH": {
         "amount": 2552835.704763036,
-        "usdValue": 4049614335.1796994
+        "usdValue": 4332979098.408396
       },
       "stETH": {
         "amount": 886735.9721201903,
-        "usdValue": 1405343505.414683
+        "usdValue": 1503292360.8950803
       },
       "rETH": {
         "amount": 9098.433513433347,
-        "usdValue": 16251258.0043541
+        "usdValue": 17386469.553825177
       },
       "cbETH": {
         "amount": 3401.3322857754315,
-        "usdValue": 5907399.900611908
+        "usdValue": 6323688.959067967
       },
       "ETHx": {
         "amount": 78836.14409728209,
-        "usdValue": 132020583.62819053
+        "usdValue": 140905417.06795418
       },
       "ankrETH": {
         "amount": 357.90066069609975,
-        "usdValue": 677656.2689752089
+        "usdValue": 723041.65175808
       },
       "OETH": {
         "amount": 5148.722971803259,
-        "usdValue": 8167522.224630944
+        "usdValue": 8739030.474501107
       },
       "osETH": {
         "amount": 15386.46542676019,
-        "usdValue": 25464600.28128811
+        "usdValue": 27270971.32238977
       },
       "swETH": {
         "amount": 7828.223129171408,
-        "usdValue": 13502119.253194848
+        "usdValue": 14436652.530355321
       },
       "wBETH": {
         "amount": 21375.978394608912,
-        "usdValue": 36172644.39914116
+        "usdValue": 38674275.15066225
       },
       "sfrxETH": {
         "amount": 2666.9982711900243,
-        "usdValue": 4723147.258346686
+        "usdValue": 5058308.931087137
       },
       "LsETH": {
         "amount": 8239.198269768794,
-        "usdValue": 14068513.437612923
+        "usdValue": 15073036.490663132
       },
       "mETH": {
         "amount": 2409.3650640813407,
-        "usdValue": 4060141.5377366734
+        "usdValue": 4347265.572423245
       },
       "bEIGEN": {
         "amount": 105882742.66262849,
-        "usdValue": 89047598.34475602
+        "usdValue": 94124781.73817158
       },
       "reALT": {
         "amount": 3662437.643543049,
-        "usdValue": 108241.00059482294
+        "usdValue": 109486.22939362757
       },
       "ETHFI": {
         "amount": 2974.962634845027,
-        "usdValue": 1543.6575368562922
+        "usdValue": 1540.7271986609699
       },
       "ARPA": {
         "amount": 13495.322718668016,
-        "usdValue": 325.90934459128886
+        "usdValue": 321.1913797688425
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.017196370000000002,
-        "usdValue": 1496.6516702099998
+        "usdValue": 1542.3424252999998
       },
       "slisBNB": {
         "amount": 0,
@@ -3051,11 +3051,11 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 130101,
-        "usdValue": 25597.631952
+        "usdValue": 24200.737515
       },
       "RATT": {
         "amount": 0,
@@ -3071,7 +3071,7 @@
       },
       "MARSH": {
         "amount": 12000.0261,
-        "usdValue": 363.603910836786
+        "usdValue": 366.160276396869
       },
       "ASTR": {
         "amount": 18453355,
@@ -3447,76 +3447,76 @@
   },
   "0xb3acaf09a1b801e36655b786da4eaa6ae9f5dc37": {
     "avsAddress": "0xb3acaf09a1b801e36655b786da4eaa6ae9f5dc37",
-    "totalUsdValue": 116548204.85166861,
-    "totalValueDenominatedInEth": 73470.80340137464,
+    "totalUsdValue": 124637618.11317278,
+    "totalValueDenominatedInEth": 73432.00935190347,
     "shares": {
       "ETH": {
         "amount": 45807.760470263995,
-        "usdValue": 72665766.58918919
+        "usdValue": 77750428.0013885
       },
       "stETH": {
         "amount": 10893.171899410896,
-        "usdValue": 17264043.48478136
+        "usdValue": 18467303.252790287
       },
       "rETH": {
         "amount": 995.3775535708803,
-        "usdValue": 1777903.5710861636
+        "usdValue": 1902096.8284452024
       },
       "cbETH": {
         "amount": 844.7604613597283,
-        "usdValue": 1467171.521684962
+        "usdValue": 1570561.7545507795
       },
       "ETHx": {
         "amount": 166.75849178490313,
-        "usdValue": 279257.10551283445
+        "usdValue": 298050.78753699304
       },
       "ankrETH": {
         "amount": 16.723359510213804,
-        "usdValue": 31664.343363829026
+        "usdValue": 33785.03258331923
       },
       "OETH": {
         "amount": 1605.029657449073,
-        "usdValue": 2546090.6462046136
+        "usdValue": 2724248.9381814604
       },
       "osETH": {
         "amount": 152.7496294413758,
-        "usdValue": 252800.63672547694
+        "usdValue": 270733.44322189444
       },
       "swETH": {
         "amount": 5627.536610462384,
-        "usdValue": 9706375.145725518
+        "usdValue": 10378190.466282517
       },
       "wBETH": {
         "amount": 3517.350572212338,
-        "usdValue": 5952095.8118034415
+        "usdValue": 6363731.349269452
       },
       "sfrxETH": {
         "amount": 194.76437632201672,
-        "usdValue": 344919.91989123874
+        "usdValue": 369395.9590636266
       },
       "LsETH": {
         "amount": 4.621850641487728,
-        "usdValue": 7891.856188846711
+        "usdValue": 8455.352219056895
       },
       "mETH": {
         "amount": 374.6786628912592,
-        "usdValue": 631389.7487712055
+        "usdValue": 676040.2050279567
       },
       "bEIGEN": {
         "amount": 4243001.109380147,
-        "usdValue": 3568372.4189909236
+        "usdValue": 3771828.5651868107
       },
       "reALT": {
         "amount": 1312207.0008472824,
-        "usdValue": 38781.43809756089
+        "usdValue": 39227.58847784897
       },
       "ETHFI": {
         "amount": 461.61348705037,
-        "usdValue": 239.52339100115714
+        "usdValue": 239.0687017164125
       },
       "ARPA": {
         "amount": 505960.0875802074,
-        "usdValue": 12218.834923044491
+        "usdValue": 12041.951276426451
       },
       "SolvBTC": {
         "amount": 0,
@@ -3524,7 +3524,7 @@
       },
       "uniBTC": {
         "amount": 0.01404356,
-        "usdValue": 1222.25315748
+        "usdValue": 1259.5668964
       },
       "slisBNB": {
         "amount": 0,
@@ -3536,7 +3536,7 @@
       },
       "KERNEL": {
         "amount": 0.01,
-        "usdValue": 0.00196752
+        "usdValue": 0.00186015
       },
       "RATT": {
         "amount": 0,
@@ -3597,84 +3597,84 @@
   },
   "0x18343aa10e3d2f3a861e5649627324aead987adf": {
     "avsAddress": "0x18343aa10e3d2f3a861e5649627324aead987adf",
-    "totalUsdValue": 2125892174.9334533,
-    "totalValueDenominatedInEth": 1340140.8132870123,
+    "totalUsdValue": 2273286523.373326,
+    "totalValueDenominatedInEth": 1339338.7949080467,
     "shares": {
       "ETH": {
         "amount": 416099.29092566005,
-        "usdValue": 660066627.1811929
+        "usdValue": 706253648.4739413
       },
       "stETH": {
         "amount": 749333.692990993,
-        "usdValue": 1187581503.336775
+        "usdValue": 1270352903.0645604
       },
       "rETH": {
         "amount": 6581.516286147883,
-        "usdValue": 11755641.129665902
+        "usdValue": 12576816.916688574
       },
       "cbETH": {
         "amount": 2318.1411417154836,
-        "usdValue": 4026124.353520033
+        "usdValue": 4309841.647854593
       },
       "ETHx": {
         "amount": 78783.20068899565,
-        "usdValue": 131931923.5378059
+        "usdValue": 140810790.2554557
       },
       "ankrETH": {
         "amount": 258.8040764399783,
-        "usdValue": 490024.8144129838
+        "usdValue": 522843.7593463374
       },
       "OETH": {
         "amount": 3512.440230629907,
-        "usdValue": 5571854.1866528345
+        "usdValue": 5961735.052252754
       },
       "osETH": {
         "amount": 12278.143902048007,
-        "usdValue": 20320328.15788945
+        "usdValue": 21761782.251989886
       },
       "swETH": {
         "amount": 6233.435559517877,
-        "usdValue": 10751429.653056433
+        "usdValue": 11495577.19015168
       },
       "wBETH": {
         "amount": 21276.44951834096,
-        "usdValue": 36004220.63943176
+        "usdValue": 38494203.52656321
       },
       "sfrxETH": {
         "amount": 1974.1616159625994,
-        "usdValue": 3496161.2554051243
+        "usdValue": 3744254.145683144
       },
       "LsETH": {
         "amount": 347.1446669369149,
-        "usdValue": 592752.9902414517
+        "usdValue": 635076.8680344004
       },
       "mETH": {
         "amount": 1793.5118289343743,
-        "usdValue": 3022336.4585287613
+        "usdValue": 3236069.2631828706
       },
       "bEIGEN": {
         "amount": 59228836.51132619,
-        "usdValue": 49811569.96369834
+        "usdValue": 52651651.90325296
       },
       "reALT": {
         "amount": 3460363.031455593,
-        "usdValue": 102268.81476232993
+        "usdValue": 103445.33819302483
       },
       "ETHFI": {
         "amount": 1783.3506178520374,
-        "usdValue": 925.3503186429188
+        "usdValue": 923.5937182843345
       },
       "ARPA": {
         "amount": 348867.21202246356,
-        "usdValue": 8425.073396900088
+        "usdValue": 8303.109419577037
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.017088680000000002,
-        "usdValue": 1487.27908644
+        "usdValue": 1532.6837091999998
       },
       "slisBNB": {
         "amount": 0,
@@ -3682,11 +3682,11 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 130101.01,
-        "usdValue": 25597.633919519998
+        "usdValue": 24200.739375150002
       },
       "RATT": {
         "amount": 0,
@@ -3702,7 +3702,7 @@
       },
       "MARSH": {
         "amount": 5800,
-        "usdValue": 175.74150799999998
+        "usdValue": 176.977082
       },
       "ASTR": {
         "amount": 18453355,
@@ -3769,84 +3769,84 @@
   },
   "0xce06c5fe42d22ff827a519396583fd9f5176e3d3": {
     "avsAddress": "0xce06c5fe42d22ff827a519396583fd9f5176e3d3",
-    "totalUsdValue": 1330259775.7458415,
-    "totalValueDenominatedInEth": 838582.2379758444,
+    "totalUsdValue": 1422701194.4600673,
+    "totalValueDenominatedInEth": 838204.4602432466,
     "shares": {
       "ETH": {
         "amount": 255672.329531774,
-        "usdValue": 405578129.7828437
+        "usdValue": 433957758.36087066
       },
       "stETH": {
         "amount": 524320.3482794276,
-        "usdValue": 830969103.970651
+        "usdValue": 888885529.6415964
       },
       "rETH": {
         "amount": 5284.692034139252,
-        "usdValue": 9439305.523698168
+        "usdValue": 10098676.548797723
       },
       "cbETH": {
         "amount": 1900.9611486904985,
-        "usdValue": 3301570.31343417
+        "usdValue": 3534228.9484224007
       },
       "ETHx": {
         "amount": 5205.909173753186,
-        "usdValue": 8717919.62055056
+        "usdValue": 9304625.584432546
       },
       "ankrETH": {
         "amount": 236.7635502016299,
-        "usdValue": 448292.8412227701
+        "usdValue": 478316.82702383876
       },
       "OETH": {
         "amount": 3491.3612512819204,
-        "usdValue": 5538416.180133536
+        "usdValue": 5925957.279025829
       },
       "osETH": {
         "amount": 12175.29955377079,
-        "usdValue": 20150120.761490658
+        "usdValue": 21579500.92910335
       },
       "swETH": {
         "amount": 4095.4167552595177,
-        "usdValue": 7063774.819471616
+        "usdValue": 7552685.671714497
       },
       "wBETH": {
         "amount": 1644.759336808295,
-        "usdValue": 2783278.197340365
+        "usdValue": 2975764.38252704
       },
       "sfrxETH": {
         "amount": 1872.45987356139,
-        "usdValue": 3316051.537682279
+        "usdValue": 3551363.569992739
       },
       "LsETH": {
         "amount": 22.09245569664499,
-        "usdValue": 37723.08902657829
+        "usdValue": 40416.60122511324
       },
       "mETH": {
         "amount": 1535.2858203442577,
-        "usdValue": 2587186.900153126
+        "usdValue": 2770146.911363551
       },
       "bEIGEN": {
         "amount": 35591130.561420776,
-        "usdValue": 29932211.984415997
+        "usdValue": 31638842.285966683
       },
       "reALT": {
         "amount": 2179522.6929263705,
-        "usdValue": 64414.398294915394
+        "usdValue": 65155.43601051036
       },
       "ETHFI": {
         "amount": 1547.6316682958125,
-        "usdValue": 803.039762940336
+        "usdValue": 801.5153457470647
       },
       "ARPA": {
         "amount": 13495.02929619768,
-        "usdValue": 325.90225849731473
+        "usdValue": 321.184396255364
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -3854,7 +3854,7 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 0,
@@ -3874,7 +3874,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -3915,8 +3915,8 @@
   },
   "0x84adf221af49e67db62c5b16d86afcad2ef0b262": {
     "avsAddress": "0x84adf221af49e67db62c5b16d86afcad2ef0b262",
-    "totalUsdValue": 1.607556789620064e-14,
-    "totalValueDenominatedInEth": 1.0133874562635937e-17,
+    "totalUsdValue": 1.719850683023172e-14,
+    "totalValueDenominatedInEth": 1.0132742694501756e-17,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -3928,7 +3928,7 @@
       },
       "rETH": {
         "amount": 9.000071604e-18,
-        "usdValue": 1.607556789620064e-14
+        "usdValue": 1.719850683023172e-14
       },
       "cbETH": {
         "amount": 0,
@@ -4033,8 +4033,8 @@
   },
   "0xb19f05cdc5ef266766ac1287a1eef29283058773": {
     "avsAddress": "0xb19f05cdc5ef266766ac1287a1eef29283058773",
-    "totalUsdValue": 441.04,
-    "totalValueDenominatedInEth": 0.2780271319784155,
+    "totalUsdValue": 454.305,
+    "totalValueDenominatedInEth": 0.2676601937171541,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -4118,7 +4118,7 @@
       },
       "tBTC": {
         "amount": 0.005,
-        "usdValue": 441.04
+        "usdValue": 454.305
       },
       "KERNEL": {
         "amount": 0,
@@ -4151,84 +4151,84 @@
   },
   "0x2d86e90ed40a034c753931ee31b1bd5e1970113d": {
     "avsAddress": "0x2d86e90ed40a034c753931ee31b1bd5e1970113d",
-    "totalUsdValue": 4767135927.425267,
-    "totalValueDenominatedInEth": 3005154.0215248293,
+    "totalUsdValue": 5099841863.439246,
+    "totalValueDenominatedInEth": 3004643.710932085,
     "shares": {
       "ETH": {
         "amount": 2294063.237202883,
-        "usdValue": 3639118394.4396772
+        "usdValue": 3893759413.7691975
       },
       "stETH": {
         "amount": 608821.7954750773,
-        "usdValue": 964891222.5586765
+        "usdValue": 1032141678.0868533
       },
       "rETH": {
         "amount": 6712.535029828689,
-        "usdValue": 11989661.568878818
+        "usdValue": 12827184.564550541
       },
       "cbETH": {
         "amount": 2349.7615347052383,
-        "usdValue": 4081042.3358607106
+        "usdValue": 4368629.6500932835
       },
       "ETHx": {
         "amount": 5306.998773098175,
-        "usdValue": 8887206.285405664
+        "usdValue": 9485305.047133828
       },
       "ankrETH": {
         "amount": 330.3324042005732,
-        "usdValue": 625457.9807614493
+        "usdValue": 667347.4329381239
       },
       "OETH": {
         "amount": 5112.974369710218,
-        "usdValue": 8110813.502158713
+        "usdValue": 8678353.657196548
       },
       "osETH": {
         "amount": 13292.709566942915,
-        "usdValue": 21999434.33329052
+        "usdValue": 23559998.436449625
       },
       "swETH": {
         "amount": 8986.487087311212,
-        "usdValue": 15499892.928194389
+        "usdValue": 16572699.756677588
       },
       "wBETH": {
         "amount": 24575.276926601156,
-        "usdValue": 41586529.36796375
+        "usdValue": 44462574.026683874
       },
       "sfrxETH": {
         "amount": 2393.0600659388724,
-        "usdValue": 4238013.654375105
+        "usdValue": 4538749.512861643
       },
       "LsETH": {
         "amount": 24.480737859827716,
-        "usdValue": 41801.10470303441
+        "usdValue": 44785.796262904616
       },
       "mETH": {
         "amount": 2371.000656623609,
-        "usdValue": 3995491.7565092747
+        "usdValue": 4278043.904759109
       },
       "bEIGEN": {
         "amount": 49537209.88122619,
-        "usdValue": 41660892.584530994
+        "usdValue": 44036251.33554566
       },
       "reALT": {
         "amount": 2406111.7854972193,
-        "usdValue": 71111.0939088276
+        "usdValue": 71929.17191589663
       },
       "ETHFI": {
         "amount": 1875.4712021227215,
-        "usdValue": 973.1501237710442
+        "usdValue": 971.3027846369531
       },
       "ARPA": {
         "amount": 184092.80339208737,
-        "usdValue": 4445.8043833582315
+        "usdValue": 4381.445539292358
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -4236,7 +4236,7 @@
       },
       "tBTC": {
         "amount": 3.7726962633451198,
-        "usdValue": 332781.99199714634
+        "usdValue": 342790.95518380095
       },
       "KERNEL": {
         "amount": 0,
@@ -4256,7 +4256,7 @@
       },
       "MARSH": {
         "amount": 12000.0261,
-        "usdValue": 363.603910836786
+        "usdValue": 366.160276396869
       },
       "ASTR": {
         "amount": 0,
@@ -4324,8 +4324,8 @@
   },
   "0x75195699f659ed67083691c2c48f23d0b907b559": {
     "avsAddress": "0x75195699f659ed67083691c2c48f23d0b907b559",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -4333,7 +4333,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -4444,8 +4444,8 @@
   },
   "0xa5bd40e5406cb2d2440db1d1bcf9dfd022b6c124": {
     "avsAddress": "0xa5bd40e5406cb2d2440db1d1bcf9dfd022b6c124",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -4453,7 +4453,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -4562,8 +4562,8 @@
   },
   "0x8ef368e31cd0b51941bf85bc11d8c71589489fe4": {
     "avsAddress": "0x8ef368e31cd0b51941bf85bc11d8c71589489fe4",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -4571,7 +4571,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -4680,8 +4680,8 @@
   },
   "0xd75c834b09ec626992ff3ce388ae7115791fb282": {
     "avsAddress": "0xd75c834b09ec626992ff3ce388ae7115791fb282",
-    "totalUsdValue": 16.459208348647913,
-    "totalValueDenominatedInEth": 0.010375717603414136,
+    "totalUsdValue": 17.606373161842633,
+    "totalValueDenominatedInEth": 0.010373042892231656,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -4689,7 +4689,7 @@
       },
       "stETH": {
         "amount": 0.010385341419470558,
-        "usdValue": 16.459208348647913
+        "usdValue": 17.606373161842633
       },
       "rETH": {
         "amount": 0,
@@ -4801,84 +4801,84 @@
   },
   "0xacb91045b8bba06f9026e1a30855b6c4a1c5bac6": {
     "avsAddress": "0xacb91045b8bba06f9026e1a30855b6c4a1c5bac6",
-    "totalUsdValue": 3731491919.1531043,
-    "totalValueDenominatedInEth": 2352294.568027324,
+    "totalUsdValue": 3991339880.7404194,
+    "totalValueDenominatedInEth": 2351554.1446164655,
     "shares": {
       "ETH": {
         "amount": 1440498.96124345,
-        "usdValue": 2285092312.1997094
+        "usdValue": 2444987696.897732
       },
       "stETH": {
         "amount": 734319.0568211178,
-        "usdValue": 1163785557.2029486
+        "usdValue": 1244898440.2194092
       },
       "rETH": {
         "amount": 7101.570931101803,
-        "usdValue": 12684541.934296798
+        "usdValue": 13570604.939370371
       },
       "cbETH": {
         "amount": 2183.268661376749,
-        "usdValue": 3791879.178392522
+        "usdValue": 4059089.4298584214
       },
       "ETHx": {
         "amount": 78350.04236011539,
-        "usdValue": 131206547.93709645
+        "usdValue": 140036597.71108142
       },
       "ankrETH": {
         "amount": 280.060081676394,
-        "usdValue": 530271.3598477179
+        "usdValue": 565785.7788051015
       },
       "OETH": {
         "amount": 5100.791192163409,
-        "usdValue": 8091487.083952658
+        "usdValue": 8657674.906282794
       },
       "osETH": {
         "amount": 12274.505977207478,
-        "usdValue": 20314307.392278377
+        "usdValue": 21755334.39400254
       },
       "swETH": {
         "amount": 6637.766334943541,
-        "usdValue": 11448819.37451062
+        "usdValue": 12241235.91957618
       },
       "wBETH": {
         "amount": 23914.804896412952,
-        "usdValue": 40468871.99375896
+        "usdValue": 43267621.61078617
       },
       "sfrxETH": {
         "amount": 2540.705202323327,
-        "usdValue": 4499487.285106519
+        "usdValue": 4818777.707882491
       },
       "LsETH": {
         "amount": 2195.846509832994,
-        "usdValue": 3749429.8740049363
+        "usdValue": 4017147.4804837755
       },
       "mETH": {
         "amount": 1508.8755723169959,
-        "usdValue": 2542681.6706899866
+        "usdValue": 2722494.372643003
       },
       "bEIGEN": {
         "amount": 50989904.43318365,
-        "usdValue": 42882611.60811633
+        "usdValue": 45327628.515591934
       },
       "reALT": {
         "amount": 2289007.440317204,
-        "usdValue": 67650.14993381314
+        "usdValue": 68428.41246352099
       },
       "ETHFI": {
         "amount": 1725.6559584680267,
-        "usdValue": 895.4135406977651
+        "usdValue": 893.713769578674
       },
       "ARPA": {
         "amount": 183584.44969624994,
-        "usdValue": 4433.527743274497
+        "usdValue": 4369.346619660689
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -4886,7 +4886,7 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 0,
@@ -4906,7 +4906,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -4984,84 +4984,84 @@
   },
   "0x83742c346e9f305dca94e20915ab49a483d33f3e": {
     "avsAddress": "0x83742c346e9f305dca94e20915ab49a483d33f3e",
-    "totalUsdValue": 1379139727.7760856,
-    "totalValueDenominatedInEth": 869395.6627767951,
+    "totalUsdValue": 1474968188.8550742,
+    "totalValueDenominatedInEth": 868998.2966412192,
     "shares": {
       "ETH": {
         "amount": 260556.993507968,
-        "usdValue": 413326769.94155973
+        "usdValue": 442248596.2209442
       },
       "stETH": {
         "amount": 528673.1774389378,
-        "usdValue": 837867685.264101
+        "usdValue": 896264924.4440056
       },
       "rETH": {
         "amount": 5446.801659157123,
-        "usdValue": 9728859.251520086
+        "usdValue": 10408456.694533123
       },
       "cbETH": {
         "amount": 2055.082150379161,
-        "usdValue": 3569246.127957022
+        "usdValue": 3820767.6323419274
       },
       "ETHx": {
         "amount": 5210.219432953715,
-        "usdValue": 8725137.66681295
+        "usdValue": 9312329.396906836
       },
       "ankrETH": {
         "amount": 237.78866214039277,
-        "usdValue": 450233.8086698625
+        "usdValue": 480387.7889158857
       },
       "OETH": {
         "amount": 3491.3612512819204,
-        "usdValue": 5538416.180133536
+        "usdValue": 5925957.279025829
       },
       "osETH": {
         "amount": 12175.761964224117,
-        "usdValue": 20150886.050790913
+        "usdValue": 21580320.505390827
       },
       "swETH": {
         "amount": 4299.731468530992,
-        "usdValue": 7416176.836922258
+        "usdValue": 7929478.779635488
       },
       "wBETH": {
         "amount": 21106.875868558294,
-        "usdValue": 35717266.41353303
+        "usdValue": 38187404.09643042
       },
       "sfrxETH": {
         "amount": 1872.4714758854911,
-        "usdValue": 3316072.0849341694
+        "usdValue": 3551385.5753086987
       },
       "LsETH": {
         "amount": 22.30154152950759,
-        "usdValue": 38080.105177049496
+        "usdValue": 40799.10912032706
       },
       "mETH": {
         "amount": 1562.1515797514041,
-        "usdValue": 2632459.734618079
+        "usdValue": 2818621.338377054
       },
       "bEIGEN": {
         "amount": 35987281.13126892,
-        "usdValue": 30265375.40595942
+        "usdValue": 31991001.52348489
       },
       "reALT": {
         "amount": 2193542.7977292025,
-        "usdValue": 64828.75351949604
+        "usdValue": 65574.55807072399
       },
       "ETHFI": {
         "amount": 1461.4706042383225,
-        "usdValue": 758.3322515389935
+        "usdValue": 756.8927029938187
       },
       "ARPA": {
         "amount": 13495.109212378298,
-        "usdValue": 325.9041884570934
+        "usdValue": 321.18629827644594
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -5069,7 +5069,7 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 0,
@@ -5089,7 +5089,7 @@
       },
       "MARSH": {
         "amount": 5800,
-        "usdValue": 175.74150799999998
+        "usdValue": 176.977082
       },
       "ASTR": {
         "amount": 0,
@@ -5138,8 +5138,8 @@
   },
   "0xd6b9b1b29a30127fb99e1201e91a3e021658e9fb": {
     "avsAddress": "0xd6b9b1b29a30127fb99e1201e91a3e021658e9fb",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -5147,7 +5147,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -5256,8 +5256,8 @@
   },
   "0xe008064df9f019d0bff0735fe6887d70b23825ca": {
     "avsAddress": "0xe008064df9f019d0bff0735fe6887d70b23825ca",
-    "totalUsdValue": 3.0552656153240263,
-    "totalValueDenominatedInEth": 0.0019260083812370936,
+    "totalUsdValue": 3.268209830782077,
+    "totalValueDenominatedInEth": 0.0019255118839005473,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -5265,7 +5265,7 @@
       },
       "stETH": {
         "amount": 0.0019277948167486048,
-        "usdValue": 3.0552656153240263
+        "usdValue": 3.268209830782077
       },
       "rETH": {
         "amount": 0,
@@ -5384,84 +5384,84 @@
   },
   "0xb73a87e8f7f9129816d40940ca19dfa396944c71": {
     "avsAddress": "0xb73a87e8f7f9129816d40940ca19dfa396944c71",
-    "totalUsdValue": 945875666.6183032,
-    "totalValueDenominatedInEth": 596270.4035871093,
+    "totalUsdValue": 1011729455.2624177,
+    "totalValueDenominatedInEth": 596074.6678660581,
     "shares": {
       "ETH": {
         "amount": 101464.842177526,
-        "usdValue": 160955708.443053
+        "usdValue": 172218305.9247584
       },
       "stETH": {
         "amount": 437066.5704321206,
-        "usdValue": 692684954.1493464
+        "usdValue": 740963327.5192785
       },
       "rETH": {
         "amount": 3935.094674971918,
-        "usdValue": 7028708.70464784
+        "usdValue": 7519690.467244086
       },
       "cbETH": {
         "amount": 1667.6676307851076,
-        "usdValue": 2896388.4644712657
+        "usdValue": 3100494.305803055
       },
       "ETHx": {
         "amount": 374.74775995623503,
-        "usdValue": 627560.0937779103
+        "usdValue": 669794.166324978
       },
       "ankrETH": {
         "amount": 250.79344643949534,
-        "usdValue": 474857.3273574693
+        "usdValue": 506660.4443004617
       },
       "OETH": {
         "amount": 2791.3078330154203,
-        "usdValue": 4427907.441669022
+        "usdValue": 4737742.611133733
       },
       "osETH": {
         "amount": 12189.190320039012,
-        "usdValue": 20173109.979664564
+        "usdValue": 21604120.923237145
       },
       "swETH": {
         "amount": 3181.8886271094725,
-        "usdValue": 5488121.504038419
+        "usdValue": 5867975.368342747
       },
       "wBETH": {
         "amount": 20484.31485711487,
-        "usdValue": 34663762.444358364
+        "usdValue": 37061041.812086515
       },
       "sfrxETH": {
         "amount": 1784.8809130341451,
-        "usdValue": 3160952.7017469495
+        "usdValue": 3385258.68608795
       },
       "LsETH": {
         "amount": 1878.6069420508165,
-        "usdValue": 3207740.13962119
+        "usdValue": 3436779.8979960256
       },
       "mETH": {
         "amount": 376.5153091274903,
-        "usdValue": 634484.7731761903
+        "usdValue": 679354.1025649132
       },
       "bEIGEN": {
         "amount": 10781062.657646885,
-        "usdValue": 9066895.257206345
+        "usdValue": 9583857.99270317
       },
       "reALT": {
         "amount": 1819131.6767624582,
-        "usdValue": 53763.27246244132
+        "usdValue": 54381.77723254056
       },
       "ETHFI": {
         "amount": 733.1396577267153,
-        "usdValue": 380.4137050202112
+        "usdValue": 379.69156245735036
       },
       "ARPA": {
         "amount": 13489.753848143582,
-        "usdValue": 325.77485748189787
+        "usdValue": 321.0588395365869
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -5469,11 +5469,11 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 0.01,
-        "usdValue": 0.00196752
+        "usdValue": 0.00186015
       },
       "RATT": {
         "amount": 0,
@@ -5489,7 +5489,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -5531,84 +5531,84 @@
   },
   "0xfc569b3b74e15cf48aa684144e072e839fd89380": {
     "avsAddress": "0xfc569b3b74e15cf48aa684144e072e839fd89380",
-    "totalUsdValue": 1755054969.2264297,
-    "totalValueDenominatedInEth": 1106368.8090841884,
+    "totalUsdValue": 1876990414.4374907,
+    "totalValueDenominatedInEth": 1105855.3569376965,
     "shares": {
       "ETH": {
         "amount": 375389.02533494803,
-        "usdValue": 595487118.6693347
+        "usdValue": 637155300.4815139
       },
       "stETH": {
         "amount": 664024.2521727427,
-        "usdValue": 1052378836.0559717
+        "usdValue": 1125726954.950973
       },
       "rETH": {
         "amount": 5744.734652501884,
-        "usdValue": 10261015.246912763
+        "usdValue": 10977785.789505422
       },
       "cbETH": {
         "amount": 1549.851073273676,
-        "usdValue": 2691765.845550988
+        "usdValue": 2881452.118408954
       },
       "ETHx": {
         "amount": 5482.907072257804,
-        "usdValue": 9181785.841344362
+        "usdValue": 9799709.468387816
       },
       "ankrETH": {
         "amount": 228.6192316374142,
-        "usdValue": 432872.2255669129
+        "usdValue": 461863.4303308534
       },
       "OETH": {
         "amount": 3482.2362551705633,
-        "usdValue": 5523941.016302167
+        "usdValue": 5910469.2406260995
       },
       "osETH": {
         "amount": 12192.444860737724,
-        "usdValue": 20178496.244520932
+        "usdValue": 21609889.27117154
       },
       "swETH": {
         "amount": 4184.602435544899,
-        "usdValue": 7217602.280827844
+        "usdValue": 7717160.119583194
       },
       "wBETH": {
         "amount": 1643.5231045594142,
-        "usdValue": 2781186.2327664862
+        "usdValue": 2973527.741693075
       },
       "sfrxETH": {
         "amount": 1917.0583364297306,
-        "usdValue": 3395033.6314835954
+        "usdValue": 3635950.35262272
       },
       "LsETH": {
         "amount": 28.133320660099795,
-        "usdValue": 48037.92636032701
+        "usdValue": 51467.94081520637
       },
       "mETH": {
         "amount": 1447.733938555203,
-        "usdValue": 2439648.8465563
+        "usdValue": 2612175.300013923
       },
       "bEIGEN": {
         "amount": 50672805.211899795,
-        "usdValue": 42615930.528818145
+        "usdValue": 45045742.21153396
       },
       "reALT": {
         "amount": 2198904.217993398,
-        "usdValue": 64987.20686409535
+        "usdValue": 65734.83429821311
       },
       "ETHFI": {
         "amount": 1430.311426980638,
-        "usdValue": 742.1642841659944
+        "usdValue": 740.7554274104185
       },
       "ARPA": {
         "amount": 13494.928974543307,
-        "usdValue": 325.89983574942596
+        "usdValue": 321.1820085799256
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -5616,11 +5616,11 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 130101,
-        "usdValue": 25597.631952
+        "usdValue": 24200.737515
       },
       "RATT": {
         "amount": 461,
@@ -5636,7 +5636,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -5677,8 +5677,8 @@
   },
   "0xf75bc9850f4c44e682537c477c4bb08f71f695da": {
     "avsAddress": "0xf75bc9850f4c44e682537c477c4bb08f71f695da",
-    "totalUsdValue": 63.303248197663706,
-    "totalValueDenominatedInEth": 0.039905724064289494,
+    "totalUsdValue": 66.91257856111845,
+    "totalValueDenominatedInEth": 0.039422488724058194,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -5734,7 +5734,7 @@
       },
       "bEIGEN": {
         "amount": 75.27122194437553,
-        "usdValue": 63.303248197663706
+        "usdValue": 66.91257856111845
       },
       "reALT": {
         "amount": 0,
@@ -5797,8 +5797,8 @@
   },
   "0xd6967ed3910c18e3546abc1a67c61e75e2633fd9": {
     "avsAddress": "0xd6967ed3910c18e3546abc1a67c61e75e2633fd9",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -5806,7 +5806,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -5915,84 +5915,84 @@
   },
   "0xb3e069fd6dda251acbde09eda547e0ab207016ee": {
     "avsAddress": "0xb3e069fd6dda251acbde09eda547e0ab207016ee",
-    "totalUsdValue": 3771574547.4547906,
-    "totalValueDenominatedInEth": 2377562.249391542,
+    "totalUsdValue": 4034699810.117626,
+    "totalValueDenominatedInEth": 2377100.2581231743,
     "shares": {
       "ETH": {
         "amount": 1783890.0381728732,
-        "usdValue": 2829820445.354391
+        "usdValue": 3027832239.5915804
       },
       "stETH": {
         "amount": 523825.5250399436,
-        "usdValue": 830184883.359555
+        "usdValue": 888046650.8554666
       },
       "rETH": {
         "amount": 6222.543981607208,
-        "usdValue": 11114459.158187531
+        "usdValue": 11890845.970772663
       },
       "cbETH": {
         "amount": 2130.3436420614885,
-        "usdValue": 3699959.5340959714
+        "usdValue": 3960692.2924478767
       },
       "ETHx": {
         "amount": 5244.978280658038,
-        "usdValue": 8783345.528355563
+        "usdValue": 9374454.580585726
       },
       "ankrETH": {
         "amount": 623.8016474353764,
-        "usdValue": 1181118.5152870906
+        "usdValue": 1260222.8021983705
       },
       "OETH": {
         "amount": 3522.7191056397583,
-        "usdValue": 5588159.771658462
+        "usdValue": 5979181.592384475
       },
       "osETH": {
         "amount": 12249.198482353835,
-        "usdValue": 20272423.488295592
+        "usdValue": 21710479.390123934
       },
       "swETH": {
         "amount": 5053.096861976693,
-        "usdValue": 8715581.467537403
+        "usdValue": 9318820.170920175
       },
       "wBETH": {
         "amount": 1669.7564262914839,
-        "usdValue": 2825578.5221347124
+        "usdValue": 3020990.116703605
       },
       "sfrxETH": {
         "amount": 2269.387022681566,
-        "usdValue": 4018993.6416881448
+        "usdValue": 4304187.5088285385
       },
       "LsETH": {
         "amount": 329.71978510483495,
-        "usdValue": 562999.8302643568
+        "usdValue": 603199.2664643383
       },
       "mETH": {
         "amount": 2104.269922960216,
-        "usdValue": 3546010.4606764084
+        "usdValue": 3796776.3073955774
       },
       "bEIGEN": {
         "amount": 48586297.885027505,
-        "usdValue": 40861173.6939039
+        "usdValue": 43190935.263788864
       },
       "reALT": {
         "amount": 2264747.287448295,
-        "usdValue": 66933.15664227038
+        "usdValue": 67703.17072000282
       },
       "ETHFI": {
         "amount": 1944.9169412689844,
-        "usdValue": 1009.1843372364746
+        "usdValue": 1007.2685940493245
       },
       "ARPA": {
         "amount": 13495.035243565024,
-        "usdValue": 325.90240212504665
+        "usdValue": 321.18453780389626
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -6000,11 +6000,11 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 0.01,
-        "usdValue": 0.00196752
+        "usdValue": 0.00186015
       },
       "RATT": {
         "amount": 460,
@@ -6020,7 +6020,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -6085,8 +6085,8 @@
   },
   "0xa95efd0cefd326ff8eb5cfa8f0370cf7ed471d18": {
     "avsAddress": "0xa95efd0cefd326ff8eb5cfa8f0370cf7ed471d18",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -6094,7 +6094,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -6203,84 +6203,84 @@
   },
   "0xa3f64d3102a035db35c42a9001bbc83e08c7a366": {
     "avsAddress": "0xa3f64d3102a035db35c42a9001bbc83e08c7a366",
-    "totalUsdValue": 1539467518.727237,
-    "totalValueDenominatedInEth": 970464.6721514178,
+    "totalUsdValue": 1646482726.2838216,
+    "totalValueDenominatedInEth": 970048.5036904188,
     "shares": {
       "ETH": {
         "amount": 343844.0217020061,
-        "usdValue": 545446648.5063262
+        "usdValue": 583613334.9152488
       },
       "stETH": {
         "amount": 542862.8477621959,
-        "usdValue": 860356184.2759166
+        "usdValue": 920320814.4397285
       },
       "rETH": {
         "amount": 6109.347414285005,
-        "usdValue": 10912271.9774993
+        "usdValue": 11674535.254379641
       },
       "cbETH": {
         "amount": 2057.5201287642826,
-        "usdValue": 3573480.384436518
+        "usdValue": 3825300.2729959786
       },
       "ETHx": {
         "amount": 5229.529198009818,
-        "usdValue": 8757474.1855712
+        "usdValue": 9346842.126186905
       },
       "ankrETH": {
         "amount": 241.01170771884225,
-        "usdValue": 456336.38762901025
+        "usdValue": 486899.0822848366
       },
       "OETH": {
         "amount": 3503.0003598928206,
-        "usdValue": 5556879.53090518
+        "usdValue": 5945712.570853283
       },
       "osETH": {
         "amount": 12283.759602895863,
-        "usdValue": 20329622.142792657
+        "usdValue": 21771735.52017263
       },
       "swETH": {
         "amount": 5790.969105895829,
-        "usdValue": 9988263.513849122
+        "usdValue": 10679589.40571097
       },
       "wBETH": {
         "amount": 21176.51774999208,
-        "usdValue": 35835115.1017141
+        "usdValue": 38313402.97399568
       },
       "sfrxETH": {
         "amount": 1999.1328756585149,
-        "usdValue": 3540384.3574762032
+        "usdValue": 3791615.3859602087
       },
       "LsETH": {
         "amount": 17.978033473703473,
-        "usdValue": 30697.671936683408
+        "usdValue": 32889.55377779734
       },
       "mETH": {
         "amount": 1382.705149357532,
-        "usdValue": 2330065.582439845
+        "usdValue": 2494842.5550887827
       },
       "bEIGEN": {
         "amount": 37955452.02471496,
-        "usdValue": 31920611.063689336
+        "usdValue": 33740612.94372645
       },
       "reALT": {
         "amount": 3416419.3446180765,
-        "usdValue": 100970.0872218067
+        "usdValue": 102131.66979897683
       },
       "ETHFI": {
         "amount": 1767.3245221365496,
-        "usdValue": 917.0346500197793
+        "usdValue": 915.2938353654748
       },
       "ARPA": {
         "amount": 13495.212022463551,
-        "usdValue": 325.90667130009024
+        "usdValue": 321.188745177037
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.017088680000000002,
-        "usdValue": 1487.27908644
+        "usdValue": 1532.6837091999998
       },
       "slisBNB": {
         "amount": 0,
@@ -6288,11 +6288,11 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 0.01,
-        "usdValue": 0.00196752
+        "usdValue": 0.00186015
       },
       "RATT": {
         "amount": 0,
@@ -6308,7 +6308,7 @@
       },
       "MARSH": {
         "amount": 5800,
-        "usdValue": 175.74150799999998
+        "usdValue": 176.977082
       },
       "ASTR": {
         "amount": 18453355,
@@ -6367,8 +6367,8 @@
   },
   "0x461591a7e68906edbcd643e010a7e1ae3b023c6d": {
     "avsAddress": "0x461591a7e68906edbcd643e010a7e1ae3b023c6d",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -6376,7 +6376,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -6485,84 +6485,84 @@
   },
   "0xbc77233855e3274e1903771675eb71e602d9dc2e": {
     "avsAddress": "0xbc77233855e3274e1903771675eb71e602d9dc2e",
-    "totalUsdValue": 1839606039.7538412,
-    "totalValueDenominatedInEth": 1159668.9443200876,
+    "totalUsdValue": 1967619632.4890609,
+    "totalValueDenominatedInEth": 1159250.8380794788,
     "shares": {
       "ETH": {
         "amount": 467081.6468243181,
-        "usdValue": 740940957.9903522
+        "usdValue": 792787020.7878515
       },
       "stETH": {
         "amount": 633759.0013560224,
-        "usdValue": 1004412953.299092
+        "usdValue": 1074417972.5888784
       },
       "rETH": {
         "amount": 5297.195017424859,
-        "usdValue": 9461637.852323586
+        "usdValue": 10122568.874647683
       },
       "cbETH": {
         "amount": 1702.6226309412423,
-        "usdValue": 2957097.9591924404
+        "usdValue": 3165481.9429933396
       },
       "ETHx": {
         "amount": 5132.405577850213,
-        "usdValue": 8594829.028779523
+        "usdValue": 9173251.137403244
       },
       "ankrETH": {
         "amount": 224.33624315109267,
-        "usdValue": 424762.7295071419
+        "usdValue": 453210.80850113195
       },
       "OETH": {
         "amount": 3482.026336509163,
-        "usdValue": 5523608.018131215
+        "usdValue": 5910112.941483732
       },
       "osETH": {
         "amount": 12170.318790149426,
-        "usdValue": 20141877.597697303
+        "usdValue": 21570673.023660842
       },
       "swETH": {
         "amount": 4028.9661544771384,
-        "usdValue": 6949160.82324217
+        "usdValue": 7430138.802763651
       },
       "wBETH": {
         "amount": 1594.934097159414,
-        "usdValue": 2698963.428554132
+        "usdValue": 2885618.5659446986
       },
       "sfrxETH": {
         "amount": 1907.244734843518,
-        "usdValue": 3377654.1356184767
+        "usdValue": 3617337.5814462616
       },
       "LsETH": {
         "amount": 15.656628849762884,
-        "usdValue": 26733.85032725862
+        "usdValue": 28642.706516621714
       },
       "mETH": {
         "amount": 1283.9315937228823,
-        "usdValue": 2163617.325162115
+        "usdValue": 2316623.453186071
       },
       "bEIGEN": {
         "amount": 37499577.0297846,
-        "usdValue": 31537219.281202905
+        "usdValue": 33335361.499358103
       },
       "reALT": {
         "amount": 2160796.4114669925,
-        "usdValue": 63860.95503120362
+        "usdValue": 64595.6258111024
       },
       "ETHFI": {
         "amount": 1414.2853312651505,
-        "usdValue": 733.848615542855
+        "usdValue": 732.4555444915588
       },
       "ARPA": {
         "amount": 13494.928974543307,
-        "usdValue": 325.89983574942596
+        "usdValue": 321.1820085799256
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -6570,7 +6570,7 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 0,
@@ -6590,7 +6590,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -6631,84 +6631,84 @@
   },
   "0xef2a435e5ee44b2041100ef8cbc8ae035166606c": {
     "avsAddress": "0xef2a435e5ee44b2041100ef8cbc8ae035166606c",
-    "totalUsdValue": 4419392781.519627,
-    "totalValueDenominatedInEth": 2785940.277825172,
+    "totalUsdValue": 4727774790.488398,
+    "totalValueDenominatedInEth": 2785435.150995922,
     "shares": {
       "ETH": {
         "amount": 1972061.005537074,
-        "usdValue": 3128319814.3035707
+        "usdValue": 3347218585.9181867
       },
       "stETH": {
         "amount": 720900.3074545593,
-        "usdValue": 1142518852.2693584
+        "usdValue": 1222149500.2307887
       },
       "rETH": {
         "amount": 6574.784446323664,
-        "usdValue": 11743616.986645477
+        "usdValue": 12563952.84201328
       },
       "cbETH": {
         "amount": 1833.5029419968655,
-        "usdValue": 3184409.574630736
+        "usdValue": 3408811.999701732
       },
       "ETHx": {
         "amount": 5302.451156250758,
-        "usdValue": 8879590.755280642
+        "usdValue": 9477177.000590103
       },
       "ankrETH": {
         "amount": 301.160541968232,
-        "usdValue": 570223.3933734898
+        "usdValue": 608413.5617004813
       },
       "OETH": {
         "amount": 3524.967036344544,
-        "usdValue": 5591725.709094077
+        "usdValue": 5982997.050128322
       },
       "osETH": {
         "amount": 12519.879039791538,
-        "usdValue": 20720399.81085499
+        "usdValue": 22190233.610126525
       },
       "swETH": {
         "amount": 6714.682753966351,
-        "usdValue": 11581484.814041167
+        "usdValue": 12383083.641209658
       },
       "wBETH": {
         "amount": 23971.242809181833,
-        "usdValue": 40564376.794125594
+        "usdValue": 43369731.340084136
       },
       "sfrxETH": {
         "amount": 2318.215787930148,
-        "usdValue": 4105467.431792774
+        "usdValue": 4396797.609861956
       },
       "LsETH": {
         "amount": 24.139978834996946,
-        "usdValue": 41219.25526054562
+        "usdValue": 44162.40148010846
       },
       "mETH": {
         "amount": 2253.5527090830374,
-        "usdValue": 3797574.3477112805
+        "usdValue": 4066130.224052706
       },
       "bEIGEN": {
         "amount": 44430220.81639826,
-        "usdValue": 37365904.567032576
+        "usdValue": 39496378.085399695
       },
       "reALT": {
         "amount": 2421141.202559175,
-        "usdValue": 71555.27871126677
+        "usdValue": 72378.46672013689
       },
       "ETHFI": {
         "amount": 1869.4967812103423,
-        "usdValue": 970.050098324766
+        "usdValue": 968.2086439952737
       },
       "ARPA": {
         "amount": 183584.4556436173,
-        "usdValue": 4433.527886902229
+        "usdValue": 4369.346761209221
       },
       "SolvBTC": {
         "amount": 0.0016443483445,
-        "usdValue": 145.090720525302
+        "usdValue": 149.4268671097485
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -6716,7 +6716,7 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 0,
@@ -6736,7 +6736,7 @@
       },
       "MARSH": {
         "amount": 5800,
-        "usdValue": 175.74150799999998
+        "usdValue": 176.977082
       },
       "ASTR": {
         "amount": 0,
@@ -6812,8 +6812,8 @@
   },
   "0x3addeb54ddd43eb40235ec32dfa7928f28a44bb5": {
     "avsAddress": "0x3addeb54ddd43eb40235ec32dfa7928f28a44bb5",
-    "totalUsdValue": 19113.958677890376,
-    "totalValueDenominatedInEth": 12.04924522031518,
+    "totalUsdValue": 20445.03046112246,
+    "totalValueDenominatedInEth": 12.04547784809138,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -6821,11 +6821,11 @@
       },
       "stETH": {
         "amount": 11.598590387963018,
-        "usdValue": 18382.02597636319
+        "usdValue": 19663.206270617586
       },
       "rETH": {
         "amount": 0.35584202123581615,
-        "usdValue": 635.5907846505654
+        "usdValue": 679.9891936401582
       },
       "cbETH": {
         "amount": 0,
@@ -6869,7 +6869,7 @@
       },
       "bEIGEN": {
         "amount": 114.55610911343777,
-        "usdValue": 96.3419168766194
+        "usdValue": 101.83499686471785
       },
       "reALT": {
         "amount": 0,
@@ -6941,68 +6941,68 @@
   },
   "0x852dd23ae808a20c48d7b7b03d23c3f5360928e1": {
     "avsAddress": "0x852dd23ae808a20c48d7b7b03d23c3f5360928e1",
-    "totalUsdValue": 1478324.6926205368,
-    "totalValueDenominatedInEth": 931.9208562084175,
+    "totalUsdValue": 1578380.898201315,
+    "totalValueDenominatedInEth": 929.9253518495717,
     "shares": {
       "ETH": {
         "amount": 161.368346578,
-        "usdValue": 255981.83554361295
+        "usdValue": 273893.72201377095
       },
       "stETH": {
         "amount": 312.38747198656824,
-        "usdValue": 495087.28497791255
+        "usdValue": 529593.605133549
       },
       "rETH": {
         "amount": 45.53448925369256,
-        "usdValue": 81331.88332537551
+        "usdValue": 87013.22154955874
       },
       "cbETH": {
         "amount": 12.607893990019607,
-        "usdValue": 21897.26420292615
+        "usdValue": 23440.344348364655
       },
       "ETHx": {
         "amount": 10.10720585188661,
-        "usdValue": 16925.729063686354
+        "usdValue": 18064.811163193976
       },
       "ankrETH": {
         "amount": 28.495370979784983,
-        "usdValue": 53953.70532054448
+        "usdValue": 57567.20331449102
       },
       "OETH": {
         "amount": 0.10496269707143502,
-        "usdValue": 166.5044256183588
+        "usdValue": 178.1552849932881
       },
       "osETH": {
         "amount": 25.04219016277907,
-        "usdValue": 41444.82471939937
+        "usdValue": 44384.77784450963
       },
       "swETH": {
         "amount": 149.98579243473537,
-        "usdValue": 258695.49479143153
+        "usdValue": 276600.79869229026
       },
       "wBETH": {
         "amount": 9.929384200000001,
-        "usdValue": 16802.603237082
+        "usdValue": 17964.639070008
       },
       "sfrxETH": {
         "amount": 0.010555031430055326,
-        "usdValue": 18.69253846137078
+        "usdValue": 20.018989261185833
       },
       "LsETH": {
         "amount": 0.058559848456536126,
-        "usdValue": 99.99152683802001
+        "usdValue": 107.1311435618409
       },
       "mETH": {
         "amount": 8.91748273381415,
-        "usdValue": 15027.296028886916
+        "usdValue": 16089.992446275548
       },
       "bEIGEN": {
         "amount": 262036.99073253165,
-        "usdValue": 220373.63328004058
+        "usdValue": 232938.56902265621
       },
       "reALT": {
         "amount": 17525.23877261822,
-        "usdValue": 517.9472157719171
+        "usdValue": 523.9057969546072
       },
       "ETHFI": {
         "amount": 0,
@@ -7010,7 +7010,7 @@
       },
       "ARPA": {
         "amount": 0.100321654372335,
-        "usdValue": 0.002422747888761016
+        "usdValue": 0.0023876754383924475
       },
       "SolvBTC": {
         "amount": 0,
@@ -7072,84 +7072,84 @@
   },
   "0xf6f4a30eef7cf51ed4ee1415fb3bfdaf3694b0d2": {
     "avsAddress": "0xf6f4a30eef7cf51ed4ee1415fb3bfdaf3694b0d2",
-    "totalUsdValue": 4587391243.992585,
-    "totalValueDenominatedInEth": 2891844.8005399825,
+    "totalUsdValue": 4907109767.149434,
+    "totalValueDenominatedInEth": 2891092.8800399657,
     "shares": {
       "ETH": {
         "amount": 1985324.955169183,
-        "usdValue": 3149360682.883978
+        "usdValue": 3369731752.9077578
       },
       "stETH": {
         "amount": 731114.8659796288,
-        "usdValue": 1158707395.347815
+        "usdValue": 1239466343.4439244
       },
       "rETH": {
         "amount": 7118.32239737839,
-        "usdValue": 12714462.733301386
+        "usdValue": 13602615.818822294
       },
       "cbETH": {
         "amount": 2260.9709226305,
-        "usdValue": 3926831.6887154235
+        "usdValue": 4203551.91993617
       },
       "ETHx": {
         "amount": 78369.7127481367,
-        "usdValue": 131239488.36228469
+        "usdValue": 140071754.98899966
       },
       "ankrETH": {
         "amount": 628.9933086664406,
-        "usdValue": 1190948.5104952122
+        "usdValue": 1270711.1519672032
       },
       "OETH": {
         "amount": 5109.005748112921,
-        "usdValue": 8104517.998346487
+        "usdValue": 8671617.63638702
       },
       "osETH": {
         "amount": 12280.099303637891,
-        "usdValue": 20323564.347520705
+        "usdValue": 21765248.0057678
       },
       "swETH": {
         "amount": 5165.60488098148,
-        "usdValue": 8909635.298716858
+        "usdValue": 9526305.209408423
       },
       "wBETH": {
         "amount": 21135.203868161487,
-        "usdValue": 35765203.337741554
+        "usdValue": 38238656.24643248
       },
       "sfrxETH": {
         "amount": 2527.165045165246,
-        "usdValue": 4475508.208385843
+        "usdValue": 4793097.03961176
       },
       "LsETH": {
         "amount": 2205.195879360735,
-        "usdValue": 3765394.0159672494
+        "usdValue": 4034251.497578911
       },
       "mETH": {
         "amount": 2155.9914555891855,
-        "usdValue": 3633169.0013861163
+        "usdValue": 3890098.503148679
       },
       "bEIGEN": {
         "amount": 53358510.60602501,
-        "usdValue": 44874614.13668827
+        "usdValue": 47433208.07875776
       },
       "reALT": {
         "amount": 2278076.8795385733,
-        "usdValue": 67327.1042055596
+        "usdValue": 68101.65034460273
       },
       "ETHFI": {
         "amount": 1811.5706042383224,
-        "usdValue": 939.9931898389935
+        "usdValue": 938.2087927938187
       },
       "ARPA": {
         "amount": 13495.119586928391,
-        "usdValue": 325.9044390004033
+        "usdValue": 321.18654519281307
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -7157,7 +7157,7 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 0,
@@ -7177,7 +7177,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -7253,8 +7253,8 @@
   },
   "0x29b2e51d2bf840116797f8a27e40c05ae3e244d9": {
     "avsAddress": "0x29b2e51d2bf840116797f8a27e40c05ae3e244d9",
-    "totalUsdValue": 1561.503666230085,
-    "totalValueDenominatedInEth": 0.9843560354973051,
+    "totalUsdValue": 1670.3364863529832,
+    "totalValueDenominatedInEth": 0.9841022826296651,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -7262,7 +7262,7 @@
       },
       "stETH": {
         "amount": 0.9852690577847021,
-        "usdValue": 1561.503666230085
+        "usdValue": 1670.3364863529832
       },
       "rETH": {
         "amount": 0,
@@ -7381,8 +7381,8 @@
   },
   "0xca5608c29f13b813ee6999a6686bea850bcdf36f": {
     "avsAddress": "0xca5608c29f13b813ee6999a6686bea850bcdf36f",
-    "totalUsdValue": 16.31409371258151,
-    "totalValueDenominatedInEth": 0.010284238812207821,
+    "totalUsdValue": 17.451144406017328,
+    "totalValueDenominatedInEth": 0.01028158768294566,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -7390,7 +7390,7 @@
       },
       "stETH": {
         "amount": 0.010293777778705562,
-        "usdValue": 16.31409371258151
+        "usdValue": 17.451144406017328
       },
       "rETH": {
         "amount": 0,
@@ -7500,8 +7500,8 @@
   },
   "0x045fc77edaf8f9252577b2805d7f26f113848520": {
     "avsAddress": "0x045fc77edaf8f9252577b2805d7f26f113848520",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -7509,7 +7509,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -7618,8 +7618,8 @@
   },
   "0x466745f7c06fbbab48af7b64e9e9bea249fd6ee5": {
     "avsAddress": "0x466745f7c06fbbab48af7b64e9e9bea249fd6ee5",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -7627,7 +7627,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -7736,8 +7736,8 @@
   },
   "0x7a49d7101a969ee8ba68b5ed4af42e03fa40b1ea": {
     "avsAddress": "0x7a49d7101a969ee8ba68b5ed4af42e03fa40b1ea",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -7745,7 +7745,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -7854,8 +7854,8 @@
   },
   "0xb3e9f71637f0089f81daeb3b6999d391f13736dd": {
     "avsAddress": "0xb3e9f71637f0089f81daeb3b6999d391f13736dd",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -7863,7 +7863,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -7972,8 +7972,8 @@
   },
   "0x44577f44d2a131c8033663996636d00ce1f46808": {
     "avsAddress": "0x44577f44d2a131c8033663996636d00ce1f46808",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -7981,7 +7981,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -8090,8 +8090,8 @@
   },
   "0xb6ec8e5c6db00089737bd9637cff76bd8bbe0474": {
     "avsAddress": "0xb6ec8e5c6db00089737bd9637cff76bd8bbe0474",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -8099,7 +8099,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -8208,28 +8208,28 @@
   },
   "0x42f15f9e4df4994317453477e80e24797cc1a929": {
     "avsAddress": "0x42f15f9e4df4994317453477e80e24797cc1a929",
-    "totalUsdValue": 139084793.8647952,
-    "totalValueDenominatedInEth": 87677.6399873892,
+    "totalUsdValue": 148811360.32649696,
+    "totalValueDenominatedInEth": 87674.31028120623,
     "shares": {
       "ETH": {
         "amount": 76849.471667505,
-        "usdValue": 121907853.89559653
+        "usdValue": 130438145.25068958
       },
       "stETH": {
         "amount": 10608.67948250425,
-        "usdValue": 16813165.67784686
+        "usdValue": 17985000.413484283
       },
       "rETH": {
         "amount": 38.256249155316574,
-        "usdValue": 68331.78199126026
+        "usdValue": 73105.01419836911
       },
       "cbETH": {
         "amount": 31.413779673656958,
-        "usdValue": 54559.138399410665
+        "usdValue": 58403.87089366955
       },
       "ETHx": {
         "amount": 0.04266389645623911,
-        "usdValue": 71.44581428354714
+        "usdValue": 76.25403541416529
       },
       "ankrETH": {
         "amount": 0,
@@ -8237,7 +8237,7 @@
       },
       "OETH": {
         "amount": 0.10177455208881564,
-        "usdValue": 161.44700746953
+        "usdValue": 172.74398275138856
       },
       "osETH": {
         "amount": 0,
@@ -8245,7 +8245,7 @@
       },
       "swETH": {
         "amount": 56.5734642053036,
-        "usdValue": 97577.91106130765
+        "usdValue": 104331.65121813679
       },
       "wBETH": {
         "amount": 0,
@@ -8253,7 +8253,7 @@
       },
       "sfrxETH": {
         "amount": 35.090450612769445,
-        "usdValue": 62143.784417190174
+        "usdValue": 66553.60134569691
       },
       "LsETH": {
         "amount": 0,
@@ -8261,15 +8261,15 @@
       },
       "mETH": {
         "amount": 1.4287305585182093,
-        "usdValue": 2407.6253006869606
+        "usdValue": 2577.8871213455755
       },
       "bEIGEN": {
         "amount": 93248.09840699956,
-        "usdValue": 78421.83725648343
+        "usdValue": 82893.17682319749
       },
       "reALT": {
         "amount": 3360.5905766244186,
-        "usdValue": 99.32010371416565
+        "usdValue": 100.46270451021795
       },
       "ETHFI": {
         "amount": 0,
@@ -8341,68 +8341,68 @@
   },
   "0x35debc00531ac8771be5dbef015fefd084efa958": {
     "avsAddress": "0x35debc00531ac8771be5dbef015fefd084efa958",
-    "totalUsdValue": 15835539.085624596,
-    "totalValueDenominatedInEth": 9982.562840804248,
+    "totalUsdValue": 16938080.742268912,
+    "totalValueDenominatedInEth": 9979.308994337493,
     "shares": {
       "ETH": {
         "amount": 5774.624300917,
-        "usdValue": 9160402.021030657
+        "usdValue": 9801385.318432443
       },
       "stETH": {
         "amount": 512.0144819001289,
-        "usdValue": 811466.1516394191
+        "usdValue": 868023.2713101074
       },
       "rETH": {
         "amount": 617.2185760520149,
-        "usdValue": 1102451.1318010667
+        "usdValue": 1179461.4935350767
       },
       "cbETH": {
         "amount": 149.41904453217367,
-        "usdValue": 259509.5023530339
+        "usdValue": 277796.89921332663
       },
       "ETHx": {
         "amount": 2.0000051257445834,
-        "usdValue": 3349.248583674394
+        "usdValue": 3574.649161345809
       },
       "ankrETH": {
         "amount": 1.0820731842773164,
-        "usdValue": 2048.8190085743563
+        "usdValue": 2186.0367090725626
       },
       "OETH": {
         "amount": 4.3803527054256195,
-        "usdValue": 6948.641103670769
+        "usdValue": 7434.860253973012
       },
       "osETH": {
         "amount": 5.013269660433342,
-        "usdValue": 8296.96128801718
+        "usdValue": 8885.519146152055
       },
       "swETH": {
         "amount": 70.07178433678818,
-        "usdValue": 120859.81362409229
+        "usdValue": 129224.98323821806
       },
       "wBETH": {
         "amount": 3.325585,
-        "usdValue": 5627.58819285
+        "usdValue": 6016.781405399999
       },
       "sfrxETH": {
         "amount": 193.96678487352312,
-        "usdValue": 343507.41733961453
+        "usdValue": 367883.22319467016
       },
       "LsETH": {
         "amount": 1875.3308394763706,
-        "usdValue": 3202146.1617142973
+        "usdValue": 3430786.4976632567
       },
       "mETH": {
         "amount": 17.201686354633818,
-        "usdValue": 28987.42176051118
+        "usdValue": 31037.34672339289
       },
       "bEIGEN": {
         "amount": 926772.4458796612,
-        "usdValue": 779417.4805296869
+        "usdValue": 823857.1460820625
       },
       "reALT": {
         "amount": 17619.249932570456,
-        "usdValue": 520.7256554371629
+        "usdValue": 526.7162004142369
       },
       "ETHFI": {
         "amount": 0,
@@ -8473,84 +8473,84 @@
   },
   "0x6201bc0a699e3b10f324204e6f8ecdd0983de227": {
     "avsAddress": "0x6201bc0a699e3b10f324204e6f8ecdd0983de227",
-    "totalUsdValue": 4492003017.243011,
-    "totalValueDenominatedInEth": 2831713.032202211,
+    "totalUsdValue": 4805014627.054279,
+    "totalValueDenominatedInEth": 2830942.0893256897,
     "shares": {
       "ETH": {
         "amount": 1830569.0379343731,
-        "usdValue": 2903868276.2560544
+        "usdValue": 3107061439.4667697
       },
       "stETH": {
         "amount": 850321.0185151792,
-        "usdValue": 1347631266.1937816
+        "usdValue": 1441557725.8989685
       },
       "rETH": {
         "amount": 6764.102868530467,
-        "usdValue": 12081769.97965438
+        "usdValue": 12925727.094560929
       },
       "cbETH": {
         "amount": 1594.8128349836495,
-        "usdValue": 2769854.983671252
+        "usdValue": 2965044.1265449016
       },
       "ETHx": {
         "amount": 78697.7500288772,
-        "usdValue": 131788826.15335831
+        "usdValue": 140658062.58161277
       },
       "ankrETH": {
         "amount": 251.38874122155357,
-        "usdValue": 475984.47040371405
+        "usdValue": 507863.07667801925
       },
       "OETH": {
         "amount": 3496.8755454261077,
-        "usdValue": 5547163.615220344
+        "usdValue": 5935316.800762641
       },
       "osETH": {
         "amount": 12200.156817047946,
-        "usdValue": 20191259.53221435
+        "usdValue": 21623557.94253578
       },
       "swETH": {
         "amount": 4514.222874562931,
-        "usdValue": 7786131.614046145
+        "usdValue": 8325039.54081147
       },
       "wBETH": {
         "amount": 1699.789702308295,
-        "usdValue": 2876401.13214312
+        "usdValue": 3075327.5210042605
       },
       "sfrxETH": {
         "amount": 2468.234506536791,
-        "usdValue": 4371144.581696394
+        "usdValue": 4681327.612132873
       },
       "LsETH": {
         "amount": 1914.8245229171234,
-        "usdValue": 3269582.021126217
+        "usdValue": 3503037.426960273
       },
       "mETH": {
         "amount": 2216.4639008473623,
-        "usdValue": 3735074.1425129334
+        "usdValue": 3999210.145576912
       },
       "bEIGEN": {
         "amount": 53728774.58374843,
-        "usdValue": 45186006.882481605
+        "usdValue": 47762355.35254694
       },
       "reALT": {
         "amount": 2239990.0340369777,
-        "usdValue": 66201.47186234109
+        "usdValue": 66963.06847391366
       },
       "ETHFI": {
         "amount": 1764.4853312651503,
-        "usdValue": 915.561442142855
+        "usdValue": 913.8234240915589
       },
       "ARPA": {
         "amount": 13494.934921910652,
-        "usdValue": 325.8999793771579
+        "usdValue": 321.18215012845786
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -8558,11 +8558,11 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 130101,
-        "usdValue": 25597.631952
+        "usdValue": 24200.737515
       },
       "RATT": {
         "amount": 0,
@@ -8578,7 +8578,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -8620,84 +8620,84 @@
   },
   "0x6f943318b05ad7c6ee596a220510a6d64b518dd8": {
     "avsAddress": "0x6f943318b05ad7c6ee596a220510a6d64b518dd8",
-    "totalUsdValue": 2162374415.7990394,
-    "totalValueDenominatedInEth": 1363138.8470163897,
+    "totalUsdValue": 2312694056.638452,
+    "totalValueDenominatedInEth": 1362556.2985403177,
     "shares": {
       "ETH": {
         "amount": 564220.15759653,
-        "usdValue": 895033720.3985275
+        "usdValue": 957662157.8917426
       },
       "stETH": {
         "amount": 726915.3352490576,
-        "usdValue": 1152051769.0694687
+        "usdValue": 1232346837.0010805
       },
       "rETH": {
         "amount": 5786.0920722279925,
-        "usdValue": 10334886.215730751
+        "usdValue": 11056816.923582638
       },
       "cbETH": {
         "amount": 1600.6949268452643,
-        "usdValue": 2780070.9419955863
+        "usdValue": 2975979.9940921785
       },
       "ETHx": {
         "amount": 5560.053446628156,
-        "usdValue": 9310976.70279244
+        "usdValue": 9937594.726227432
       },
       "ankrETH": {
         "amount": 241.04653868795143,
-        "usdValue": 456402.3372825411
+        "usdValue": 486969.4488535602
       },
       "OETH": {
         "amount": 3491.567981798338,
-        "usdValue": 5538744.12088634
+        "usdValue": 5926308.166865955
       },
       "osETH": {
         "amount": 12195.368779644317,
-        "usdValue": 20183335.330311347
+        "usdValue": 21615071.62504159
       },
       "swETH": {
         "amount": 4385.540422303117,
-        "usdValue": 7564180.120388417
+        "usdValue": 8087725.936002963
       },
       "wBETH": {
         "amount": 1693.927921128295,
-        "usdValue": 2866481.767412512
+        "usdValue": 3064722.1520221564
       },
       "sfrxETH": {
         "amount": 1917.0583364297306,
-        "usdValue": 3395033.6314835954
+        "usdValue": 3635950.35262272
       },
       "LsETH": {
         "amount": 38.8555754067418,
-        "usdValue": 66346.28356276569
+        "usdValue": 71083.55531635565
       },
       "mETH": {
         "amount": 1695.5202217616443,
-        "usdValue": 2857205.901701635
+        "usdValue": 3059261.04652897
       },
       "bEIGEN": {
         "amount": 58872826.498228975,
-        "usdValue": 49512164.830663554
+        "usdValue": 52335175.73408015
       },
       "reALT": {
         "amount": 2208999.5289816502,
-        "usdValue": 65285.567319354115
+        "usdValue": 66036.62715920787
       },
       "ETHFI": {
         "amount": 1430.311426980638,
-        "usdValue": 742.1642841659944
+        "usdValue": 740.7554274104185
       },
       "ARPA": {
         "amount": 13494.928974543307,
-        "usdValue": 325.89983574942596
+        "usdValue": 321.1820085799256
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -8705,11 +8705,11 @@
       },
       "tBTC": {
         "amount": 3.74769626334512,
-        "usdValue": 330576.7919971463
+        "usdValue": 340519.4301838009
       },
       "KERNEL": {
         "amount": 130101,
-        "usdValue": 25597.631952
+        "usdValue": 24200.737515
       },
       "RATT": {
         "amount": 3002464,
@@ -8725,7 +8725,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,
@@ -8782,84 +8782,84 @@
   },
   "0x0328635ba5ff28476118595234b5b7236b906c0b": {
     "avsAddress": "0x0328635ba5ff28476118595234b5b7236b906c0b",
-    "totalUsdValue": 3117707438.3634005,
-    "totalValueDenominatedInEth": 1965371.0716396442,
+    "totalUsdValue": 3333080919.02374,
+    "totalValueDenominatedInEth": 1963731.5998301676,
     "shares": {
       "ETH": {
         "amount": 839558.1386411873,
-        "usdValue": 1331807866.4892876
+        "usdValue": 1424998819.8784595
       },
       "stETH": {
         "amount": 879810.8813804879,
-        "usdValue": 1394368275.3558664
+        "usdValue": 1491552185.3131554
       },
       "rETH": {
         "amount": 7214.410262811766,
-        "usdValue": 12886091.035023868
+        "usdValue": 13786233.003514895
       },
       "cbETH": {
         "amount": 2445.219100445066,
-        "usdValue": 4246832.0814619865
+        "usdValue": 4546102.447165458
       },
       "ETHx": {
         "amount": 78726.64677327154,
-        "usdValue": 131837217.21945597
+        "usdValue": 140709710.31080368
       },
       "ankrETH": {
         "amount": 281.30329274107686,
-        "usdValue": 532625.2805418096
+        "usdValue": 568297.3510943056
       },
       "OETH": {
         "amount": 5098.807683679827,
-        "usdValue": 8088340.604774984
+        "usdValue": 8654308.257663444
       },
       "osETH": {
         "amount": 14397.410046877052,
-        "usdValue": 23827713.627581522
+        "usdValue": 25517969.567084894
       },
       "swETH": {
         "amount": 6567.749591572515,
-        "usdValue": 11328054.495544277
+        "usdValue": 12112112.441786205
       },
       "wBETH": {
         "amount": 21248.346381693565,
-        "usdValue": 35956664.230565675
+        "usdValue": 38443358.207615264
       },
       "sfrxETH": {
         "amount": 2054.0192017021423,
-        "usdValue": 3637585.845446426
+        "usdValue": 3895714.4385243347
       },
       "LsETH": {
         "amount": 350.9869947421034,
-        "usdValue": 599313.8033920892
+        "usdValue": 642106.1377910463
       },
       "mETH": {
         "amount": 1596.6561754063655,
-        "usdValue": 2690605.1539860372
+        "usdValue": 2880878.6704092138
       },
       "bEIGEN": {
         "amount": 184839974.67229146,
-        "usdValue": 155450788.3793465
+        "usdValue": 164314050.00485748
       },
       "reALT": {
         "amount": 3085331.931012465,
-        "usdValue": 91185.01060863756
+        "usdValue": 92234.0234651818
       },
       "ETHFI": {
         "amount": 1927.191440594353,
-        "usdValue": 999.9868762699197
+        "usdValue": 998.0885927009342
       },
       "ARPA": {
         "amount": 13495.316771300671,
-        "usdValue": 325.90920096355694
+        "usdValue": 321.19123822031025
       },
       "SolvBTC": {
         "amount": 0.0025,
-        "usdValue": 220.59000000000003
+        "usdValue": 227.1825
       },
       "uniBTC": {
         "amount": 0.017088680000000002,
-        "usdValue": 1487.27908644
+        "usdValue": 1532.6837091999998
       },
       "slisBNB": {
         "amount": 0,
@@ -8867,11 +8867,11 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 130101.01,
-        "usdValue": 25597.633919519998
+        "usdValue": 24200.739375150002
       },
       "RATT": {
         "amount": 0,
@@ -8887,7 +8887,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 18453355,
@@ -8947,8 +8947,8 @@
   },
   "0x10ea82ddce695dc44789633d362179b63cd18e64": {
     "avsAddress": "0x10ea82ddce695dc44789633d362179b63cd18e64",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -8956,7 +8956,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -9065,84 +9065,84 @@
   },
   "0xc9e94bf890c9b4f11685d576bc65b08e0e87556f": {
     "avsAddress": "0xc9e94bf890c9b4f11685d576bc65b08e0e87556f",
-    "totalUsdValue": 1476431764.7352335,
-    "totalValueDenominatedInEth": 930727.5737147824,
+    "totalUsdValue": 1579085744.013314,
+    "totalValueDenominatedInEth": 930340.6216937961,
     "shares": {
       "ETH": {
         "amount": 307340.763978485,
-        "usdValue": 487540800.7143502
+        "usdValue": 521655625.51596206
       },
       "stETH": {
         "amount": 565874.3859425111,
-        "usdValue": 896826020.5609888
+        "usdValue": 959332505.2321982
       },
       "rETH": {
         "amount": 5272.511230114128,
-        "usdValue": 9417548.658780651
+        "usdValue": 10075399.88496199
       },
       "cbETH": {
         "amount": 1626.1785141380149,
-        "usdValue": 2824330.581569763
+        "usdValue": 3023358.569915115
       },
       "ETHx": {
         "amount": 5127.243022424172,
-        "usdValue": 8586183.710211964
+        "usdValue": 9164023.99883917
       },
       "ankrETH": {
         "amount": 224.27928190557824,
-        "usdValue": 424654.87794566
+        "usdValue": 453095.7336841064
       },
       "OETH": {
         "amount": 3481.924561957074,
-        "usdValue": 5523446.571123745
+        "usdValue": 5909940.19750098
       },
       "osETH": {
         "amount": 12164.623830579661,
-        "usdValue": 20132452.43960934
+        "usdValue": 21560579.277319394
       },
       "swETH": {
         "amount": 3934.648241302167,
-        "usdValue": 6786481.286597979
+        "usdValue": 7256199.593644632
       },
       "wBETH": {
         "amount": 1594.837797159414,
-        "usdValue": 2698800.4687311323
+        "usdValue": 2885444.3361326987
       },
       "sfrxETH": {
         "amount": 1872.1542842307485,
-        "usdValue": 3315510.3512012865
+        "usdValue": 3550783.9801005647
       },
       "LsETH": {
         "amount": 13.581013327478162,
-        "usdValue": 23189.716066802237
+        "usdValue": 24845.513211688372
       },
       "mETH": {
         "amount": 1298.7286776254539,
-        "usdValue": 2188552.6311005335
+        "usdValue": 2343322.127613159
       },
       "bEIGEN": {
         "amount": 35373136.73645187,
-        "usdValue": 29748878.74162949
+        "usdValue": 31445056.021279085
       },
       "reALT": {
         "amount": 2158620.6533446335,
-        "usdValue": 63796.6518923825
+        "usdValue": 64530.58291451968
       },
       "ETHFI": {
         "amount": 1430.2114269806382,
-        "usdValue": 742.1123958659945
+        "usdValue": 740.7036376104185
       },
       "ARPA": {
         "amount": 13494.928974543307,
-        "usdValue": 325.89983574942596
+        "usdValue": 321.1820085799256
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -9150,7 +9150,7 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 0,
@@ -9170,7 +9170,7 @@
       },
       "MARSH": {
         "amount": 5800,
-        "usdValue": 175.74150799999998
+        "usdValue": 176.977082
       },
       "ASTR": {
         "amount": 0,
@@ -9205,7 +9205,7 @@
   "0x4ca852bd78d9b7295874a7d223023bff011b7eb3": {
     "avsAddress": "0x4ca852bd78d9b7295874a7d223023bff011b7eb3",
     "totalUsdValue": 5.1246415e-12,
-    "totalValueDenominatedInEth": 3.230521899742801e-15,
+    "totalValueDenominatedInEth": 3.0192547663375202e-15,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -9322,8 +9322,8 @@
   },
   "0x328c822874991c31ddf400cd8388027af66270a8": {
     "avsAddress": "0x328c822874991c31ddf400cd8388027af66270a8",
-    "totalUsdValue": 127597.08694670576,
-    "totalValueDenominatedInEth": 80.43590634090585,
+    "totalUsdValue": 128494.1752037787,
+    "totalValueDenominatedInEth": 75.70415431608576,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -9427,7 +9427,7 @@
       },
       "MARSH": {
         "amount": 4211088.846983681,
-        "usdValue": 127597.08694670576
+        "usdValue": 128494.1752037787
       },
       "ASTR": {
         "amount": 0,
@@ -9448,8 +9448,8 @@
   },
   "0x500c4e641b5d61026f26148ab9363eb3241c08f3": {
     "avsAddress": "0x500c4e641b5d61026f26148ab9363eb3241c08f3",
-    "totalUsdValue": 1734.2860094568969,
-    "totalValueDenominatedInEth": 1.0932762680019774,
+    "totalUsdValue": 1855.161317911709,
+    "totalValueDenominatedInEth": 1.0929944370606066,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -9457,7 +9457,7 @@
       },
       "stETH": {
         "amount": 1.0942903173529968,
-        "usdValue": 1734.2860094568969
+        "usdValue": 1855.161317911709
       },
       "rETH": {
         "amount": 0,
@@ -9576,8 +9576,8 @@
   },
   "0x05006d61ca5fe53df316802f3ac91973d4b95f99": {
     "avsAddress": "0x05006d61ca5fe53df316802f3ac91973d4b95f99",
-    "totalUsdValue": 16.298111998736804,
-    "totalValueDenominatedInEth": 0.01027416410228504,
+    "totalUsdValue": 17.434048807507647,
+    "totalValueDenominatedInEth": 0.0102715155701386,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -9585,7 +9585,7 @@
       },
       "stETH": {
         "amount": 0.010283693724161155,
-        "usdValue": 16.298111998736804
+        "usdValue": 17.434048807507647
       },
       "rETH": {
         "amount": 0,
@@ -9696,8 +9696,8 @@
   },
   "0x96b6a29d7b98519ae66e6398bd27a76b30a5dc3f": {
     "avsAddress": "0x96b6a29d7b98519ae66e6398bd27a76b30a5dc3f",
-    "totalUsdValue": 15.769728003374631,
-    "totalValueDenominatedInEth": 0.009941076203650355,
+    "totalUsdValue": 16.87130286955742,
+    "totalValueDenominatedInEth": 0.009939965869463285,
     "shares": {
       "ETH": {
         "amount": 0,
@@ -9709,7 +9709,7 @@
       },
       "rETH": {
         "amount": 0.008828844002426787,
-        "usdValue": 15.769728003374631
+        "usdValue": 16.87130286955742
       },
       "cbETH": {
         "amount": 0,
@@ -9814,76 +9814,76 @@
   },
   "0x203b9acb40dfbb911f1e39c784eab639418dae04": {
     "avsAddress": "0x203b9acb40dfbb911f1e39c784eab639418dae04",
-    "totalUsdValue": 113512065.72879586,
-    "totalValueDenominatedInEth": 71556.85216652117,
+    "totalUsdValue": 121391832.27706064,
+    "totalValueDenominatedInEth": 71519.70888050612,
     "shares": {
       "ETH": {
         "amount": 32168.025922752,
-        "usdValue": 51028782.881779954
+        "usdValue": 54599433.759205416
       },
       "stETH": {
         "amount": 13745.637810655324,
-        "usdValue": 21784774.084217098
+        "usdValue": 23303117.236782078
       },
       "rETH": {
         "amount": 824.2640375391877,
-        "usdValue": 1472267.4532909957
+        "usdValue": 1575110.87725476
       },
       "cbETH": {
         "amount": 370.46742870151024,
-        "usdValue": 643424.125494496
+        "usdValue": 688765.6340932738
       },
       "ETHx": {
         "amount": 101.10662550576806,
-        "usdValue": 169315.1772044693
+        "usdValue": 180709.89389896937
       },
       "ankrETH": {
         "amount": 17.757537752026863,
-        "usdValue": 33622.47713044271
+        "usdValue": 35874.31049277723
       },
       "OETH": {
         "amount": 20.974023383658036,
-        "usdValue": 33271.512773964416
+        "usdValue": 35599.62936955046
       },
       "osETH": {
         "amount": 40.64381986784629,
-        "usdValue": 67265.5218812856
+        "usdValue": 72037.10633377077
       },
       "swETH": {
         "amount": 1621.9724751008223,
-        "usdValue": 2797578.1250538984
+        "usdValue": 2991209.1991314343
       },
       "wBETH": {
         "amount": 19582.685277952663,
-        "usdValue": 33138015.854204282
+        "usdValue": 35429777.51228309
       },
       "sfrxETH": {
         "amount": 91.88814081499666,
-        "usdValue": 162730.2218577265
+        "usdValue": 174277.80451394714
       },
       "LsETH": {
         "amount": 4.387415014912989,
-        "usdValue": 7491.555012114078
+        "usdValue": 8026.468650732269
       },
       "mETH": {
         "amount": 93.30562891042568,
-        "usdValue": 157233.98055840383
+        "usdValue": 168353.21235565926
       },
       "bEIGEN": {
         "amount": 2352130.6669086614,
-        "usdValue": 1978146.5951315183
+        "usdValue": 2090933.6127404552
       },
       "reALT": {
         "amount": 1243706.0673480816,
-        "usdValue": 36756.93684858945
+        "usdValue": 37179.79691148779
       },
       "ETHFI": {
         "amount": 321.7800136137149,
-        "usdValue": 166.96617880392523
+        "usdValue": 166.6492254905157
       },
       "ARPA": {
         "amount": 0.28304792024327996,
-        "usdValue": 0.006835550664291163
+        "usdValue": 0.006736597111374112
       },
       "SolvBTC": {
         "amount": 0,
@@ -9891,7 +9891,7 @@
       },
       "uniBTC": {
         "amount": 0.01404356,
-        "usdValue": 1222.25315748
+        "usdValue": 1259.5668964
       },
       "slisBNB": {
         "amount": 0,
@@ -9947,84 +9947,84 @@
   },
   "0x5bf17dfaa1b76bb6c5c47f568636877f94c09b65": {
     "avsAddress": "0x5bf17dfaa1b76bb6c5c47f568636877f94c09b65",
-    "totalUsdValue": 698063791.7745174,
-    "totalValueDenominatedInEth": 440052.31717088446,
+    "totalUsdValue": 746649170.0935491,
+    "totalValueDenominatedInEth": 439898.88182166545,
     "shares": {
       "ETH": {
         "amount": 52155.689321445,
-        "usdValue": 82735613.08439463
+        "usdValue": 88524894.59907503
       },
       "stETH": {
         "amount": 355779.20981779293,
-        "usdValue": 563856680.6797291
+        "usdValue": 603156052.1962025
       },
       "rETH": {
         "amount": 3175.5466774700217,
-        "usdValue": 5672034.4534298545
+        "usdValue": 6068247.412377789
       },
       "cbETH": {
         "amount": 1249.174822177953,
-        "usdValue": 2169554.339410447
+        "usdValue": 2322440.845896807
       },
       "ETHx": {
         "amount": 361.65699184865895,
-        "usdValue": 605638.0316896013
+        "usdValue": 646396.7746709451
       },
       "ankrETH": {
         "amount": 222.29807545971036,
-        "usdValue": 420903.6220369248
+        "usdValue": 449093.24098597065
       },
       "OETH": {
         "amount": 2786.822517612923,
-        "usdValue": 4420792.296139732
+        "usdValue": 4730129.595594767
       },
       "osETH": {
         "amount": 12081.660872924545,
-        "usdValue": 19995148.744690124
+        "usdValue": 21413535.731171466
       },
       "swETH": {
         "amount": 2713.8992908461996,
-        "usdValue": 4680933.496851525
+        "usdValue": 5004918.794192744
       },
       "wBETH": {
         "amount": 1011.7335833448726,
-        "usdValue": 1712065.687072027
+        "usdValue": 1830468.8683308773
       },
       "sfrxETH": {
         "amount": 1590.5863814744494,
-        "usdValue": 2816864.858135991
+        "usdValue": 3016753.848695885
       },
       "LsETH": {
         "amount": 3.4158624778024502,
-        "usdValue": 5832.619339472461
+        "usdValue": 6249.081292766136
       },
       "mETH": {
         "amount": 349.5445060191087,
-        "usdValue": 589034.9243181011
+        "usdValue": 630690.1431003982
       },
       "bEIGEN": {
         "amount": 9511339.841530016,
-        "usdValue": 7999055.829406426
+        "usdValue": 8455134.086147632
       },
       "reALT": {
         "amount": 1789488.677644751,
-        "usdValue": 52887.19259503692
+        "usdValue": 53495.618745436135
       },
       "ETHFI": {
         "amount": 733.1396577267153,
-        "usdValue": 380.4137050202112
+        "usdValue": 379.69156245735036
       },
       "ARPA": {
         "amount": 13489.569183125843,
-        "usdValue": 325.7703978586525
+        "usdValue": 321.0544444722317
       },
       "SolvBTC": {
         "amount": 0.0015,
-        "usdValue": 132.354
+        "usdValue": 136.3095
       },
       "uniBTC": {
         "amount": 0.00304512,
-        "usdValue": 265.02592896
+        "usdValue": 273.1168128
       },
       "slisBNB": {
         "amount": 0,
@@ -10032,7 +10032,7 @@
       },
       "tBTC": {
         "amount": 3.7352126764338505,
-        "usdValue": 329475.6397628771
+        "usdValue": 339385.1589934561
       },
       "KERNEL": {
         "amount": 0,
@@ -10052,7 +10052,7 @@
       },
       "MARSH": {
         "amount": 5700,
-        "usdValue": 172.711482
+        "usdValue": 173.925753
       },
       "ASTR": {
         "amount": 0,

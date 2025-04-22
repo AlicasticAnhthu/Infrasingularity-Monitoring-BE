@@ -295,7 +295,9 @@ def merge_avs_data():
                 db.session.add(AVS(**data))
 
             if data["status"].lower() == "error" or json.loads(data.get("errors", "[]")):
-                msg = f"🚨 AVS Alert: {name} ({data['protocol_name']}) has issues."
+                error_list = json.loads(data.get("errors", "[]"))
+                error_details = ", ".join(error_list) if error_list else "Unknown issue"
+                msg = f"🚨 AVS Alert: {name} ({data['protocol_name']}) has issues: {error_details}."
                 db.session.add(AlertLog(avs_name=name, protocol_name=data["protocol_name"], message=msg))
                 send_slack_alert(msg)
         db.session.commit()

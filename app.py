@@ -443,6 +443,46 @@ def delete_account(account_id):
     db.session.commit()
     return jsonify({'message': 'Account deleted successfully'}), 200
 
+@app.route('/api/account/update/<int:account_id>', methods=['PUT'])
+def update_account(account_id):
+    data = request.json
+    username = data.get('username')
+    password = data.get('password')
+    allowlist = data.get('allowlist', [])
+    account = Account.query.get(account_id)
+    if not account:
+        return jsonify({'error': 'Account not found'}), 404
+    if username:
+        existing_account = Account.query.filter_by(username=username).first()
+        if existing_account and existing_account.id != account_id:
+            return jsonify({'error': 'Username already exists'}), 409
+        account.username = username
+    if password:
+        account.password_hash = generate_password_hash(password)
+    if allowlist is not None:
+        # Fetch valid AVS names from database
+        valid_avs_names = {avs.avs_name for avs in AVS.query.all()}
+
+        # Check if allowlist values are valid
+        invalid = [name for name in allowlist if name not in valid_avs_names]
+        if invalid:
+            return jsonify({
+                "error": "Invalid AVS names in allowlist",
+                "invalid_values": invalid
+            }), 400
+
+        account.allowlist = allowlist
+    db.session.commit()
+    return jsonify({
+        'message': 'Account updated successfully',
+        'account': {
+            'id': account.id,
+            'username': account.username,
+            'access_group': account.access_group.value,
+            'allowlist': account.allowlist
+        }
+    }), 200
+
 @app.route('/api/account/avs_status', methods=['GET'])
 def get_filtered_avs_status_by_username():
     username = request.args.get('username')

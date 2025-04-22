@@ -99,6 +99,10 @@ Query a specific AVS by its protocol name.
 ### `GET /api/alerts`
 Get the history of triggered alerts from the system.
 
+### Authentication APIs
+- `POST /api/auth/register` — Register a new user (basic auth).
+- `POST /api/auth/login` — Login with basic auth credentials.
+
 ---
 
 ## 🧑‍💻 Developer Notes
@@ -131,16 +135,20 @@ python app.py  # Auto regenerates schema
 pip freeze > requirements.txt
 ```
 
+## 🧼 Maintenance Notes
+
+- All AVS data is refreshed every minute using `Flask-APScheduler`.
+- Slack alerts are only triggered for AVS in `error` state or with non-empty `errors` logs.
+- To wipe and restart the DB: delete `avs.db` and restart the app.
+
 ---
 
-## 📄 Project Report
+## 🧠 Contributors and License
 
-For a detailed overview of the project's goals, system design, and AVS operational metrics, please refer to the [`Final Written Report`](./Final Written Report.docx).
-
----
-
-## 🧠 Contributors
+This project was developed as part of a capstone effort focused on AVS ecosystem monitoring and operational transparency.
 
 - **Capstone Team:** — Jyotsna Chellani, Alison Quan, Sri Amirdha Sudha, Javier Ramirez, Sarah Son, Siddharth Badyal  
   UT Austin | MS IT & Management
+
+MIT License © 2025 Infrasingularity Team
 

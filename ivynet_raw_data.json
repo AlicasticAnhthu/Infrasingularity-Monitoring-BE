@@ -80,15 +80,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 2004664320,
-        "memory_free": 275943424,
+        "memory_usage": 2018144256,
+        "memory_free": 347930624,
         "memory_total": 4005597184,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 45213290496,
-            "used": 5670817792
+            "free": 45210263552,
+            "used": 5673844736
           },
           {
             "id": "/boot:/dev/sda16",
@@ -105,23 +105,23 @@
           {
             "id": "/var/lib/docker/overlay2/a87bdc1d83d008d81d9acd69a0da94ca149107fd6a4cb058d25fc6ad278a6bf7/merged:overlay",
             "total": 50884108288,
-            "free": 45213290496,
-            "used": 5670817792
+            "free": 45210263552,
+            "used": 5673844736
           },
           {
             "id": "/var/lib/docker/overlay2/98713df8f22181a09e913906d5143e8e8e9654ec4bc780e2ce215209a2ff49f5/merged:overlay",
             "total": 50884108288,
-            "free": 45213290496,
-            "used": 5670817792
+            "free": 45210263552,
+            "used": 5673844736
           },
           {
             "id": "/var/lib/docker/overlay2/6ad60e0358a6c0115640a386495623eea2e5b749da78abee9357727d457bff52/merged:overlay",
             "total": 50884108288,
-            "free": 45213290496,
-            "used": 5670817792
+            "free": 45210263552,
+            "used": 5673844736
           }
         ],
-        "uptime": 11865954
+        "uptime": 11880774
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -140,10 +140,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-01-07T09:37:08.882716",
-        "updated_at": "2025-04-22T00:24:57.531908",
+        "updated_at": "2025-04-22T04:31:57.528999",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 11865954.0,
+        "uptime": 11880774.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -353,15 +353,15 @@
       "sys_metrics": {
         "cpu_cores": 1,
         "cpu_usage": 0.0,
-        "memory_usage": 722104320,
-        "memory_free": 258187264,
+        "memory_usage": 723443712,
+        "memory_free": 259629056,
         "memory_total": 2012741632,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 24802426880,
-            "free": 20275466240,
-            "used": 4526960640
+            "free": 20278788096,
+            "used": 4523638784
           },
           {
             "id": "/boot:/dev/sda13",
@@ -378,17 +378,17 @@
           {
             "id": "/var/lib/docker/overlay2/948bcd74ab43656ef416e05fb4dad3896d7a8716d060109d47d338a57eaa4db7/merged:overlay",
             "total": 24802426880,
-            "free": 20275466240,
-            "used": 4526960640
+            "free": 20278788096,
+            "used": 4523638784
           },
           {
             "id": "/var/lib/docker/overlay2/7bb359acdd2e8c595f9d9a90cab80cdbc51651e620e8158866ed3a0653f18c14/merged:overlay",
             "total": 24802426880,
-            "free": 20275466240,
-            "used": 4526960640
+            "free": 20278788096,
+            "used": 4523638784
           }
         ],
-        "uptime": 7907502
+        "uptime": 7922322
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -407,10 +407,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-01-29T10:55:09.374946",
-        "updated_at": "2025-04-22T00:24:52.816123",
+        "updated_at": "2025-04-22T04:31:52.817458",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 7907502.0,
+        "uptime": 7922322.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -428,15 +428,15 @@
       "sys_metrics": {
         "cpu_cores": 1,
         "cpu_usage": 0.0,
-        "memory_usage": 696131584,
-        "memory_free": 191479808,
+        "memory_usage": 696180736,
+        "memory_free": 194142208,
         "memory_total": 2012741632,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 24802426880,
-            "free": 20172251136,
-            "used": 4630175744
+            "free": 20175548416,
+            "used": 4626878464
           },
           {
             "id": "/boot:/dev/sda13",
@@ -453,17 +453,17 @@
           {
             "id": "/var/lib/docker/overlay2/828b3d6ee23437d7f70a0e0f221aa2d8707f07dc4dc4e7787c211469623fcfc8/merged:overlay",
             "total": 24802426880,
-            "free": 20172251136,
-            "used": 4630175744
+            "free": 20175548416,
+            "used": 4626878464
           },
           {
             "id": "/var/lib/docker/overlay2/d04c932576ed6cb7b615614c40600aa720aad7ce1b1ecdf32675ccfe42bdfa19/merged:overlay",
             "total": 24802426880,
-            "free": 20172251136,
-            "used": 4630175744
+            "free": 20175548416,
+            "used": 4626878464
           }
         ],
-        "uptime": 7835766
+        "uptime": 7850586
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -482,10 +482,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-01-29T11:10:53.785802",
-        "updated_at": "2025-04-22T00:24:46.640164",
+        "updated_at": "2025-04-22T04:31:46.653106",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 7835766.0,
+        "uptime": 7850586.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -598,15 +598,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 1419030528,
-        "memory_free": 8964366336,
+        "memory_usage": 1422258176,
+        "memory_free": 8954740736,
         "memory_total": 16369774592,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 51835101184,
-            "free": 45599346688,
-            "used": 6235754496
+            "free": 45600649216,
+            "used": 6234451968
           },
           {
             "id": "/boot/efi:/dev/sda15",
@@ -617,17 +617,17 @@
           {
             "id": "/var/lib/docker/overlay2/ddb3e193f358c5377c48483fb73a6825dc4f9bd7f898f78bfd74d22f9ef2213f/merged:overlay",
             "total": 51835101184,
-            "free": 45599346688,
-            "used": 6235754496
+            "free": 45600649216,
+            "used": 6234451968
           },
           {
             "id": "/var/lib/docker/overlay2/b896d1e644e0a7a5b58b720ac0b2147e58129fe731254f3cd63778b6de51a131/merged:overlay",
             "total": 51835101184,
-            "free": 45599346688,
-            "used": 6235754496
+            "free": 45600649216,
+            "used": 6234451968
           }
         ],
-        "uptime": 16120279
+        "uptime": 16135099
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -640,16 +640,16 @@
         "avs_type": "altlayer(altlayer-mach)",
         "avs_version": "0.0.0",
         "chain": "mainnet",
-        "version_hash": "sha256:b74f731a8411d8cb8eac3c6bc6bcffd3a29c95015c7a9e47c484a4c0e4a495f0",
+        "version_hash": "sha256:bd6936138442b3cf77aab8394fcf054ff70259276eb343feec1edf8f0d06a98c",
         "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
         "active_set": true,
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T12:25:58.226262",
-        "updated_at": "2025-04-22T00:25:13.176295",
+        "updated_at": "2025-04-22T04:32:28.811530",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 16120279.0,
+        "uptime": 16135099.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -669,10 +669,10 @@
         "metrics_alive": false,
         "node_running": false,
         "created_at": "2025-01-30T10:07:41.052726",
-        "updated_at": "2025-04-22T00:25:13.123480",
+        "updated_at": "2025-04-22T04:32:13.120981",
         "protocol": "Eigenlayer",
         "is_running": false,
-        "uptime": 16120279.0,
+        "uptime": 16135099.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -692,15 +692,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 965177344,
-        "memory_free": 9856233472,
+        "memory_usage": 966279168,
+        "memory_free": 9836208128,
         "memory_total": 16373862400,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 96142524416,
-            "used": 6745571328
+            "free": 96124641280,
+            "used": 6763454464
           },
           {
             "id": "/boot:/dev/sda16",
@@ -717,47 +717,47 @@
           {
             "id": "/var/lib/docker/overlay2/a940957fb780fc2804e7e80353bdcec4623b96187deb9c693807534ddcdbedcd/merged:overlay",
             "total": 102888095744,
-            "free": 96142524416,
-            "used": 6745571328
+            "free": 96124641280,
+            "used": 6763454464
           },
           {
             "id": "/var/lib/docker/overlay2/09f65b3caf4de89b3688bd4b15f4ffc6119bbfca0cd6284111fb31d92d7859a1/merged:overlay",
             "total": 102888095744,
-            "free": 96142524416,
-            "used": 6745571328
+            "free": 96124641280,
+            "used": 6763454464
           },
           {
             "id": "/var/lib/docker/overlay2/0d2de301f8682b0510b6e6adc24bf1823edeec573ebe25afd8f580af35a72d31/merged:overlay",
             "total": 102888095744,
-            "free": 96142524416,
-            "used": 6745571328
+            "free": 96124641280,
+            "used": 6763454464
           },
           {
             "id": "/var/lib/docker/overlay2/a92ae64bd2b50436d3d2f9a31206be8ef0a9f78107dd66136a2eaab8e5e02075/merged:overlay",
             "total": 102888095744,
-            "free": 96142524416,
-            "used": 6745571328
+            "free": 96124641280,
+            "used": 6763454464
           },
           {
             "id": "/var/lib/docker/overlay2/1c0003567252801df19111f7e426c8deeca5e9283a3d793ad3d79d63a45163f2/merged:overlay",
             "total": 102888095744,
-            "free": 96142524416,
-            "used": 6745571328
+            "free": 96124641280,
+            "used": 6763454464
           },
           {
             "id": "/var/lib/docker/overlay2/21b89adcfc373dbd271113a5437359e555cd8f6ccd91ae7469e4aac00577bfdf/merged:overlay",
             "total": 102888095744,
-            "free": 96142524416,
-            "used": 6745571328
+            "free": 96124641280,
+            "used": 6763454464
           },
           {
             "id": "/var/lib/docker/overlay2/97bd2bdb131e1ff13f61acbfd6e90ef410451bd8d240533fbccba62bcdfd2e14/merged:overlay",
             "total": 102888095744,
-            "free": 96142524416,
-            "used": 6745571328
+            "free": 96124641280,
+            "used": 6763454464
           }
         ],
-        "uptime": 10937969
+        "uptime": 10952789
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -776,10 +776,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T09:19:36.702802",
-        "updated_at": "2025-04-22T00:24:35.913145",
+        "updated_at": "2025-04-22T04:31:35.908584",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 10937969.0,
+        "uptime": 10952789.0,
         "performance_score": 0.0,
         "update_status": "UpToDate",
         "errors": [
@@ -917,15 +917,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 679809024,
-        "memory_free": 13045317632,
+        "memory_usage": 678203392,
+        "memory_free": 13045465088,
         "memory_total": 16373866496,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 97536897024,
-            "used": 5351198720
+            "free": 97536352256,
+            "used": 5351743488
           },
           {
             "id": "/boot:/dev/sda16",
@@ -942,11 +942,11 @@
           {
             "id": "/var/lib/docker/overlay2/23620eb97e6ec3ef26be870f0592f37fe7e85420b430bf77a46e4e020d577292/merged:overlay",
             "total": 102888095744,
-            "free": 97536897024,
-            "used": 5351198720
+            "free": 97536352256,
+            "used": 5351743488
           }
         ],
-        "uptime": 10924296
+        "uptime": 10939116
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -965,10 +965,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-02-06T08:10:45.330519",
-        "updated_at": "2025-04-22T00:24:55.791910",
+        "updated_at": "2025-04-22T04:31:55.789499",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 10924296.0,
+        "uptime": 10939116.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -1171,15 +1171,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 1042690048,
-        "memory_free": 230739968,
+        "memory_usage": 1016328192,
+        "memory_free": 339611648,
         "memory_total": 8127897600,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 80731766784,
-            "used": 22156328960
+            "free": 80710881280,
+            "used": 22177214464
           },
           {
             "id": "/boot:/dev/sda16",
@@ -1194,7 +1194,7 @@
             "used": 6395392
           }
         ],
-        "uptime": 13625433
+        "uptime": 13640253
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -1213,10 +1213,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-07T12:10:30.789003",
-        "updated_at": "2025-04-22T00:24:34.028351",
+        "updated_at": "2025-04-22T04:31:34.045382",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 13625433.0,
+        "uptime": 13640253.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": []
@@ -1296,15 +1296,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 1033564160,
-        "memory_free": 10430685184,
+        "memory_usage": 1043599360,
+        "memory_free": 10417405952,
         "memory_total": 16373194752,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102915489792,
-            "free": 97179602944,
-            "used": 5735886848
+            "free": 97176924160,
+            "used": 5738565632
           },
           {
             "id": "/boot:/dev/sda13",
@@ -1319,7 +1319,7 @@
             "used": 6383104
           }
         ],
-        "uptime": 7059748
+        "uptime": 7074568
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -1338,10 +1338,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-10T06:24:36.032380",
-        "updated_at": "2025-04-22T00:24:54.169517",
+        "updated_at": "2025-04-22T04:31:54.169260",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 7059748.0,
+        "uptime": 7074568.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -1360,15 +1360,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 849252352,
-        "memory_free": 12522680320,
+        "memory_usage": 860864512,
+        "memory_free": 12510105600,
         "memory_total": 16373882880,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 98759557120,
-            "used": 4128538624
+            "free": 98759061504,
+            "used": 4129034240
           },
           {
             "id": "/boot:/dev/sda16",
@@ -1383,7 +1383,7 @@
             "used": 6395392
           }
         ],
-        "uptime": 4815858
+        "uptime": 4830678
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -1402,10 +1402,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-07T13:29:45.510358",
-        "updated_at": "2025-04-22T00:24:39.921535",
+        "updated_at": "2025-04-22T04:31:39.922535",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 4815858.0,
+        "uptime": 4830678.0,
         "performance_score": 0.0,
         "update_status": "UpToDate",
         "errors": [
@@ -1583,15 +1583,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 3064778752,
-        "memory_free": 676691968,
+        "memory_usage": 3025240064,
+        "memory_free": 617803776,
         "memory_total": 16373874688,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 96180981760,
-            "used": 6707113984
+            "free": 96180105216,
+            "used": 6707990528
           },
           {
             "id": "/boot:/dev/sda16",
@@ -1608,23 +1608,23 @@
           {
             "id": "/mnt/storage:/dev/sdb",
             "total": 527295578112,
-            "free": 70967431168,
-            "used": 456328146944
+            "free": 70965547008,
+            "used": 456330031104
           },
           {
             "id": "/var/lib/docker/overlay2/ea9ce3dd2118291bdc3cbb7cd5903df455f1977dad09cada1b64ae783706649f/merged:overlay",
             "total": 102888095744,
-            "free": 96180981760,
-            "used": 6707113984
+            "free": 96180105216,
+            "used": 6707990528
           },
           {
             "id": "/var/lib/docker/overlay2/027c892eabbc1f7cb99e02b121203001d51782c1f1c6200dc034898335a263df/merged:overlay",
             "total": 102888095744,
-            "free": 96180981760,
-            "used": 6707113984
+            "free": 96180105216,
+            "used": 6707990528
           }
         ],
-        "uptime": 11525600
+        "uptime": 11540480
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -1643,10 +1643,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-08T21:29:53.986192",
-        "updated_at": "2025-04-22T00:24:25.209969",
+        "updated_at": "2025-04-22T04:32:25.194556",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 11525600.0,
+        "uptime": 11540480.0,
         "performance_score": 100.0,
         "update_status": "Updateable",
         "errors": [
@@ -1664,15 +1664,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 652017664,
-        "memory_free": 10406739968,
+        "memory_usage": 649551872,
+        "memory_free": 10400231424,
         "memory_total": 16373907456,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 96759906304,
-            "used": 6128189440
+            "free": 96754315264,
+            "used": 6133780480
           },
           {
             "id": "/boot:/dev/sda16",
@@ -1687,7 +1687,7 @@
             "used": 6395392
           }
         ],
-        "uptime": 14306721
+        "uptime": 14321541
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -1706,10 +1706,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-10T06:49:56.227870",
-        "updated_at": "2025-04-22T00:24:50.253971",
+        "updated_at": "2025-04-22T04:31:50.254678",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 14306721.0,
+        "uptime": 14321541.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -1775,15 +1775,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 637788160,
-        "memory_free": 2344939520,
+        "memory_usage": 645099520,
+        "memory_free": 2320670720,
         "memory_total": 8128630784,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 45026263040,
-            "used": 5857845248
+            "free": 45008760832,
+            "used": 5875347456
           },
           {
             "id": "/boot:/dev/sda16",
@@ -1798,7 +1798,7 @@
             "used": 6395392
           }
         ],
-        "uptime": 13948579
+        "uptime": 13963399
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -1817,10 +1817,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-10T07:08:41.468163",
-        "updated_at": "2025-04-22T00:25:01.757545",
+        "updated_at": "2025-04-22T04:32:01.756288",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 13948579.0,
+        "uptime": 13963399.0,
         "performance_score": 0.0,
         "update_status": "UpToDate",
         "errors": [
@@ -1838,15 +1838,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 875925504,
-        "memory_free": 3052138496,
+        "memory_usage": 875282432,
+        "memory_free": 3051532288,
         "memory_total": 8127901696,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 45943574528,
-            "used": 4940533760
+            "free": 45942996992,
+            "used": 4941111296
           },
           {
             "id": "/boot:/dev/sda16",
@@ -1861,7 +1861,7 @@
             "used": 6395392
           }
         ],
-        "uptime": 13009276
+        "uptime": 13024096
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -1880,10 +1880,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-10T07:12:04.431188",
-        "updated_at": "2025-04-22T00:24:38.246557",
+        "updated_at": "2025-04-22T04:31:38.247657",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 13009276.0,
+        "uptime": 13024096.0,
         "performance_score": 0.0,
         "update_status": "UpToDate",
         "errors": [
@@ -1901,15 +1901,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 746835968,
-        "memory_free": 11552997376,
+        "memory_usage": 747364352,
+        "memory_free": 11544793088,
         "memory_total": 16373882880,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 97820053504,
-            "used": 5068042240
+            "free": 97809506304,
+            "used": 5078589440
           },
           {
             "id": "/boot:/dev/sda16",
@@ -1924,7 +1924,7 @@
             "used": 6395392
           }
         ],
-        "uptime": 4812362
+        "uptime": 4827180
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -1937,16 +1937,16 @@
         "avs_type": "primus",
         "avs_version": "v0.2.1",
         "chain": "holesky",
-        "version_hash": "sha256:1678ded03c75269f49e12996f065c80d2d3845b52c16770e3bbda5d7205e4c47",
+        "version_hash": "sha256:91484093a3f1f4a3f0dd9ecc85209ebf70f224c4c8fa179f51582696a23f77b1",
         "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
         "active_set": true,
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-10T07:15:19.499669",
-        "updated_at": "2025-04-22T00:25:06.151162",
+        "updated_at": "2025-04-22T04:32:27.397443",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 4812362.0,
+        "uptime": 4827180.0,
         "performance_score": 0.0,
         "update_status": "UpToDate",
         "errors": [
@@ -2065,15 +2065,15 @@
       "sys_metrics": {
         "cpu_cores": 1,
         "cpu_usage": 0.0,
-        "memory_usage": 871092224,
-        "memory_free": 167784448,
+        "memory_usage": 871219200,
+        "memory_free": 145055744,
         "memory_total": 2012741632,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 24802426880,
-            "free": 10610434048,
-            "used": 14191992832
+            "free": 10590740480,
+            "used": 14211686400
           },
           {
             "id": "/boot:/dev/sda13",
@@ -2090,11 +2090,11 @@
           {
             "id": "/var/lib/docker/overlay2/52b8782ff535b937c5cb2afe33db983041fce5fa8a68c2c1925160986892ae5b/merged:overlay",
             "total": 24802426880,
-            "free": 10610434048,
-            "used": 14191992832
+            "free": 10590740480,
+            "used": 14211686400
           }
         ],
-        "uptime": 9984300
+        "uptime": 9999120
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -2113,10 +2113,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-10T07:30:37.046722",
-        "updated_at": "2025-04-22T00:24:51.888115",
+        "updated_at": "2025-04-22T04:31:51.918755",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 9984300.0,
+        "uptime": 9999120.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -2135,15 +2135,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 580218880,
-        "memory_free": 5187317760,
+        "memory_usage": 579371008,
+        "memory_free": 5187567616,
         "memory_total": 8128598016,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 47438835712,
-            "used": 3445272576
+            "free": 47438483456,
+            "used": 3445624832
           },
           {
             "id": "/boot:/dev/sda16",
@@ -2160,11 +2160,11 @@
           {
             "id": "/var/lib/docker/overlay2/24e37316e9b714f15aeacd01f58987054927755c42e1f8d367181e238dd0e97d/merged:overlay",
             "total": 50884108288,
-            "free": 47438835712,
-            "used": 3445272576
+            "free": 47438483456,
+            "used": 3445624832
           }
         ],
-        "uptime": 4621725
+        "uptime": 4636545
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -2186,7 +2186,7 @@
         "updated_at": "2025-04-21T22:16:39.004618",
         "protocol": null,
         "is_running": true,
-        "uptime": 4621725.0,
+        "uptime": 4636545.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -2209,10 +2209,10 @@
         "metrics_alive": false,
         "node_running": false,
         "created_at": "2025-03-10T07:40:18.836555",
-        "updated_at": "2025-04-22T00:24:41.407621",
+        "updated_at": "2025-04-22T04:31:41.407168",
         "protocol": null,
         "is_running": false,
-        "uptime": 4621725.0,
+        "uptime": 4636545.0,
         "performance_score": 0.0,
         "update_status": "UpToDate",
         "errors": [
@@ -2411,15 +2411,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 968114176,
-        "memory_free": 2241757184,
+        "memory_usage": 964014080,
+        "memory_free": 2214998016,
         "memory_total": 16373186560,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102915489792,
-            "free": 88918876160,
-            "used": 13996613632
+            "free": 88889458688,
+            "used": 14026031104
           },
           {
             "id": "/boot:/dev/sda13",
@@ -2434,7 +2434,7 @@
             "used": 6383104
           }
         ],
-        "uptime": 5245924
+        "uptime": 5260744
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -2453,10 +2453,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-13T10:57:49.492127",
-        "updated_at": "2025-04-22T00:24:49.674453",
+        "updated_at": "2025-04-22T04:31:49.671586",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 5245924.0,
+        "uptime": 5260744.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": []
@@ -2473,10 +2473,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-13T10:57:49.421404",
-        "updated_at": "2025-04-22T00:24:49.611393",
+        "updated_at": "2025-04-22T04:31:49.609938",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 5245924.0,
+        "uptime": 5260744.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": []
@@ -2492,15 +2492,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 2881867776,
-        "memory_free": 591286272,
+        "memory_usage": 2878345216,
+        "memory_free": 599015424,
         "memory_total": 16373882880,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 99187019776,
-            "used": 3701075968
+            "free": 99186225152,
+            "used": 3701870592
           },
           {
             "id": "/boot:/dev/sda16",
@@ -2517,23 +2517,23 @@
           {
             "id": "/mnt/data:/dev/sdb",
             "total": 527295578112,
-            "free": 465088860160,
-            "used": 62206717952
+            "free": 465096224768,
+            "used": 62199353344
           },
           {
             "id": "/var/lib/docker/overlay2/07037ae4f39e572b4db6c1c5b871cde86e52f50d4e3d3b1f9d77c38167b5ca55/merged:overlay",
             "total": 102888095744,
-            "free": 99187019776,
-            "used": 3701075968
+            "free": 99186225152,
+            "used": 3701870592
           },
           {
             "id": "/var/lib/docker/overlay2/008f439f421e9edfff6e3c7bf5a7c32106253237d6b6f087eba32a61f72ba0ed/merged:overlay",
             "total": 102888095744,
-            "free": 99187019776,
-            "used": 3701075968
+            "free": 99186225152,
+            "used": 3701870592
           }
         ],
-        "uptime": 4799073
+        "uptime": 4813893
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -2552,10 +2552,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-10T20:22:34.198121",
-        "updated_at": "2025-04-22T00:25:06.541593",
+        "updated_at": "2025-04-22T04:32:06.529250",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 4799073.0,
+        "uptime": 4813893.0,
         "performance_score": 100.0,
         "update_status": "Updateable",
         "errors": [
@@ -2573,15 +2573,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 2248695808,
-        "memory_free": 578895872,
+        "memory_usage": 2254721024,
+        "memory_free": 562921472,
         "memory_total": 16373874688,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 98965553152,
-            "used": 3922542592
+            "free": 98964152320,
+            "used": 3923943424
           },
           {
             "id": "/boot:/dev/sda16",
@@ -2598,23 +2598,23 @@
           {
             "id": "/mnt/data:/dev/sdb",
             "total": 527295578112,
-            "free": 474670596096,
-            "used": 52624982016
+            "free": 474665021440,
+            "used": 52630556672
           },
           {
             "id": "/var/lib/docker/overlay2/f5f2b0ad28803519ccba37916ffc1263f66d084dffecd58c03a95054e0c0d0e3/merged:overlay",
             "total": 102888095744,
-            "free": 98965553152,
-            "used": 3922542592
+            "free": 98964152320,
+            "used": 3923943424
           },
           {
             "id": "/var/lib/docker/overlay2/91b9bac271b09bfe7c8e20c83075d47dd92c35be5cc7aad08f838a89032df2d6/merged:overlay",
             "total": 102888095744,
-            "free": 98965553152,
-            "used": 3922542592
+            "free": 98964152320,
+            "used": 3923943424
           }
         ],
-        "uptime": 4813331
+        "uptime": 4828151
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -2633,10 +2633,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-10T20:25:59.703707",
-        "updated_at": "2025-04-22T00:24:51.625100",
+        "updated_at": "2025-04-22T04:31:51.623021",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 4813331.0,
+        "uptime": 4828151.0,
         "performance_score": 100.0,
         "update_status": "Updateable",
         "errors": [
@@ -2810,15 +2810,15 @@
       "sys_metrics": {
         "cpu_cores": 1,
         "cpu_usage": 0.0,
-        "memory_usage": 984002560,
-        "memory_free": 179486720,
+        "memory_usage": 931729408,
+        "memory_free": 230461440,
         "memory_total": 2012741632,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 24802426880,
-            "free": 21013798912,
-            "used": 3788627968
+            "free": 21013561344,
+            "used": 3788865536
           },
           {
             "id": "/boot:/dev/sda13",
@@ -2835,11 +2835,11 @@
           {
             "id": "/var/lib/docker/overlay2/794bde9a188ecd02ad88dd1641be5466082bb575695d98ca4d7deeb44e372bc3/merged:overlay",
             "total": 24802426880,
-            "free": 21013798912,
-            "used": 3788627968
+            "free": 21013561344,
+            "used": 3788865536
           }
         ],
-        "uptime": 7620110
+        "uptime": 7634930
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -2858,10 +2858,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T08:50:53.034208",
-        "updated_at": "2025-04-22T00:24:44.515287",
+        "updated_at": "2025-04-22T04:31:44.517956",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 7620110.0,
+        "uptime": 7634930.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -3095,15 +3095,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 1917554688,
-        "memory_free": 764125184,
+        "memory_usage": 1894625280,
+        "memory_free": 766353408,
         "memory_total": 8128598016,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 44609904640,
-            "used": 6274203648
+            "free": 44598456320,
+            "used": 6285651968
           },
           {
             "id": "/boot:/dev/sda16",
@@ -3120,23 +3120,23 @@
           {
             "id": "/var/lib/docker/overlay2/495bae84a6f4e84c7a83be6735c87c4a180b385004e0d9e8468518e29b37241a/merged:overlay",
             "total": 50884108288,
-            "free": 44609904640,
-            "used": 6274203648
+            "free": 44598456320,
+            "used": 6285651968
           },
           {
             "id": "/var/lib/docker/overlay2/5e83830af317d80d6ddad847cec4ed79c958dc7b53f4b2949d6e39603774a8ce/merged:overlay",
             "total": 50884108288,
-            "free": 44609904640,
-            "used": 6274203648
+            "free": 44598456320,
+            "used": 6285651968
           },
           {
             "id": "/var/lib/docker/overlay2/e5e07ed573f83fa2922c0424967b0c88b6fa4741d660c9bd801e8e162713b3c7/merged:overlay",
             "total": 50884108288,
-            "free": 44609904640,
-            "used": 6274203648
+            "free": 44598456320,
+            "used": 6285651968
           }
         ],
-        "uptime": 4715861
+        "uptime": 4730671
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -3155,10 +3155,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T10:04:16.004956",
-        "updated_at": "2025-04-22T00:24:46.820490",
+        "updated_at": "2025-04-22T04:31:36.990574",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 4715861.0,
+        "uptime": 4730671.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -3385,15 +3385,15 @@
       "sys_metrics": {
         "cpu_cores": 1,
         "cpu_usage": 0.0,
-        "memory_usage": 869187584,
-        "memory_free": 151552000,
+        "memory_usage": 875954176,
+        "memory_free": 146718720,
         "memory_total": 2012741632,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 24802426880,
-            "free": 19544047616,
-            "used": 5258379264
+            "free": 19547295744,
+            "used": 5255131136
           },
           {
             "id": "/boot:/dev/sda13",
@@ -3410,17 +3410,17 @@
           {
             "id": "/var/lib/docker/overlay2/69e89471fe5eda8b2587ba8c2cdec480029a2f277c0cc0c399e5cc8f66eeb5b8/merged:overlay",
             "total": 24802426880,
-            "free": 19544047616,
-            "used": 5258379264
+            "free": 19547295744,
+            "used": 5255131136
           },
           {
             "id": "/var/lib/docker/overlay2/3e691cac61c329dc12946eced6aba1a803dd344dd06bb24c160fb7abce197fa1/merged:overlay",
             "total": 24802426880,
-            "free": 19544047616,
-            "used": 5258379264
+            "free": 19547295744,
+            "used": 5255131136
           }
         ],
-        "uptime": 6621034
+        "uptime": 6635854
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -3439,10 +3439,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T10:58:31.622717",
-        "updated_at": "2025-04-22T00:24:54.253114",
+        "updated_at": "2025-04-22T04:31:54.272265",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 6621034.0,
+        "uptime": 6635854.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -3460,15 +3460,15 @@
       "sys_metrics": {
         "cpu_cores": 1,
         "cpu_usage": 0.0,
-        "memory_usage": 874143744,
-        "memory_free": 276873216,
+        "memory_usage": 872202240,
+        "memory_free": 269393920,
         "memory_total": 2012741632,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 24802426880,
-            "free": 19511975936,
-            "used": 5290450944
+            "free": 19503341568,
+            "used": 5299085312
           },
           {
             "id": "/boot:/dev/sda13",
@@ -3485,17 +3485,17 @@
           {
             "id": "/var/lib/docker/overlay2/9cf422c3a99ebea57dead9978f42d3028432045c4eec7bb0c9afe659acbb0dd6/merged:overlay",
             "total": 24802426880,
-            "free": 19511975936,
-            "used": 5290450944
+            "free": 19503341568,
+            "used": 5299085312
           },
           {
             "id": "/var/lib/docker/overlay2/6dba8dd6204510084d092ece0bee2374a99d82255ceaddde4d81c104ee58603a/merged:overlay",
             "total": 24802426880,
-            "free": 19511975936,
-            "used": 5290450944
+            "free": 19503341568,
+            "used": 5299085312
           }
         ],
-        "uptime": 6623567
+        "uptime": 6638387
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -3514,10 +3514,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T11:38:37.865751",
-        "updated_at": "2025-04-22T00:24:37.999693",
+        "updated_at": "2025-04-22T04:31:38.027013",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 6623567.0,
+        "uptime": 6638387.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -3535,15 +3535,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 2052313088,
-        "memory_free": 1404174336,
+        "memory_usage": 1789325312,
+        "memory_free": 1663889408,
         "memory_total": 8128626688,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 45443764224,
-            "used": 5440344064
+            "free": 45432881152,
+            "used": 5451227136
           },
           {
             "id": "/boot:/dev/sda16",
@@ -3560,23 +3560,23 @@
           {
             "id": "/var/lib/docker/overlay2/2217077cf4bd210261cd80b96b9a13e4730927f32832cae5b88bccada1c54cdf/merged:overlay",
             "total": 50884108288,
-            "free": 45443764224,
-            "used": 5440344064
+            "free": 45432881152,
+            "used": 5451227136
           },
           {
             "id": "/var/lib/docker/overlay2/61d2e3f6d4a2d06e5d8b44e99beb334351fb056c646334048f366e53ee1dca5c/merged:overlay",
             "total": 50884108288,
-            "free": 45443764224,
-            "used": 5440344064
+            "free": 45432881152,
+            "used": 5451227136
           },
           {
             "id": "/var/lib/docker/overlay2/7bec380cb6e4a4fead9ab04d15d5b99ca466c6e359ce3883d1b8294ac7819f74/merged:overlay",
             "total": 50884108288,
-            "free": 45443764224,
-            "used": 5440344064
+            "free": 45432881152,
+            "used": 5451227136
           }
         ],
-        "uptime": 12660162
+        "uptime": 12674982
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -3595,10 +3595,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-11T11:54:55.526969",
-        "updated_at": "2025-04-22T00:24:52.438222",
+        "updated_at": "2025-04-22T04:31:52.439476",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 12660162.0,
+        "uptime": 12674982.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -3616,15 +3616,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 1072021504,
-        "memory_free": 938942464,
+        "memory_usage": 1079926784,
+        "memory_free": 926883840,
         "memory_total": 8128630784,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 42609139712,
-            "used": 8274968576
+            "free": 42606469120,
+            "used": 8277639168
           },
           {
             "id": "/boot:/dev/sda16",
@@ -3641,35 +3641,35 @@
           {
             "id": "/var/lib/docker/overlay2/7b8ba2a26dc40c2d1d8d3eea4b7f747310935645264f957cb51e392113496270/merged:overlay",
             "total": 50884108288,
-            "free": 42609139712,
-            "used": 8274968576
+            "free": 42606469120,
+            "used": 8277639168
           },
           {
             "id": "/var/lib/docker/overlay2/5f4c33e764dcb87de5d24f0524f9a18a73ecdbb5880fdf54f9d9d7d2bf158000/merged:overlay",
             "total": 50884108288,
-            "free": 42609139712,
-            "used": 8274968576
+            "free": 42606469120,
+            "used": 8277639168
           },
           {
             "id": "/var/lib/docker/overlay2/29b4ad88573dac80adc93ba9158ba35d0249b9e89e43f0e0c87a9a39e67030df/merged:overlay",
             "total": 50884108288,
-            "free": 42609139712,
-            "used": 8274968576
+            "free": 42606469120,
+            "used": 8277639168
           },
           {
             "id": "/var/lib/docker/overlay2/a5af90ffe5be4d1377a39f03cf04a20e8f2e668d28271e4680aa31ce2ddb5dc8/merged:overlay",
             "total": 50884108288,
-            "free": 42609139712,
-            "used": 8274968576
+            "free": 42606469120,
+            "used": 8277639168
           },
           {
             "id": "/var/lib/docker/overlay2/7d08429b96978506e5bf636f17184a7016f40832dc30b6aa55af0b061c287972/merged:overlay",
             "total": 50884108288,
-            "free": 42609139712,
-            "used": 8274968576
+            "free": 42606469120,
+            "used": 8277639168
           }
         ],
-        "uptime": 12753812
+        "uptime": 12768632
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -3688,10 +3688,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-11T12:03:04.015899",
-        "updated_at": "2025-04-22T00:24:36.942199",
+        "updated_at": "2025-04-22T04:31:36.945025",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 12753812.0,
+        "uptime": 12768632.0,
         "performance_score": 100.0,
         "update_status": "Updateable",
         "errors": [
@@ -3709,15 +3709,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 975368192,
-        "memory_free": 11307433984,
+        "memory_usage": 972881920,
+        "memory_free": 11304615936,
         "memory_total": 16373186560,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102915489792,
-            "free": 97805316096,
-            "used": 5110173696
+            "free": 97801641984,
+            "used": 5113847808
           },
           {
             "id": "/boot:/dev/sda13",
@@ -3734,29 +3734,29 @@
           {
             "id": "/var/lib/docker/overlay2/a5b198ca0acfcf31f5b6541573348831e42cf4a645799686b024e25b63088c67/merged:overlay",
             "total": 102915489792,
-            "free": 97805316096,
-            "used": 5110173696
+            "free": 97801641984,
+            "used": 5113847808
           },
           {
             "id": "/var/lib/docker/overlay2/8a337237aefac618071588b9fde12deb5e491513e5d3cc5d35954b6aa2fb918c/merged:overlay",
             "total": 102915489792,
-            "free": 97805316096,
-            "used": 5110173696
+            "free": 97801641984,
+            "used": 5113847808
           },
           {
             "id": "/var/lib/docker/overlay2/e6e289e59c1a8f2c96c107c13b92bdbe0e39aa3dfff4a68d3b821aa41228c6d3/merged:overlay",
             "total": 102915489792,
-            "free": 97805316096,
-            "used": 5110173696
+            "free": 97801641984,
+            "used": 5113847808
           },
           {
             "id": "/var/lib/docker/overlay2/1ab20a382ee262de341eec3a4db8ce7aea125a800e9fe5bb822edd3c72bc0a30/merged:overlay",
             "total": 102915489792,
-            "free": 97805316096,
-            "used": 5110173696
+            "free": 97801641984,
+            "used": 5113847808
           }
         ],
-        "uptime": 6959560
+        "uptime": 6974380
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -3775,10 +3775,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T12:16:00.525295",
-        "updated_at": "2025-04-22T00:25:06.403499",
+        "updated_at": "2025-04-22T04:32:06.418010",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 6959560.0,
+        "uptime": 6974380.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -3946,15 +3946,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 892067840,
-        "memory_free": 504393728,
+        "memory_usage": 890527744,
+        "memory_free": 503754752,
         "memory_total": 4005584896,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 44424269824,
-            "used": 6459838464
+            "free": 44423897088,
+            "used": 6460211200
           },
           {
             "id": "/boot:/dev/sda16",
@@ -3971,17 +3971,17 @@
           {
             "id": "/var/lib/docker/overlay2/faeb3c99c70c5ce1f42e2cfd422ea15a4698f99bb53d84a70cd90860c40ea894/merged:overlay",
             "total": 50884108288,
-            "free": 44424269824,
-            "used": 6459838464
+            "free": 44423897088,
+            "used": 6460211200
           },
           {
             "id": "/var/lib/docker/overlay2/2c02bb710aa0e01f00b748d0e12433376cd0a12b18765fb3597ff34e13aa6b40/merged:overlay",
             "total": 50884108288,
-            "free": 44424269824,
-            "used": 6459838464
+            "free": 44423897088,
+            "used": 6460211200
           }
         ],
-        "uptime": 10856266
+        "uptime": 10871086
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -4000,10 +4000,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T12:45:18.465680",
-        "updated_at": "2025-04-22T00:25:18.637320",
+        "updated_at": "2025-04-22T04:32:18.627389",
         "protocol": null,
         "is_running": true,
-        "uptime": 10856266.0,
+        "uptime": 10871086.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -4070,15 +4070,15 @@
       "sys_metrics": {
         "cpu_cores": 1,
         "cpu_usage": 0.0,
-        "memory_usage": 998744064,
-        "memory_free": 177623040,
+        "memory_usage": 938790912,
+        "memory_free": 234450944,
         "memory_total": 2012741632,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 24802426880,
-            "free": 20995645440,
-            "used": 3806781440
+            "free": 20995436544,
+            "used": 3806990336
           },
           {
             "id": "/boot:/dev/sda13",
@@ -4095,11 +4095,11 @@
           {
             "id": "/var/lib/docker/overlay2/2564eb096d0ffea2ed199d5b996df2c53b586acfa09f6af34c8fa8b2e76d48df/merged:overlay",
             "total": 24802426880,
-            "free": 20995645440,
-            "used": 3806781440
+            "free": 20995436544,
+            "used": 3806990336
           }
         ],
-        "uptime": 7650151
+        "uptime": 7664971
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -4118,10 +4118,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T12:43:15.266307",
-        "updated_at": "2025-04-22T00:24:43.149368",
+        "updated_at": "2025-04-22T04:31:43.150548",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 7650151.0,
+        "uptime": 7664971.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -4140,15 +4140,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 1002971136,
-        "memory_free": 1765871616,
+        "memory_usage": 1007886336,
+        "memory_free": 1757130752,
         "memory_total": 8127934464,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50839412736,
-            "free": 44371255296,
-            "used": 6468157440
+            "free": 44368814080,
+            "used": 6470598656
           },
           {
             "id": "/boot:/dev/sda13",
@@ -4165,29 +4165,29 @@
           {
             "id": "/var/lib/docker/overlay2/02d06a77a5071c9d2f9e8cc25165938fafd3cbc4691a6b53a6f8e159fa89d1fa/merged:overlay",
             "total": 50839412736,
-            "free": 44371255296,
-            "used": 6468157440
+            "free": 44368814080,
+            "used": 6470598656
           },
           {
             "id": "/var/lib/docker/overlay2/6506b7ff334957d93337230de40332c638afb3f357a96afcbb5b9d02dfe6723c/merged:overlay",
             "total": 50839412736,
-            "free": 44371255296,
-            "used": 6468157440
+            "free": 44368814080,
+            "used": 6470598656
           },
           {
             "id": "/var/lib/docker/overlay2/cbdb9f5cd4d708b844b9165365d2ce698619072b83406d3a4819f8280d7426e5/merged:overlay",
             "total": 50839412736,
-            "free": 44371255296,
-            "used": 6468157440
+            "free": 44368814080,
+            "used": 6470598656
           },
           {
             "id": "/var/lib/docker/overlay2/71e4c57b22d2a0ed1923f32e3e7c664cb3942930093d6cbc1bef008cf65229c8/merged:overlay",
             "total": 50839412736,
-            "free": 44371255296,
-            "used": 6468157440
+            "free": 44368814080,
+            "used": 6470598656
           }
         ],
-        "uptime": 5320439
+        "uptime": 5335259
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -4206,10 +4206,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-11T12:45:36.603883",
-        "updated_at": "2025-04-22T00:24:44.997655",
+        "updated_at": "2025-04-22T04:31:44.990930",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 5320439.0,
+        "uptime": 5335259.0,
         "performance_score": 100.0,
         "update_status": "Updateable",
         "errors": [
@@ -4275,15 +4275,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 658026496,
-        "memory_free": 7817101312,
+        "memory_usage": 657547264,
+        "memory_free": 7816355840,
         "memory_total": 16373907456,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 94248566784,
-            "used": 8639528960
+            "free": 94248222720,
+            "used": 8639873024
           },
           {
             "id": "/boot:/dev/sda16",
@@ -4300,11 +4300,11 @@
           {
             "id": "/var/lib/docker/overlay2/f1406ed231a7c3c43425375bbfc73023558c5324695c3927c693f853940a3cfe/merged:overlay",
             "total": 102888095744,
-            "free": 94248566784,
-            "used": 8639528960
+            "free": 94248222720,
+            "used": 8639873024
           }
         ],
-        "uptime": 12755124
+        "uptime": 12769944
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -4323,10 +4323,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T12:55:12.349973",
-        "updated_at": "2025-04-22T00:24:48.319404",
+        "updated_at": "2025-04-22T04:31:48.312380",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 12755124.0,
+        "uptime": 12769944.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -4470,15 +4470,15 @@
       "sys_metrics": {
         "cpu_cores": 1,
         "cpu_usage": 0.0,
-        "memory_usage": 1014497280,
-        "memory_free": 191377408,
+        "memory_usage": 1023971328,
+        "memory_free": 159637504,
         "memory_total": 2012737536,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 24802426880,
-            "free": 10625671168,
-            "used": 14176755712
+            "free": 10597580800,
+            "used": 14204846080
           },
           {
             "id": "/boot:/dev/sda13",
@@ -4495,11 +4495,11 @@
           {
             "id": "/var/lib/docker/overlay2/cfeaf8aec48259ca45128de3006697e4e1177a6bae66e996d373842fc2793299/merged:overlay",
             "total": 24802426880,
-            "free": 10625671168,
-            "used": 14176755712
+            "free": 10597580800,
+            "used": 14204846080
           }
         ],
-        "uptime": 9468231
+        "uptime": 9483051
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -4518,10 +4518,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-11T13:03:14.761659",
-        "updated_at": "2025-04-22T00:24:52.625301",
+        "updated_at": "2025-04-22T04:31:52.633279",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 9468231.0,
+        "uptime": 9483051.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -4749,15 +4749,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 877338624,
-        "memory_free": 3571412992,
+        "memory_usage": 865570816,
+        "memory_free": 3581825024,
         "memory_total": 8128598016,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 46168457216,
-            "used": 4715651072
+            "free": 46167724032,
+            "used": 4716384256
           },
           {
             "id": "/boot:/dev/sda16",
@@ -4774,29 +4774,29 @@
           {
             "id": "/var/lib/docker/overlay2/f8db08e12aab856aba0b2e24d998153cc3a51ba938d2f959b82929ffd5c1a028/merged:overlay",
             "total": 50884108288,
-            "free": 46168457216,
-            "used": 4715651072
+            "free": 46167724032,
+            "used": 4716384256
           },
           {
             "id": "/var/lib/docker/overlay2/deaeb08d6964dc205cbf5adf689fc06d3445336f30ad523c3da8bdf1f7a66a4e/merged:overlay",
             "total": 50884108288,
-            "free": 46168457216,
-            "used": 4715651072
+            "free": 46167724032,
+            "used": 4716384256
           },
           {
             "id": "/var/lib/docker/overlay2/4103eaa7ccdc8c18beb1e8deb82bae35dc3c03c7852fb708e2daf145d1a11bae/merged:overlay",
             "total": 50884108288,
-            "free": 46168457216,
-            "used": 4715651072
+            "free": 46167724032,
+            "used": 4716384256
           },
           {
             "id": "/var/lib/docker/overlay2/4c70eaa861472da40c461ccd64072472e4424899a9122c2e465f9947303d1bd3/merged:overlay",
             "total": 50884108288,
-            "free": 46168457216,
-            "used": 4715651072
+            "free": 46167724032,
+            "used": 4716384256
           }
         ],
-        "uptime": 4625289
+        "uptime": 4640109
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -4818,7 +4818,7 @@
         "updated_at": "2025-04-14T17:20:25.922318",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 4625289.0,
+        "uptime": 4640109.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -4841,10 +4841,10 @@
         "metrics_alive": true,
         "node_running": true,
         "created_at": "2025-03-13T21:40:08.897831",
-        "updated_at": "2025-04-22T00:25:09.261362",
+        "updated_at": "2025-04-22T04:32:09.276628",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 4625289.0,
+        "uptime": 4640109.0,
         "performance_score": 100.0,
         "update_status": "Unknown",
         "errors": []
@@ -5118,15 +5118,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 1572892672,
-        "memory_free": 532504576,
+        "memory_usage": 1566851072,
+        "memory_free": 533983232,
         "memory_total": 16373194752,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102915489792,
-            "free": 65860308992,
-            "used": 37055180800
+            "free": 65848266752,
+            "used": 37067223040
           },
           {
             "id": "/boot:/dev/sda13",
@@ -5141,7 +5141,7 @@
             "used": 6383104
           }
         ],
-        "uptime": 5159978
+        "uptime": 5174858
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -5163,7 +5163,7 @@
         "updated_at": "2025-04-11T08:48:33.518652",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 5159978.0,
+        "uptime": 5174858.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -5189,7 +5189,7 @@
         "updated_at": "2025-04-11T08:51:23.438834",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 5159978.0,
+        "uptime": 5174858.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -5215,7 +5215,7 @@
         "updated_at": "2025-04-11T09:03:33.767741",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 5159978.0,
+        "uptime": 5174858.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [
@@ -5238,10 +5238,10 @@
         "metrics_alive": true,
         "node_running": false,
         "created_at": "2025-03-27T09:18:21.156342",
-        "updated_at": "2025-04-22T00:24:21.289526",
+        "updated_at": "2025-04-22T04:32:21.284018",
         "protocol": "Eigenlayer",
         "is_running": false,
-        "uptime": 5159978.0,
+        "uptime": 5174858.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -5260,15 +5260,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 1392119808,
-        "memory_free": 872185856,
+        "memory_usage": 1393455104,
+        "memory_free": 868593664,
         "memory_total": 16373907456,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102888095744,
-            "free": 20837580800,
-            "used": 82050514944
+            "free": 20836622336,
+            "used": 82051473408
           },
           {
             "id": "/boot:/dev/sda16",
@@ -5283,7 +5283,7 @@
             "used": 6395392
           }
         ],
-        "uptime": 16191427
+        "uptime": 16206247
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -5302,10 +5302,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-27T09:32:00.356399",
-        "updated_at": "2025-04-22T00:24:43.918434",
+        "updated_at": "2025-04-22T04:31:43.915150",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 16191427.0,
+        "uptime": 16206247.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -5324,15 +5324,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 2208526336,
-        "memory_free": 1163489280,
+        "memory_usage": 2213216256,
+        "memory_free": 1157230592,
         "memory_total": 8128622592,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 38391689216,
-            "used": 12492419072
+            "free": 38391029760,
+            "used": 12493078528
           },
           {
             "id": "/boot:/dev/sda16",
@@ -5347,7 +5347,7 @@
             "used": 6395392
           }
         ],
-        "uptime": 13109556
+        "uptime": 13124436
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -5366,10 +5366,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-04-16T07:51:49.155598",
-        "updated_at": "2025-04-22T00:24:24.844118",
+        "updated_at": "2025-04-22T04:32:24.847403",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 13109556.0,
+        "uptime": 13124436.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -5390,10 +5390,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-04-16T07:51:49.300370",
-        "updated_at": "2025-04-22T00:24:24.950621",
+        "updated_at": "2025-04-22T04:32:24.954629",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 13109556.0,
+        "uptime": 13124436.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -5414,10 +5414,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-04-16T07:51:49.224935",
-        "updated_at": "2025-04-22T00:24:24.896448",
+        "updated_at": "2025-04-22T04:32:24.901821",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 13109556.0,
+        "uptime": 13124436.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -5438,10 +5438,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-27T10:46:07.566400",
-        "updated_at": "2025-04-22T00:24:24.787415",
+        "updated_at": "2025-04-22T04:32:24.786393",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 13109556.0,
+        "uptime": 13124436.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -5461,15 +5461,15 @@
       "sys_metrics": {
         "cpu_cores": 2,
         "cpu_usage": 0.0,
-        "memory_usage": 3223076864,
-        "memory_free": 911872000,
+        "memory_usage": 3193417728,
+        "memory_free": 777400320,
         "memory_total": 8128630784,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 50884108288,
-            "free": 3408429056,
-            "used": 47475679232
+            "free": 3283582976,
+            "used": 47600525312
           },
           {
             "id": "/boot:/dev/sda16",
@@ -5484,7 +5484,7 @@
             "used": 6395392
           }
         ],
-        "uptime": 12654276
+        "uptime": 12669156
       },
       "memory_status": "Healthy",
       "disk_status": "Warning"
@@ -5503,10 +5503,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-03-27T13:04:23.114777",
-        "updated_at": "2025-04-22T00:24:23.281634",
+        "updated_at": "2025-04-22T04:32:23.276180",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 12654276.0,
+        "uptime": 12669156.0,
         "performance_score": 0.0,
         "update_status": "Updateable",
         "errors": [
@@ -5597,15 +5597,15 @@
       "sys_metrics": {
         "cpu_cores": 4,
         "cpu_usage": 0.0,
-        "memory_usage": 915456000,
-        "memory_free": 11980402688,
+        "memory_usage": 913547264,
+        "memory_free": 11980922880,
         "memory_total": 16373194752,
         "disks": [
           {
             "id": "/:/dev/sda1",
             "total": 102915489792,
-            "free": 98311032832,
-            "used": 4604456960
+            "free": 98310586368,
+            "used": 4604903424
           },
           {
             "id": "/boot:/dev/sda13",
@@ -5620,7 +5620,7 @@
             "used": 6383104
           }
         ],
-        "uptime": 12150378
+        "uptime": 12165198
       },
       "memory_status": "Healthy",
       "disk_status": "Healthy"
@@ -5639,10 +5639,10 @@
         "metrics_alive": false,
         "node_running": true,
         "created_at": "2025-04-04T10:28:37.830289",
-        "updated_at": "2025-04-22T00:24:37.961955",
+        "updated_at": "2025-04-22T04:31:37.963988",
         "protocol": "Eigenlayer",
         "is_running": true,
-        "uptime": 12150378.0,
+        "uptime": 12165198.0,
         "performance_score": 0.0,
         "update_status": "Unknown",
         "errors": [

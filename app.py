@@ -464,16 +464,31 @@ def get_filtered_avs_status_by_username():
         }
         for avs in avs_entries
     ])
-    
+
 @app.route("/api/alerts", methods=["GET"])
 def get_alert_logs():
     with app.app_context():
-        return jsonify([{
-            "timestamp": log.timestamp.isoformat(),
-            "avs_name": log.avs_name,
-            "protocol_name": log.protocol_name,
-            "message": log.message
-        } for log in AlertLog.query.order_by(AlertLog.timestamp.desc()).all()])
+        alert_logs = AlertLog.query.order_by(AlertLog.timestamp.desc()).all()
+        avs_lookup = {avs.avs_name: avs for avs in AVS.query.all()}
+
+        enriched_logs = []
+        for log in alert_logs:
+            avs = avs_lookup.get(log.avs_name)
+            if avs:
+                error_list = json.loads(avs.errors or "[]")
+                error_text = ", ".join(error_list) if error_list else "Unknown issue"
+                message = f"🚨 AVS Alert: {log.avs_name} has issues: {error_text}."
+            else:
+                message = log.message  # fallback to saved message
+
+            enriched_logs.append({
+                "timestamp": log.timestamp.isoformat(),
+                "avs_name": log.avs_name,
+                "protocol_name": log.protocol_name,
+                "message": message
+            })
+
+        return jsonify(enriched_logs)
 
 if __name__ == "__main__":
     # Test data fetching from 2 sources

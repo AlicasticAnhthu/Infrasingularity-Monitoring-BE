@@ -1,0 +1,5679 @@
+[
+  {
+    "machine_id": "3667ded5-c13f-4c55-9e1e-42941cddd797",
+    "name": "\"mainnet-eigenlayer\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 2363281408,
+        "memory_free": 510947328,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 20479101
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "09f1d72c-2612-4eea-8980-7d6e43fc4509",
+    "name": "\"is-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "9f8b6e9f-2ae2-49f0-ada9-0084af6bce5e",
+    "name": "\"is-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 591081472,
+        "memory_free": 14185291776,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 1906543
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "84ffacc8-58fd-4dec-8884-a1921a48025f",
+    "name": "\"is-openlayer-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 2004664320,
+        "memory_free": 275943424,
+        "memory_total": 4005597184,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 45213290496,
+            "used": 5670817792
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741240832,
+            "used": 181915648
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/a87bdc1d83d008d81d9acd69a0da94ca149107fd6a4cb058d25fc6ad278a6bf7/merged:overlay",
+            "total": 50884108288,
+            "free": 45213290496,
+            "used": 5670817792
+          },
+          {
+            "id": "/var/lib/docker/overlay2/98713df8f22181a09e913906d5143e8e8e9654ec4bc780e2ce215209a2ff49f5/merged:overlay",
+            "total": 50884108288,
+            "free": 45213290496,
+            "used": 5670817792
+          },
+          {
+            "id": "/var/lib/docker/overlay2/6ad60e0358a6c0115640a386495623eea2e5b749da78abee9357727d457bff52/merged:overlay",
+            "total": 50884108288,
+            "free": 45213290496,
+            "used": 5670817792
+          }
+        ],
+        "uptime": 11865954
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "84ffacc8-58fd-4dec-8884-a1921a48025f",
+        "avs_name": "is-openlayer-mainnet",
+        "avs_type": "open-layer-mainnet",
+        "avs_version": "latest",
+        "chain": "mainnet",
+        "version_hash": "sha256:",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-01-07T09:37:08.882716",
+        "updated_at": "2025-04-22T00:24:57.531908",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 11865954.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "5355a3c5-7ac9-4d43-8437-bfbe7f890031",
+    "name": "\"ava-is-mainnet-avs\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 787001344,
+        "memory_free": 4438958080,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 3207524
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "b8abd231-0106-4c28-8942-27638979d3d7",
+    "name": "\"tt-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 752668672,
+        "memory_free": 11070509056,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 4994141
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "954a4ac5-19e5-4d1a-94cb-7324da8f3026",
+    "name": "\"eigenda-tt-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 2251558912,
+        "memory_free": 1150910464,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 10985747
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "f0f717bc-dbd2-45f5-9106-3d22ad9cc140",
+    "name": "\"is-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 852365312,
+        "memory_free": 188411904,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 3007918
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "e40c45df-35bd-4036-b027-3e8b89f637ea",
+    "name": "\"tt-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 817016832,
+        "memory_free": 804196352,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 6018991
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "680052c6-b63b-4fc5-bb6e-1e275d61b306",
+    "name": "\"is-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 686465024,
+        "memory_free": 648069120,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 4472091
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "1dff9ee3-a245-4794-b84f-e603fb5d19c0",
+    "name": "\"tt-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 814166016,
+        "memory_free": 203800576,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 6218219
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "36d02ae6-e919-416c-bcce-892ddb3caf30",
+    "name": "\"tt-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 722800640,
+        "memory_free": 637526016,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 7487966
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "fffa7ac4-c811-4aeb-a4ee-fe780d83c793",
+    "name": "\"is-redstone-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 722104320,
+        "memory_free": 258187264,
+        "memory_total": 2012741632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 20275466240,
+            "used": 4526960640
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846946304,
+            "used": 189485056
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/948bcd74ab43656ef416e05fb4dad3896d7a8716d060109d47d338a57eaa4db7/merged:overlay",
+            "total": 24802426880,
+            "free": 20275466240,
+            "used": 4526960640
+          },
+          {
+            "id": "/var/lib/docker/overlay2/7bb359acdd2e8c595f9d9a90cab80cdbc51651e620e8158866ed3a0653f18c14/merged:overlay",
+            "total": 24802426880,
+            "free": 20275466240,
+            "used": 4526960640
+          }
+        ],
+        "uptime": 7907502
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "fffa7ac4-c811-4aeb-a4ee-fe780d83c793",
+        "avs_name": "is-redstone-testnet",
+        "avs_type": "redstone",
+        "avs_version": "Othentic",
+        "chain": "holesky",
+        "version_hash": "sha256:",
+        "operator_address": "0x121298c65a62d6c8a14ee44778bbe38ebea8c869",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-01-29T10:55:09.374946",
+        "updated_at": "2025-04-22T00:24:52.816123",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 7907502.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "86286037-5af8-42cd-a26f-8a55a2b38df0",
+    "name": "\"tt-redstone-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 696131584,
+        "memory_free": 191479808,
+        "memory_total": 2012741632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 20172251136,
+            "used": 4630175744
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846946304,
+            "used": 189485056
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/828b3d6ee23437d7f70a0e0f221aa2d8707f07dc4dc4e7787c211469623fcfc8/merged:overlay",
+            "total": 24802426880,
+            "free": 20172251136,
+            "used": 4630175744
+          },
+          {
+            "id": "/var/lib/docker/overlay2/d04c932576ed6cb7b615614c40600aa720aad7ce1b1ecdf32675ccfe42bdfa19/merged:overlay",
+            "total": 24802426880,
+            "free": 20172251136,
+            "used": 4630175744
+          }
+        ],
+        "uptime": 7835766
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "86286037-5af8-42cd-a26f-8a55a2b38df0",
+        "avs_name": "tt-redstone-testnet",
+        "avs_type": "redstone",
+        "avs_version": "Othentic",
+        "chain": "holesky",
+        "version_hash": "sha256:",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-01-29T11:10:53.785802",
+        "updated_at": "2025-04-22T00:24:46.640164",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 7835766.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "60d01db6-01b4-4172-a409-8b08b33ad4ad",
+    "name": "\"is-xteriomach-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 1352536064,
+        "memory_free": 8133259264,
+        "memory_total": 16373862400,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 94806822912,
+            "used": 8081272832
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741175296,
+            "used": 181981184
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/4ac0bd4478ec96fa6988814c9a54d30989ae52b8594aa71ad81845f5f3cd3dcb/merged:overlay",
+            "total": 102888095744,
+            "free": 94806822912,
+            "used": 8081272832
+          },
+          {
+            "id": "/var/lib/docker/overlay2/e30260d9206163a5b15df1eee35905db9f4996cd3f5391c286cba6a872383c80/merged:overlay",
+            "total": 102888095744,
+            "free": 94806822912,
+            "used": 8081272832
+          },
+          {
+            "id": "/var/lib/docker/overlay2/45ccb28938b0310689f5942ed1d0175be51ad8b6f12b285e4cd0239c79b6d21c/merged:overlay",
+            "total": 102888095744,
+            "free": 94806822912,
+            "used": 8081272832
+          },
+          {
+            "id": "/var/lib/docker/overlay2/1b25d9c857a04b12efdca91dbe56a00f7824b75a0dca6f02c59b14771dced517/merged:overlay",
+            "total": 102888095744,
+            "free": 94806822912,
+            "used": 8081272832
+          },
+          {
+            "id": "/var/lib/docker/overlay2/47ad04a0b4d7afadf40662bb55c5e7b78f0888898eb0d5310930a6fa42cedb70/merged:overlay",
+            "total": 102888095744,
+            "free": 94806822912,
+            "used": 8081272832
+          }
+        ],
+        "uptime": 10729715
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "60d01db6-01b4-4172-a409-8b08b33ad4ad",
+        "avs_name": "is-xteriomach-mainnet",
+        "avs_type": "altlayer-mach(xterio)",
+        "avs_version": "v0.3.3",
+        "chain": "mainnet",
+        "version_hash": "sha256:",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T08:56:32.385005",
+        "updated_at": "2025-04-19T14:11:53.452671",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 10729715.0,
+        "performance_score": 0.0,
+        "update_status": "UpToDate",
+        "errors": [
+          "CrashedNode",
+          "ActiveSetNoDeployment",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "8ae3f883-f1ac-4bfa-b1fc-66cd5cefd150",
+    "name": "\"is-altlayer-mach-avs-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 1419030528,
+        "memory_free": 8964366336,
+        "memory_total": 16369774592,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 51835101184,
+            "free": 45599346688,
+            "used": 6235754496
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103061504,
+            "used": 6333952
+          },
+          {
+            "id": "/var/lib/docker/overlay2/ddb3e193f358c5377c48483fb73a6825dc4f9bd7f898f78bfd74d22f9ef2213f/merged:overlay",
+            "total": 51835101184,
+            "free": 45599346688,
+            "used": 6235754496
+          },
+          {
+            "id": "/var/lib/docker/overlay2/b896d1e644e0a7a5b58b720ac0b2147e58129fe731254f3cd63778b6de51a131/merged:overlay",
+            "total": 51835101184,
+            "free": 45599346688,
+            "used": 6235754496
+          }
+        ],
+        "uptime": 16120279
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "8ae3f883-f1ac-4bfa-b1fc-66cd5cefd150",
+        "avs_name": "is-altlayer-mach-avs-mainnet",
+        "avs_type": "altlayer(altlayer-mach)",
+        "avs_version": "0.0.0",
+        "chain": "mainnet",
+        "version_hash": "sha256:b74f731a8411d8cb8eac3c6bc6bcffd3a29c95015c7a9e47c484a4c0e4a495f0",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T12:25:58.226262",
+        "updated_at": "2025-04-22T00:25:13.176295",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 16120279.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      },
+      {
+        "machine_id": "8ae3f883-f1ac-4bfa-b1fc-66cd5cefd150",
+        "avs_name": "is-altlayermach-mainnet",
+        "avs_type": "altlayer-mach(cyber)",
+        "avs_version": "v0.2.2",
+        "chain": "mainnet",
+        "version_hash": "sha256:",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": false,
+        "created_at": "2025-01-30T10:07:41.052726",
+        "updated_at": "2025-04-22T00:25:13.123480",
+        "protocol": "Eigenlayer",
+        "is_running": false,
+        "uptime": 16120279.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NoMetrics",
+          "NodeNotRunning",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "0e6375a8-4f81-4de1-8ead-5e25aebbb284",
+    "name": "\"is-machaltlayer-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 965177344,
+        "memory_free": 9856233472,
+        "memory_total": 16373862400,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 96142524416,
+            "used": 6745571328
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741175296,
+            "used": 181981184
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/a940957fb780fc2804e7e80353bdcec4623b96187deb9c693807534ddcdbedcd/merged:overlay",
+            "total": 102888095744,
+            "free": 96142524416,
+            "used": 6745571328
+          },
+          {
+            "id": "/var/lib/docker/overlay2/09f65b3caf4de89b3688bd4b15f4ffc6119bbfca0cd6284111fb31d92d7859a1/merged:overlay",
+            "total": 102888095744,
+            "free": 96142524416,
+            "used": 6745571328
+          },
+          {
+            "id": "/var/lib/docker/overlay2/0d2de301f8682b0510b6e6adc24bf1823edeec573ebe25afd8f580af35a72d31/merged:overlay",
+            "total": 102888095744,
+            "free": 96142524416,
+            "used": 6745571328
+          },
+          {
+            "id": "/var/lib/docker/overlay2/a92ae64bd2b50436d3d2f9a31206be8ef0a9f78107dd66136a2eaab8e5e02075/merged:overlay",
+            "total": 102888095744,
+            "free": 96142524416,
+            "used": 6745571328
+          },
+          {
+            "id": "/var/lib/docker/overlay2/1c0003567252801df19111f7e426c8deeca5e9283a3d793ad3d79d63a45163f2/merged:overlay",
+            "total": 102888095744,
+            "free": 96142524416,
+            "used": 6745571328
+          },
+          {
+            "id": "/var/lib/docker/overlay2/21b89adcfc373dbd271113a5437359e555cd8f6ccd91ae7469e4aac00577bfdf/merged:overlay",
+            "total": 102888095744,
+            "free": 96142524416,
+            "used": 6745571328
+          },
+          {
+            "id": "/var/lib/docker/overlay2/97bd2bdb131e1ff13f61acbfd6e90ef410451bd8d240533fbccba62bcdfd2e14/merged:overlay",
+            "total": 102888095744,
+            "free": 96142524416,
+            "used": 6745571328
+          }
+        ],
+        "uptime": 10937969
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "0e6375a8-4f81-4de1-8ead-5e25aebbb284",
+        "avs_name": "is-machaltlayer-mainnet",
+        "avs_type": "altlayer(altlayer-mach)",
+        "avs_version": "v0.3.3",
+        "chain": "mainnet",
+        "version_hash": "sha256:",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T09:19:36.702802",
+        "updated_at": "2025-04-22T00:24:35.913145",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 10937969.0,
+        "performance_score": 0.0,
+        "update_status": "UpToDate",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "40f99362-3ab3-4c81-a485-b86b86cf0fc8",
+    "name": "\"is-ditto-testnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 610557952,
+        "memory_free": 4486135808,
+        "memory_total": 8128589824,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 45874499584,
+            "used": 5009608704
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741175296,
+            "used": 181981184
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/42c8b3ea4d5f8c01b938ec3d9f883822a8507b2a986b21f58b80c5d941275884/merged:overlay",
+            "total": 50884108288,
+            "free": 45874499584,
+            "used": 5009608704
+          }
+        ],
+        "uptime": 9138865
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "3b252f09-2a5c-4b40-8916-241b1f15186e",
+    "name": "\"tt-predicate-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 722780160,
+        "memory_free": 837894144,
+        "memory_total": 16373899264,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 65330802688,
+            "used": 37557293056
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741240832,
+            "used": 181915648
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/18994a9ac8cf34f0eb04d049b4f3c05b7f3b4c8ad17798ee82fb6e38dc9b5063/merged:overlay",
+            "total": 102888095744,
+            "free": 65330802688,
+            "used": 37557293056
+          }
+        ],
+        "uptime": 12967144
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "3b252f09-2a5c-4b40-8916-241b1f15186e",
+        "avs_name": "tt-predicate-mainnet",
+        "avs_type": "predicate",
+        "avs_version": "v1.0.5",
+        "chain": "mainnet",
+        "version_hash": "sha256:",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-02-06T07:59:29.534677",
+        "updated_at": "2025-04-10T17:56:21.890676",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 12967144.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "CrashedNode",
+          "ActiveSetNoDeployment",
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "c6c090f5-d431-41a3-bce9-eb5872562af3",
+    "name": "\"is-predicate-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 679809024,
+        "memory_free": 13045317632,
+        "memory_total": 16373866496,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 97536897024,
+            "used": 5351198720
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741175296,
+            "used": 181981184
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/23620eb97e6ec3ef26be870f0592f37fe7e85420b430bf77a46e4e020d577292/merged:overlay",
+            "total": 102888095744,
+            "free": 97536897024,
+            "used": 5351198720
+          }
+        ],
+        "uptime": 10924296
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "c6c090f5-d431-41a3-bce9-eb5872562af3",
+        "avs_name": "is-predicate-mainnet",
+        "avs_type": "predicate",
+        "avs_version": "v1.0.5",
+        "chain": "mainnet",
+        "version_hash": "sha256:",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-02-06T08:10:45.330519",
+        "updated_at": "2025-04-22T00:24:55.791910",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 10924296.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "f2c80cf3-8eff-4caf-a865-e34f0a7e0780",
+    "name": "\"ditto-tt-avs\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 884224000,
+        "memory_free": 520183808,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 14031852
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "ClientUpdateRequired"
+    ],
+    "avs_list": [
+      {
+        "machine_id": "f2c80cf3-8eff-4caf-a865-e34f0a7e0780",
+        "avs_name": "tt-ditto-avs",
+        "avs_type": "ditto-network(unknown)",
+        "avs_version": "0.0.0",
+        "chain": "holesky",
+        "version_hash": "",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": false,
+        "created_at": "2025-02-07T09:08:30.884592",
+        "updated_at": "2025-02-28T22:17:08.202477",
+        "protocol": null,
+        "is_running": false,
+        "uptime": 14031852.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics",
+          "NodeNotRunning",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "d847d319-8d5e-423c-a923-a425e7389db7",
+    "name": "\"zellular-tt-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 647467008,
+        "memory_free": 4393144320,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 14037335
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "ClientUpdateRequired"
+    ],
+    "avs_list": [
+      {
+        "machine_id": "d847d319-8d5e-423c-a923-a425e7389db7",
+        "avs_name": "tt-zellular-testnet",
+        "avs_type": "zellular",
+        "avs_version": "latest",
+        "chain": "holesky",
+        "version_hash": "sha256:194cc7653c02decf5908f1f80aec6f3d1fc7c2f79f5d587673024b39914eecc2",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": false,
+        "created_at": "2025-02-07T09:36:47.361125",
+        "updated_at": "2025-02-28T22:16:53.241793",
+        "protocol": "Eigenlayer",
+        "is_running": false,
+        "uptime": 14037335.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "CrashedNode",
+          "ActiveSetNoDeployment",
+          "NoMetrics",
+          "NodeNotRunning",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "16c46ed8-9905-4cf0-be54-b1eb1501b0b8",
+    "name": "\"is-predicate-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "d90ee4f5-6d02-42a7-b50b-e8093d7ac001",
+    "name": "\"is-predicate-testnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 883699712,
+        "memory_free": 6878429184,
+        "memory_total": 16373190656,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 93383344128,
+            "used": 9532145664
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 847011840,
+            "used": 189419520
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/72e21ab1e6d654e04a4ad6bd1595b51b0c22142a2c7d21317d4146f5290ce0bd/merged:overlay",
+            "total": 102915489792,
+            "free": 93383344128,
+            "used": 9532145664
+          },
+          {
+            "id": "/var/lib/docker/overlay2/73d3f0e3bb1e909a9abe9dd676a568b6580f618b5f5153833b4b5cf746b0ca0c/merged:overlay",
+            "total": 102915489792,
+            "free": 93383344128,
+            "used": 9532145664
+          },
+          {
+            "id": "/var/lib/docker/overlay2/144d88245dcb373a52fdab5b2af6e5cd18e111993adb6148cc4c0d4b1f2769ed/merged:overlay",
+            "total": 102915489792,
+            "free": 93383344128,
+            "used": 9532145664
+          }
+        ],
+        "uptime": 3019886
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "fb92cce1-e7fa-4a9c-b20b-de3a56a2d5b6",
+    "name": "\"is-go-plus-avs-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 1042690048,
+        "memory_free": 230739968,
+        "memory_total": 8127897600,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 80731766784,
+            "used": 22156328960
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741605376,
+            "used": 181551104
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 13625433
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "fb92cce1-e7fa-4a9c-b20b-de3a56a2d5b6",
+        "avs_name": "is-go-plus-avs-mainnet",
+        "avs_type": "go-plus-avs",
+        "avs_version": "Local",
+        "chain": "mainnet",
+        "version_hash": "sha256:c824c3374fa01a02eb32f8664dc0fc25477ba93f35aa366d98a7634aaba51910",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-07T12:10:30.789003",
+        "updated_at": "2025-04-22T00:24:34.028351",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 13625433.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": []
+      }
+    ]
+  },
+  {
+    "machine_id": "ac435dfa-8584-43be-9c54-55c5cde0079e",
+    "name": "\"tt-goplus-mainnet-avs\"",
+    "status": "Healthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 992313344,
+        "memory_free": 433160192,
+        "memory_total": 8127909888,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 85664813056,
+            "used": 17223282688
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741593088,
+            "used": 181563392
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 10126386
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "ac435dfa-8584-43be-9c54-55c5cde0079e",
+        "avs_name": "tt-goplus-mainnet-avs",
+        "avs_type": "go-plus-avs",
+        "avs_version": "Local",
+        "chain": "mainnet",
+        "version_hash": "sha256:179b8b3ca0e40401ab96a01ebdfd3bddf536dc69c9035b01507e08b8fbee355f",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-07T13:23:38.473898",
+        "updated_at": "2025-03-12T13:19:38.598894",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 10126386.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "CrashedNode",
+          "ActiveSetNoDeployment"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "6e821fba-7318-43ee-ae2c-098e3d039fa7",
+    "name": "\"is-holonym-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 1033564160,
+        "memory_free": 10430685184,
+        "memory_total": 16373194752,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 97179602944,
+            "used": 5735886848
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846942208,
+            "used": 189489152
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          }
+        ],
+        "uptime": 7059748
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "6e821fba-7318-43ee-ae2c-098e3d039fa7",
+        "avs_name": "is-holonym-mainnet",
+        "avs_type": "mishti-network(eigenlayer)",
+        "avs_version": "Othentic",
+        "chain": "mainnet",
+        "version_hash": "sha256:62d56aac05339264dab2a20e84a10a2f12dbf24e53039dfaeaf079422bbf0293",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T06:24:36.032380",
+        "updated_at": "2025-04-22T00:24:54.169517",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 7059748.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "19c55895-b623-4195-8a42-7ebb806ab80f",
+    "name": "\"is-automata-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 849252352,
+        "memory_free": 12522680320,
+        "memory_total": 16373882880,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 98759557120,
+            "used": 4128538624
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741584896,
+            "used": 181571584
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 4815858
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "19c55895-b623-4195-8a42-7ebb806ab80f",
+        "avs_name": "is-automata-mainnet",
+        "avs_type": "automata",
+        "avs_version": "v0.6.0",
+        "chain": "mainnet",
+        "version_hash": "sha256:752f1aa02438255a58a9b9974843410ca8975b7b8a617ae078e82bc10a243c5d",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-07T13:29:45.510358",
+        "updated_at": "2025-04-22T00:24:39.921535",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 4815858.0,
+        "performance_score": 0.0,
+        "update_status": "UpToDate",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "b9b70dfd-3e9a-48c9-9c8e-c2b573bfa087",
+    "name": "\"tt-venn-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 915025920,
+        "memory_free": 12472102912,
+        "memory_total": 16373194752,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 98741940224,
+            "used": 4173549568
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 847015936,
+            "used": 189415424
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          }
+        ],
+        "uptime": 8985543
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "b9b70dfd-3e9a-48c9-9c8e-c2b573bfa087",
+        "avs_name": "tt-venn-testnet",
+        "avs_type": "unknown",
+        "avs_version": "0.0.0",
+        "chain": "holesky",
+        "version_hash": "sha256:e0f578e352ec0e6f40b695c02f3f74e9c75781c3232d273a309db5e4d54966f5",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T06:30:52.646417",
+        "updated_at": "2025-03-17T09:02:57.224661",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 8985543.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "1edbb7cf-010f-40f1-aea1-5623916c1830",
+    "name": "\"tt-skate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "a7c5be10-03aa-483d-a5aa-eed612db4648",
+    "name": "\"tt-skate-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 865890304,
+        "memory_free": 11365908480,
+        "memory_total": 16373194752,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 97654648832,
+            "used": 5260840960
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 847011840,
+            "used": 189419520
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/9240aa2c9d569c34988f40a6aa7ad2c026055c027c6c389ec88d17d6ede4824c/merged:overlay",
+            "total": 102915489792,
+            "free": 97654648832,
+            "used": 5260840960
+          }
+        ],
+        "uptime": 2149640
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "a7c5be10-03aa-483d-a5aa-eed612db4648",
+        "avs_name": "tt-skate-mainnet",
+        "avs_type": "skate-chain(mantle)",
+        "avs_version": "Othentic",
+        "chain": "mainnet",
+        "version_hash": "sha256:2111d00f07efe36ec7accf41f9dc92101b5e9b4a8a8219e3059559cfba5ad88c",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T06:41:19.746794",
+        "updated_at": "2025-03-12T19:21:19.847904",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 2149640.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "CrashedNode",
+          "ActiveSetNoDeployment",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "d880c954-191d-4ecb-87c1-adc7046f5110",
+    "name": "\"is-eigenda-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 3064778752,
+        "memory_free": 676691968,
+        "memory_total": 16373874688,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 96180981760,
+            "used": 6707113984
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741240832,
+            "used": 181915648
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/mnt/storage:/dev/sdb",
+            "total": 527295578112,
+            "free": 70967431168,
+            "used": 456328146944
+          },
+          {
+            "id": "/var/lib/docker/overlay2/ea9ce3dd2118291bdc3cbb7cd5903df455f1977dad09cada1b64ae783706649f/merged:overlay",
+            "total": 102888095744,
+            "free": 96180981760,
+            "used": 6707113984
+          },
+          {
+            "id": "/var/lib/docker/overlay2/027c892eabbc1f7cb99e02b121203001d51782c1f1c6200dc034898335a263df/merged:overlay",
+            "total": 102888095744,
+            "free": 96180981760,
+            "used": 6707113984
+          }
+        ],
+        "uptime": 11525600
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "d880c954-191d-4ecb-87c1-adc7046f5110",
+        "avs_name": "is-eigenda-testnet",
+        "avs_type": "eigen-da",
+        "avs_version": "0.9.0-rc.0",
+        "chain": "holesky",
+        "version_hash": "sha256:cf98485773c249ecf3df50a74967c85659a373ddc066b107adb44b50f4c26b37",
+        "operator_address": "0x121298c65a62d6c8a14ee44778bbe38ebea8c869",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-08T21:29:53.986192",
+        "updated_at": "2025-04-22T00:24:25.209969",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 11525600.0,
+        "performance_score": 100.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "90aa9c01-1967-465d-8cf9-9c3281c68089",
+    "name": "\"is-blockless-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 652017664,
+        "memory_free": 10406739968,
+        "memory_total": 16373907456,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 96759906304,
+            "used": 6128189440
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741605376,
+            "used": 181551104
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 14306721
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "90aa9c01-1967-465d-8cf9-9c3281c68089",
+        "avs_name": "is-blockless-testnet",
+        "avs_type": "blockless",
+        "avs_version": "Local",
+        "chain": "holesky",
+        "version_hash": "sha256:3a1aa2579190cd92d283a51e6df2c7ad9415e9e7f7c52dd0590e1a84b5fbf952",
+        "operator_address": "0x121298c65a62d6c8a14ee44778bbe38ebea8c869",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T06:49:56.227870",
+        "updated_at": "2025-04-22T00:24:50.253971",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 14306721.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "282dd738-c74a-41a8-8475-49cfc8e3a712",
+    "name": "\"is-zellular-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "848de44c-c1d3-40a0-ab5d-e7dbfd7cb1a5",
+    "name": "\"is-zellular-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "d4d5bfab-6f9b-40d7-ad62-50a50d523fad",
+    "name": "\"is-pado-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 637788160,
+        "memory_free": 2344939520,
+        "memory_total": 8128630784,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 45026263040,
+            "used": 5857845248
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741605376,
+            "used": 181551104
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 13948579
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "d4d5bfab-6f9b-40d7-ad62-50a50d523fad",
+        "avs_name": "is-pado-testnet",
+        "avs_type": "primus",
+        "avs_version": "v0.2.1",
+        "chain": "holesky",
+        "version_hash": "sha256:37bc05bff62c531e7428c15496f2a25c1c0bd3684ee22f244f6662239c5ba73e",
+        "operator_address": "0x121298c65a62d6c8a14ee44778bbe38ebea8c869",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T07:08:41.468163",
+        "updated_at": "2025-04-22T00:25:01.757545",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 13948579.0,
+        "performance_score": 0.0,
+        "update_status": "UpToDate",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "22ec346d-9553-4c71-9d9d-14deecf090a0",
+    "name": "\"tt-automata-mainnet-avs\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 875925504,
+        "memory_free": 3052138496,
+        "memory_total": 8127901696,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 45943574528,
+            "used": 4940533760
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741244928,
+            "used": 181911552
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 13009276
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "22ec346d-9553-4c71-9d9d-14deecf090a0",
+        "avs_name": "tt-automata-mainnet-avs",
+        "avs_type": "automata",
+        "avs_version": "v0.6.0",
+        "chain": "mainnet",
+        "version_hash": "sha256:a8e7a66f3251215d8102e34cae39cd9ced7afa22d45529e7af9312f58b955a50",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T07:12:04.431188",
+        "updated_at": "2025-04-22T00:24:38.246557",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 13009276.0,
+        "performance_score": 0.0,
+        "update_status": "UpToDate",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "db07b3c3-aeef-46d5-8878-19d41c4698af",
+    "name": "\"tt-pado-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 746835968,
+        "memory_free": 11552997376,
+        "memory_total": 16373882880,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 97820053504,
+            "used": 5068042240
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741584896,
+            "used": 181571584
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 4812362
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "db07b3c3-aeef-46d5-8878-19d41c4698af",
+        "avs_name": "tt-pado-testnet",
+        "avs_type": "primus",
+        "avs_version": "v0.2.1",
+        "chain": "holesky",
+        "version_hash": "sha256:1678ded03c75269f49e12996f065c80d2d3845b52c16770e3bbda5d7205e4c47",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T07:15:19.499669",
+        "updated_at": "2025-04-22T00:25:06.151162",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 4812362.0,
+        "performance_score": 0.0,
+        "update_status": "UpToDate",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "b208ef64-d332-4889-b60f-4301f33306b4",
+    "name": "\"tt-ungate-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "827e7d81-ad4a-4faa-965e-e6be398a8d71",
+    "name": "\"tt-ungate-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 750391296,
+        "memory_free": 1990291456,
+        "memory_total": 4004917248,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50839412736,
+            "free": 45382397952,
+            "used": 5457014784
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846614528,
+            "used": 189816832
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/fb04d373e7b00444869be035dfefc26cc5082acc06f697d9c4cce2c2505dac24/merged:overlay",
+            "total": 50839412736,
+            "free": 45382397952,
+            "used": 5457014784
+          },
+          {
+            "id": "/var/lib/docker/overlay2/b15d4a90f5a6bf9822a1b45437e2b4e58450ea3c5c3bb5a0f0b9d9a71e2e96a0/merged:overlay",
+            "total": 50839412736,
+            "free": 45382397952,
+            "used": 5457014784
+          }
+        ],
+        "uptime": 685384
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "827e7d81-ad4a-4faa-965e-e6be398a8d71",
+        "avs_name": "tt-ungate-testnet",
+        "avs_type": "ungate-infini-route(unknown-l-2)",
+        "avs_version": "Othentic",
+        "chain": "holesky",
+        "version_hash": "sha256:7960a905862e397206128fb7ee6836a7515c7d052d3df53f3816ffd8defb280e",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T07:25:31.698515",
+        "updated_at": "2025-03-12T10:36:31.808267",
+        "protocol": null,
+        "is_running": true,
+        "uptime": 685384.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "4c863a1f-c3aa-4823-8027-bdaf9e393af3",
+    "name": "\"is-witness-pol\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 871092224,
+        "memory_free": 167784448,
+        "memory_total": 2012741632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 10610434048,
+            "used": 14191992832
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846946304,
+            "used": 189485056
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/52b8782ff535b937c5cb2afe33db983041fce5fa8a68c2c1925160986892ae5b/merged:overlay",
+            "total": 24802426880,
+            "free": 10610434048,
+            "used": 14191992832
+          }
+        ],
+        "uptime": 9984300
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "4c863a1f-c3aa-4823-8027-bdaf9e393af3",
+        "avs_name": "is-witness-pol",
+        "avs_type": "witness-chain",
+        "avs_version": "0.0.0",
+        "chain": "holesky",
+        "version_hash": "sha256:87f475f59c7052171c571bb07578cbf3964e8e09475507a666e8d8dd302fb61b",
+        "operator_address": "0x121298c65a62d6c8a14ee44778bbe38ebea8c869",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T07:30:37.046722",
+        "updated_at": "2025-04-22T00:24:51.888115",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 9984300.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "b790c463-3d9b-4f33-8944-efbd53bbeaf8",
+    "name": "\"tt-ditto-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 580218880,
+        "memory_free": 5187317760,
+        "memory_total": 8128598016,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 47438835712,
+            "used": 3445272576
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741584896,
+            "used": 181571584
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/24e37316e9b714f15aeacd01f58987054927755c42e1f8d367181e238dd0e97d/merged:overlay",
+            "total": 50884108288,
+            "free": 47438835712,
+            "used": 3445272576
+          }
+        ],
+        "uptime": 4621725
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "b790c463-3d9b-4f33-8944-efbd53bbeaf8",
+        "avs_name": "ditto--2operator",
+        "avs_type": "ditto-network(unknown)",
+        "avs_version": "v0.0.2",
+        "chain": null,
+        "version_hash": "sha256:eb61c1ed0329e501f3d9b0b0eec6370a7014a72f65b602112adfb3a97b02a49f",
+        "operator_address": null,
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-04-14T19:00:11.340386",
+        "updated_at": "2025-04-21T22:16:39.004618",
+        "protocol": null,
+        "is_running": true,
+        "uptime": 4621725.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics",
+          "NoChainInfo",
+          "NoOperatorId"
+        ]
+      },
+      {
+        "machine_id": "b790c463-3d9b-4f33-8944-efbd53bbeaf8",
+        "avs_name": "tt-ditto-testnet",
+        "avs_type": "ditto-network(unknown)",
+        "avs_version": "v0.0.2",
+        "chain": "holesky",
+        "version_hash": "sha256:eb61c1ed0329e501f3d9b0b0eec6370a7014a72f65b602112adfb3a97b02a49f",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": false,
+        "created_at": "2025-03-10T07:40:18.836555",
+        "updated_at": "2025-04-22T00:24:41.407621",
+        "protocol": null,
+        "is_running": false,
+        "uptime": 4621725.0,
+        "performance_score": 0.0,
+        "update_status": "UpToDate",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics",
+          "NodeNotRunning"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "e5bc2d31-07be-4731-8c54-cf175cbd0c7e",
+    "name": "\"is-chainbase-instance\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 2929020928,
+        "memory_free": 807325696,
+        "memory_total": 8128622592,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 38445244416,
+            "used": 12438863872
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741228544,
+            "used": 181927936
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 10115454
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "adf69614-d0d7-46d1-99b4-45e81793efb7",
+    "name": "\"is-k3-testnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 1356939264,
+        "memory_free": 584425472,
+        "memory_total": 16373907456,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 27260190720,
+            "used": 75627905024
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741597184,
+            "used": 181559296
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 13974933
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "3954546c-9ab0-428f-b4ca-0986471e4293",
+    "name": "\"is-skate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "de5a7b9c-8bec-4a9f-9fa4-a612bb9ec775",
+    "name": "\"is-skate-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 831111168,
+        "memory_free": 11087429632,
+        "memory_total": 16373194752,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 97382318080,
+            "used": 5533171712
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 847011840,
+            "used": 189419520
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/b1043f07d4376864e50a2db796b53793daab7fc6f0bc7a12f9d3eb004f35079d/merged:overlay",
+            "total": 102915489792,
+            "free": 97382318080,
+            "used": 5533171712
+          }
+        ],
+        "uptime": 2154131
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "de5a7b9c-8bec-4a9f-9fa4-a612bb9ec775",
+        "avs_name": "is-skate-mainnet",
+        "avs_type": "skate-chain(mantle)",
+        "avs_version": "Othentic",
+        "chain": "mainnet",
+        "version_hash": "sha256:e10a2b021b498a37f1876487d707cf055b88152d12028db2477c81c95eeefc8a",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-10T09:13:34.742080",
+        "updated_at": "2025-03-12T19:11:34.854439",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 2154131.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "CrashedNode",
+          "ActiveSetNoDeployment",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "b349ead0-f82b-44e7-8c16-5ba966fb5361",
+    "name": "\"tt-hyperlane-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 968114176,
+        "memory_free": 2241757184,
+        "memory_total": 16373186560,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 88918876160,
+            "used": 13996613632
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846942208,
+            "used": 189489152
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          }
+        ],
+        "uptime": 5245924
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "b349ead0-f82b-44e7-8c16-5ba966fb5361",
+        "avs_name": "tt-hyperlane-mainnet-base-validator",
+        "avs_type": "hyperlane(eigenlayer)",
+        "avs_version": "7a8478b-20240703-113821",
+        "chain": "mainnet",
+        "version_hash": "sha256:99dba398784ff44db73734a487a1f13f9a28c8b2ac800ab8e9e6937265ac0151",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-13T10:57:49.492127",
+        "updated_at": "2025-04-22T00:24:49.674453",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 5245924.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": []
+      },
+      {
+        "machine_id": "b349ead0-f82b-44e7-8c16-5ba966fb5361",
+        "avs_name": "tt-hyperlane-mainnet-optimism-validator",
+        "avs_type": "hyperlane(eigenlayer)",
+        "avs_version": "7a8478b-20240703-113821",
+        "chain": "mainnet",
+        "version_hash": "sha256:99dba398784ff44db73734a487a1f13f9a28c8b2ac800ab8e9e6937265ac0151",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-13T10:57:49.421404",
+        "updated_at": "2025-04-22T00:24:49.611393",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 5245924.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": []
+      }
+    ]
+  },
+  {
+    "machine_id": "1f5c53b2-f8e2-4c1e-abbd-5d75fcdcd1fa",
+    "name": "\"is-eigenda-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 2881867776,
+        "memory_free": 591286272,
+        "memory_total": 16373882880,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 99187019776,
+            "used": 3701075968
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741584896,
+            "used": 181571584
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/mnt/data:/dev/sdb",
+            "total": 527295578112,
+            "free": 465088860160,
+            "used": 62206717952
+          },
+          {
+            "id": "/var/lib/docker/overlay2/07037ae4f39e572b4db6c1c5b871cde86e52f50d4e3d3b1f9d77c38167b5ca55/merged:overlay",
+            "total": 102888095744,
+            "free": 99187019776,
+            "used": 3701075968
+          },
+          {
+            "id": "/var/lib/docker/overlay2/008f439f421e9edfff6e3c7bf5a7c32106253237d6b6f087eba32a61f72ba0ed/merged:overlay",
+            "total": 102888095744,
+            "free": 99187019776,
+            "used": 3701075968
+          }
+        ],
+        "uptime": 4799073
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "1f5c53b2-f8e2-4c1e-abbd-5d75fcdcd1fa",
+        "avs_name": "is-eigenda-mainnet",
+        "avs_type": "eigen-da",
+        "avs_version": "0.8.6",
+        "chain": "mainnet",
+        "version_hash": "sha256:91d8baa7fbf4ea61925da330f980860a16e9f21b2e1eee92e80c9e63fc78cc23",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-10T20:22:34.198121",
+        "updated_at": "2025-04-22T00:25:06.541593",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 4799073.0,
+        "performance_score": 100.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "a9661eb1-1cd8-4f97-bb2f-0a338dc9e60b",
+    "name": "\"tt-eigenda-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 2248695808,
+        "memory_free": 578895872,
+        "memory_total": 16373874688,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 98965553152,
+            "used": 3922542592
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741588992,
+            "used": 181567488
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/mnt/data:/dev/sdb",
+            "total": 527295578112,
+            "free": 474670596096,
+            "used": 52624982016
+          },
+          {
+            "id": "/var/lib/docker/overlay2/f5f2b0ad28803519ccba37916ffc1263f66d084dffecd58c03a95054e0c0d0e3/merged:overlay",
+            "total": 102888095744,
+            "free": 98965553152,
+            "used": 3922542592
+          },
+          {
+            "id": "/var/lib/docker/overlay2/91b9bac271b09bfe7c8e20c83075d47dd92c35be5cc7aad08f838a89032df2d6/merged:overlay",
+            "total": 102888095744,
+            "free": 98965553152,
+            "used": 3922542592
+          }
+        ],
+        "uptime": 4813331
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "a9661eb1-1cd8-4f97-bb2f-0a338dc9e60b",
+        "avs_name": "tt-eigenda-mainnet",
+        "avs_type": "eigen-da",
+        "avs_version": "0.8.6",
+        "chain": "mainnet",
+        "version_hash": "sha256:91d8baa7fbf4ea61925da330f980860a16e9f21b2e1eee92e80c9e63fc78cc23",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-10T20:25:59.703707",
+        "updated_at": "2025-04-22T00:24:51.625100",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 4813331.0,
+        "performance_score": 100.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "0ca453b9-ef12-4a52-ad2a-7bb281c1aec0",
+    "name": "\"tt-redstone-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 647479296,
+        "memory_free": 157577216,
+        "memory_total": 2012741632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 20401410048,
+            "used": 4401016832
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 847011840,
+            "used": 189419520
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/5f2572fdd4e963213ac2c07f3aaecc91ad2dfa0bcdd4d9fb58f2a351102d53f5/merged:overlay",
+            "total": 24802426880,
+            "free": 20401410048,
+            "used": 4401016832
+          },
+          {
+            "id": "/var/lib/docker/overlay2/b4cc0455c9a39a42547f40118f2ce58b1280ba476fc1cbc85b0ccf54d81cda2b/merged:overlay",
+            "total": 24802426880,
+            "free": 20401410048,
+            "used": 4401016832
+          }
+        ],
+        "uptime": 3029925
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "d5cc67b5-441a-4ff2-945e-22cc8f979d44",
+    "name": "\"is-redstone-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 659910656,
+        "memory_free": 93065216,
+        "memory_total": 2012741632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 20353282048,
+            "used": 4449144832
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 847003648,
+            "used": 189427712
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/0e9032a3c10d226dcf7f7aa06589a6debbac501c31c86ac076950ca068686ecf/merged:overlay",
+            "total": 24802426880,
+            "free": 20353282048,
+            "used": 4449144832
+          },
+          {
+            "id": "/var/lib/docker/overlay2/eb98c04847ce5ee210ed2b4ae31e50804a741bde93586a977f4791cbad11dd92/merged:overlay",
+            "total": 24802426880,
+            "free": 20353282048,
+            "used": 4449144832
+          }
+        ],
+        "uptime": 3034941
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "c9d8bff4-8758-44d5-980b-5bb67c960fac",
+    "name": "\"is-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "23628a81-a5e4-4892-951c-d502f67710b3",
+    "name": "\"tt-witnesspol-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "4cd9940e-6f6c-4a1c-8d0d-b47a03d1fe34",
+    "name": "\"tt-witnesspol-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 984002560,
+        "memory_free": 179486720,
+        "memory_total": 2012741632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 21013798912,
+            "used": 3788627968
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846942208,
+            "used": 189489152
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/794bde9a188ecd02ad88dd1641be5466082bb575695d98ca4d7deeb44e372bc3/merged:overlay",
+            "total": 24802426880,
+            "free": 21013798912,
+            "used": 3788627968
+          }
+        ],
+        "uptime": 7620110
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "4cd9940e-6f6c-4a1c-8d0d-b47a03d1fe34",
+        "avs_name": "tt-witnesspol-mainnet",
+        "avs_type": "witness-chain",
+        "avs_version": "0.0.0",
+        "chain": "mainnet",
+        "version_hash": "sha256:22369337d30e864d51553bf6321dc01d91fa620f69e3a8a4834c29c0e3dfbf12",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T08:50:53.034208",
+        "updated_at": "2025-04-22T00:24:44.515287",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 7620110.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "cd59a011-4aee-4988-9e7f-be243b066297",
+    "name": "\"is-xteriomach-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "2d2982fc-231e-4296-9bee-d142a7ac35bb",
+    "name": "\"tt-eigenda-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 4620521472,
+        "memory_free": 380440576,
+        "memory_total": 16373907456,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 97466482688,
+            "used": 5421613056
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741605376,
+            "used": 181551104
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/mnt/storage:/dev/sdb",
+            "total": 527295578112,
+            "free": 484920254464,
+            "used": 42375323648
+          },
+          {
+            "id": "/var/lib/docker/overlay2/63d145666b0cab775c4402443400e24db7acedeb541f417d65e14af71fd99f16/merged:overlay",
+            "total": 102888095744,
+            "free": 97466482688,
+            "used": 5421613056
+          },
+          {
+            "id": "/var/lib/docker/overlay2/422fac6a0785154eecde9422754c847eaa88b2413aabdd8d3464dc23d726f4de/merged:overlay",
+            "total": 102888095744,
+            "free": 97466482688,
+            "used": 5421613056
+          }
+        ],
+        "uptime": 12865671
+      },
+      "memory_status": "Warning",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "2d2982fc-231e-4296-9bee-d142a7ac35bb",
+        "avs_name": "tt-eigenda-testnet",
+        "avs_type": "eigen-da",
+        "avs_version": "0.9.0-rc.0",
+        "chain": "holesky",
+        "version_hash": "sha256:a4e71e7fcdb74955aed471ec62da77d8fedc20e6870f439497cce88319321573",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-11T08:58:53.613630",
+        "updated_at": "2025-04-10T17:56:55.385291",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 12865671.0,
+        "performance_score": 100.0,
+        "update_status": "Updateable",
+        "errors": [
+          "CrashedNode",
+          "ActiveSetNoDeployment",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "7a65a6a1-a7f0-4881-b904-4a7b2047ce68",
+    "name": "\"tt-predicate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "9aa8df4f-327a-41cc-9be6-ba09fcb01029",
+    "name": "\"ns3064889\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 12,
+        "cpu_usage": 0.0,
+        "memory_usage": 8947367936,
+        "memory_free": 2918940672,
+        "memory_total": 33003249664,
+        "disks": [
+          {
+            "id": "/:/dev/md3",
+            "total": 500673052672,
+            "free": 448238231552,
+            "used": 52434821120
+          },
+          {
+            "id": "/boot:/dev/md2",
+            "total": 1035415552,
+            "free": 704909312,
+            "used": 330506240
+          },
+          {
+            "id": "/boot/efi:/dev/nvme0n1p1",
+            "total": 535535616,
+            "free": 530292736,
+            "used": 5242880
+          },
+          {
+            "id": "/var/lib/docker/overlay2/2c7c7d49195bb40a22372ef22ff5cc130c41b260b85bc215b7c6486cbaf5ee90/merged:overlay",
+            "total": 500673052672,
+            "free": 448238231552,
+            "used": 52434821120
+          },
+          {
+            "id": "/var/lib/docker/overlay2/2a7493445b969a3374fa0820e3de632fb4bc87c64fb036d6610cf6feb4ad2c98/merged:overlay",
+            "total": 500673052672,
+            "free": 448238231552,
+            "used": 52434821120
+          },
+          {
+            "id": "/var/lib/docker/overlay2/249a99dfd43abf8742eac7e06db7442902da766198a4382d7ad0bd7161ae042f/merged:overlay",
+            "total": 500673052672,
+            "free": 448238231552,
+            "used": 52434821120
+          },
+          {
+            "id": "/var/lib/docker/overlay2/08447586e7130285cbf88db2a6003dddf453110cb875d2b4fb6756032e34a480/merged:overlay",
+            "total": 500673052672,
+            "free": 448238231552,
+            "used": 52434821120
+          },
+          {
+            "id": "/var/lib/docker/overlay2/216ad305f8aca86dfc197fdbf46c4458788e1633b8613ae2e6bb5a4ea19d8d87/merged:overlay",
+            "total": 500673052672,
+            "free": 448238231552,
+            "used": 52434821120
+          },
+          {
+            "id": "/var/lib/docker/overlay2/893e0ebeb48ca6ce11f0e807ed36bb51e82c8ee7ccd13b26de8a03f4bd75c5ef/merged:overlay",
+            "total": 500673052672,
+            "free": 448238231552,
+            "used": 52434821120
+          },
+          {
+            "id": "/var/lib/docker/overlay2/19ce4a516224945426e16f30679f6258f1795505f99eff07fb03e8297e2718cd/merged:overlay",
+            "total": 500673052672,
+            "free": 448238231552,
+            "used": 52434821120
+          }
+        ],
+        "uptime": 11646020
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "08fac258-9f07-4ea1-bbb9-de267a1b5b31",
+    "name": "\"tt-gasp-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 1917554688,
+        "memory_free": 764125184,
+        "memory_total": 8128598016,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 44609904640,
+            "used": 6274203648
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741588992,
+            "used": 181567488
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/495bae84a6f4e84c7a83be6735c87c4a180b385004e0d9e8468518e29b37241a/merged:overlay",
+            "total": 50884108288,
+            "free": 44609904640,
+            "used": 6274203648
+          },
+          {
+            "id": "/var/lib/docker/overlay2/5e83830af317d80d6ddad847cec4ed79c958dc7b53f4b2949d6e39603774a8ce/merged:overlay",
+            "total": 50884108288,
+            "free": 44609904640,
+            "used": 6274203648
+          },
+          {
+            "id": "/var/lib/docker/overlay2/e5e07ed573f83fa2922c0424967b0c88b6fa4741d660c9bd801e8e162713b3c7/merged:overlay",
+            "total": 50884108288,
+            "free": 44609904640,
+            "used": 6274203648
+          }
+        ],
+        "uptime": 4715861
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "08fac258-9f07-4ea1-bbb9-de267a1b5b31",
+        "avs_name": "tt-gasp-testnet",
+        "avs_type": "gasp",
+        "avs_version": "16323b6a2f7f01eb41ed8428a74758c8fd1c635e",
+        "chain": "holesky",
+        "version_hash": "sha256:1e1a59a60129f5d0f4c7261c00ca81eab9dcbf017f4c04ddd7172d605a8e8bd0",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T10:04:16.004956",
+        "updated_at": "2025-04-22T00:24:46.820490",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 4715861.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "405532e4-27dc-42ae-a3b7-bb35ae882c84",
+    "name": "\"tt-predicate-testnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 835817472,
+        "memory_free": 12188950528,
+        "memory_total": 16373194752,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 98387607552,
+            "used": 4527882240
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846942208,
+            "used": 189489152
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/c2c06c11beeb074388e95bf5b9817ce467cc2347f2fdc51b9bda3aed5879c938/merged:overlay",
+            "total": 102915489792,
+            "free": 98387607552,
+            "used": 4527882240
+          },
+          {
+            "id": "/var/lib/docker/overlay2/ddd558998131f418fc5bea2bf59b03f83144d1f315b0e44d0dbe5e60aa34b75b/merged:overlay",
+            "total": 102915489792,
+            "free": 98387607552,
+            "used": 4527882240
+          },
+          {
+            "id": "/var/lib/docker/overlay2/b27d064288b505890949588478211f5f82951701684c6c7c47b2e6e0f5dba864/merged:overlay",
+            "total": 102915489792,
+            "free": 98387607552,
+            "used": 4527882240
+          }
+        ],
+        "uptime": 4143528
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "65e544e3-2f22-4bfe-b4f7-b61997e8a35a",
+    "name": "\"gasp-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 876756992,
+        "memory_free": 12034068480,
+        "memory_total": 16373882880,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 98382635008,
+            "used": 4505460736
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741588992,
+            "used": 181567488
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 1728888
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "65e544e3-2f22-4bfe-b4f7-b61997e8a35a",
+        "avs_name": "is-gasp-testnet",
+        "avs_type": "gasp",
+        "avs_version": "16323b6a2f7f01eb41ed8428a74758c8fd1c635e",
+        "chain": "holesky",
+        "version_hash": "sha256:24c70a5d596991146ca767d9ff654825db73bdc44de1ffdea2b6cbad9622194e",
+        "operator_address": "0x121298c65a62d6c8a14ee44778bbe38ebea8c869",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T10:08:57.582860",
+        "updated_at": "2025-03-17T09:01:16.941454",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 1728888.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "294af40d-49b5-467c-b276-bc84b82beeee",
+    "name": "\"is-ungate-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 747040768,
+        "memory_free": 423841792,
+        "memory_total": 4004925440,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50839412736,
+            "free": 42164375552,
+            "used": 8675037184
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 847020032,
+            "used": 189411328
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/4231db591f07547cc6377b530767965eec3f2ab431f08e272128ee8a3989affa/merged:overlay",
+            "total": 50839412736,
+            "free": 42164375552,
+            "used": 8675037184
+          },
+          {
+            "id": "/var/lib/docker/overlay2/d91fbe489ee5842cdf0241092148697161f870f47bef265e2bd0315bdefb1262/merged:overlay",
+            "total": 50839412736,
+            "free": 42164375552,
+            "used": 8675037184
+          },
+          {
+            "id": "/var/lib/docker/overlay2/6aeed3fbe30ee9c8ab16f2c560f4bd5d838cd993743c45594a02e5a98b91faea/merged:overlay",
+            "total": 50839412736,
+            "free": 42164375552,
+            "used": 8675037184
+          }
+        ],
+        "uptime": 1979665
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "294af40d-49b5-467c-b276-bc84b82beeee",
+        "avs_name": "is-ungate-testnet",
+        "avs_type": "ungate-infini-route(base)",
+        "avs_version": "Othentic",
+        "chain": "holesky",
+        "version_hash": "sha256:ffbe3d2f92a3e8927657b5ebb3822eaa14e14f94d760cd3165a1bd029025b5b9",
+        "operator_address": "0x121298c65a62d6c8a14ee44778bbe38ebea8c869",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T10:18:27.600676",
+        "updated_at": "2025-03-12T09:40:27.713947",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 1979665.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "CrashedNode",
+          "ActiveSetNoDeployment",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "9adfeeb4-3023-42fb-aca7-95724660d5c1",
+    "name": "\"tt-redstone-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 869187584,
+        "memory_free": 151552000,
+        "memory_total": 2012741632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 19544047616,
+            "used": 5258379264
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846942208,
+            "used": 189489152
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/69e89471fe5eda8b2587ba8c2cdec480029a2f277c0cc0c399e5cc8f66eeb5b8/merged:overlay",
+            "total": 24802426880,
+            "free": 19544047616,
+            "used": 5258379264
+          },
+          {
+            "id": "/var/lib/docker/overlay2/3e691cac61c329dc12946eced6aba1a803dd344dd06bb24c160fb7abce197fa1/merged:overlay",
+            "total": 24802426880,
+            "free": 19544047616,
+            "used": 5258379264
+          }
+        ],
+        "uptime": 6621034
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "9adfeeb4-3023-42fb-aca7-95724660d5c1",
+        "avs_name": "tt-redstone-mainnet",
+        "avs_type": "redstone",
+        "avs_version": "Othentic",
+        "chain": "mainnet",
+        "version_hash": "sha256:58d85b7bc8e362fad59512bce8dd402f13f8428a70ad188c4f77e597465e8c72",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T10:58:31.622717",
+        "updated_at": "2025-04-22T00:24:54.253114",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 6621034.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "552f8291-5b45-47df-9cf4-d19db4b05c49",
+    "name": "\"is-redstone-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 874143744,
+        "memory_free": 276873216,
+        "memory_total": 2012741632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 19511975936,
+            "used": 5290450944
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846946304,
+            "used": 189485056
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/9cf422c3a99ebea57dead9978f42d3028432045c4eec7bb0c9afe659acbb0dd6/merged:overlay",
+            "total": 24802426880,
+            "free": 19511975936,
+            "used": 5290450944
+          },
+          {
+            "id": "/var/lib/docker/overlay2/6dba8dd6204510084d092ece0bee2374a99d82255ceaddde4d81c104ee58603a/merged:overlay",
+            "total": 24802426880,
+            "free": 19511975936,
+            "used": 5290450944
+          }
+        ],
+        "uptime": 6623567
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "552f8291-5b45-47df-9cf4-d19db4b05c49",
+        "avs_name": "is-redstone-mainnet",
+        "avs_type": "redstone",
+        "avs_version": "Othentic",
+        "chain": "mainnet",
+        "version_hash": "sha256:58d85b7bc8e362fad59512bce8dd402f13f8428a70ad188c4f77e597465e8c72",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T11:38:37.865751",
+        "updated_at": "2025-04-22T00:24:37.999693",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 6623567.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "c9838216-4cb3-44a6-80e2-69b60bb39066",
+    "name": "\"tt-openlayer-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 2052313088,
+        "memory_free": 1404174336,
+        "memory_total": 8128626688,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 45443764224,
+            "used": 5440344064
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741605376,
+            "used": 181551104
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/2217077cf4bd210261cd80b96b9a13e4730927f32832cae5b88bccada1c54cdf/merged:overlay",
+            "total": 50884108288,
+            "free": 45443764224,
+            "used": 5440344064
+          },
+          {
+            "id": "/var/lib/docker/overlay2/61d2e3f6d4a2d06e5d8b44e99beb334351fb056c646334048f366e53ee1dca5c/merged:overlay",
+            "total": 50884108288,
+            "free": 45443764224,
+            "used": 5440344064
+          },
+          {
+            "id": "/var/lib/docker/overlay2/7bec380cb6e4a4fead9ab04d15d5b99ca466c6e359ce3883d1b8294ac7819f74/merged:overlay",
+            "total": 50884108288,
+            "free": 45443764224,
+            "used": 5440344064
+          }
+        ],
+        "uptime": 12660162
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "c9838216-4cb3-44a6-80e2-69b60bb39066",
+        "avs_name": "tt-openlayer-mainnet",
+        "avs_type": "open-layer-mainnet",
+        "avs_version": "latest",
+        "chain": "mainnet",
+        "version_hash": "sha256:c9f64546dab58a9c13aeb581501c62501a74342e5a1bdcadc7955cbb4d8b44a9",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-11T11:54:55.526969",
+        "updated_at": "2025-04-22T00:24:52.438222",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 12660162.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "276b913a-2ada-4a9a-9246-ece5d17d930a",
+    "name": "\"is-eroacle-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 1072021504,
+        "memory_free": 938942464,
+        "memory_total": 8128630784,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 42609139712,
+            "used": 8274968576
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741244928,
+            "used": 181911552
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/7b8ba2a26dc40c2d1d8d3eea4b7f747310935645264f957cb51e392113496270/merged:overlay",
+            "total": 50884108288,
+            "free": 42609139712,
+            "used": 8274968576
+          },
+          {
+            "id": "/var/lib/docker/overlay2/5f4c33e764dcb87de5d24f0524f9a18a73ecdbb5880fdf54f9d9d7d2bf158000/merged:overlay",
+            "total": 50884108288,
+            "free": 42609139712,
+            "used": 8274968576
+          },
+          {
+            "id": "/var/lib/docker/overlay2/29b4ad88573dac80adc93ba9158ba35d0249b9e89e43f0e0c87a9a39e67030df/merged:overlay",
+            "total": 50884108288,
+            "free": 42609139712,
+            "used": 8274968576
+          },
+          {
+            "id": "/var/lib/docker/overlay2/a5af90ffe5be4d1377a39f03cf04a20e8f2e668d28271e4680aa31ce2ddb5dc8/merged:overlay",
+            "total": 50884108288,
+            "free": 42609139712,
+            "used": 8274968576
+          },
+          {
+            "id": "/var/lib/docker/overlay2/7d08429b96978506e5bf636f17184a7016f40832dc30b6aa55af0b061c287972/merged:overlay",
+            "total": 50884108288,
+            "free": 42609139712,
+            "used": 8274968576
+          }
+        ],
+        "uptime": 12753812
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "276b913a-2ada-4a9a-9246-ece5d17d930a",
+        "avs_name": "is-eroacle-mainnet",
+        "avs_type": "e-oracle",
+        "avs_version": "v0.1.47",
+        "chain": "mainnet",
+        "version_hash": "sha256:e36a50434bfcbe8d4034ffbfe1c46899a2c462c7d9ea8d8fdc45dd63865f4c48",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-11T12:03:04.015899",
+        "updated_at": "2025-04-22T00:24:36.942199",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 12753812.0,
+        "performance_score": 100.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "09dcdf54-b2f6-40ff-9626-4c820fa10c37",
+    "name": "\"tt-holonym-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 975368192,
+        "memory_free": 11307433984,
+        "memory_total": 16373186560,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 97805316096,
+            "used": 5110173696
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846942208,
+            "used": 189489152
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/a5b198ca0acfcf31f5b6541573348831e42cf4a645799686b024e25b63088c67/merged:overlay",
+            "total": 102915489792,
+            "free": 97805316096,
+            "used": 5110173696
+          },
+          {
+            "id": "/var/lib/docker/overlay2/8a337237aefac618071588b9fde12deb5e491513e5d3cc5d35954b6aa2fb918c/merged:overlay",
+            "total": 102915489792,
+            "free": 97805316096,
+            "used": 5110173696
+          },
+          {
+            "id": "/var/lib/docker/overlay2/e6e289e59c1a8f2c96c107c13b92bdbe0e39aa3dfff4a68d3b821aa41228c6d3/merged:overlay",
+            "total": 102915489792,
+            "free": 97805316096,
+            "used": 5110173696
+          },
+          {
+            "id": "/var/lib/docker/overlay2/1ab20a382ee262de341eec3a4db8ce7aea125a800e9fe5bb822edd3c72bc0a30/merged:overlay",
+            "total": 102915489792,
+            "free": 97805316096,
+            "used": 5110173696
+          }
+        ],
+        "uptime": 6959560
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "09dcdf54-b2f6-40ff-9626-4c820fa10c37",
+        "avs_name": "tt-holonym-mainnet",
+        "avs_type": "mishti-network(eigenlayer)",
+        "avs_version": "Othentic",
+        "chain": "mainnet",
+        "version_hash": "sha256:62d56aac05339264dab2a20e84a10a2f12dbf24e53039dfaeaf079422bbf0293",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T12:16:00.525295",
+        "updated_at": "2025-04-22T00:25:06.403499",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 6959560.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "288b33f3-fc36-4b2a-8054-96f8a691343a",
+    "name": "\"tt-ditto-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "596f7f17-c54d-40b8-86bd-a5648f61a7c5",
+    "name": "\"is-karak-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "9cef9582-8e7d-4213-8de2-c3b15f7a4565",
+    "name": "\"is-ungate-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 884846592,
+        "memory_free": 863014912,
+        "memory_total": 4005580800,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 44752109568,
+            "used": 6131998720
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741167104,
+            "used": 181989376
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/f970e548ac3c4b176450af1617b7b66de123846ffbbbe9f9b9c8b6965aa1b469/merged:overlay",
+            "total": 50884108288,
+            "free": 44752109568,
+            "used": 6131998720
+          },
+          {
+            "id": "/var/lib/docker/overlay2/d48910acdd527b44b2acfcec9b7db2e05eb5330ffdc074b7710d64b1dc94a102/merged:overlay",
+            "total": 50884108288,
+            "free": 44752109568,
+            "used": 6131998720
+          }
+        ],
+        "uptime": 7429136
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "9cef9582-8e7d-4213-8de2-c3b15f7a4565",
+        "avs_name": "is-ungate-mainnet",
+        "avs_type": "ungate-infini-route(unknown-l-2)",
+        "avs_version": "Othentic",
+        "chain": "mainnet",
+        "version_hash": "sha256:444d5f5b5a3324fbf8a526753d03cae4df8129b22284894f9c23cac2254919eb",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T12:34:22.710491",
+        "updated_at": "2025-03-12T19:13:22.882922",
+        "protocol": null,
+        "is_running": true,
+        "uptime": 7429136.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "1f866c51-a766-410b-b4df-1d7c64f017c4",
+    "name": "\"is-ditto-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "a05661c5-6bb7-4b03-9470-9505dc8c01cd",
+    "name": "\"tt-ungate-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.1 (286b532f5082a86f185088a699be98eb830b3dca)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 892067840,
+        "memory_free": 504393728,
+        "memory_total": 4005584896,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 44424269824,
+            "used": 6459838464
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741183488,
+            "used": 181972992
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/faeb3c99c70c5ce1f42e2cfd422ea15a4698f99bb53d84a70cd90860c40ea894/merged:overlay",
+            "total": 50884108288,
+            "free": 44424269824,
+            "used": 6459838464
+          },
+          {
+            "id": "/var/lib/docker/overlay2/2c02bb710aa0e01f00b748d0e12433376cd0a12b18765fb3597ff34e13aa6b40/merged:overlay",
+            "total": 50884108288,
+            "free": 44424269824,
+            "used": 6459838464
+          }
+        ],
+        "uptime": 10856266
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "a05661c5-6bb7-4b03-9470-9505dc8c01cd",
+        "avs_name": "tt-ungate-mainnet",
+        "avs_type": "ungate-infini-route(unknown-l-2)",
+        "avs_version": "Othentic",
+        "chain": "mainnet",
+        "version_hash": "sha256:c8f181d58ff6e703e883726dbd4c5d6147523f46dfc8a547ad78b2f5a5d3ca90",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T12:45:18.465680",
+        "updated_at": "2025-04-22T00:25:18.637320",
+        "protocol": null,
+        "is_running": true,
+        "uptime": 10856266.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "331ad6b6-488d-4306-891e-c3c0b2a2e5b7",
+    "name": "\"tt-k3-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 1324625920,
+        "memory_free": 1038839808,
+        "memory_total": 16373194752,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 72927952896,
+            "used": 29987536896
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846942208,
+            "used": 189489152
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/0c8e9685e51008fbd110712fe9536a0d4ab3024619fdaad037080a09f0953207/merged:overlay",
+            "total": 102915489792,
+            "free": 72927952896,
+            "used": 29987536896
+          }
+        ],
+        "uptime": 2945051
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "6623dba3-0df6-4841-ae17-29dbc5f8e60f",
+    "name": "\"is-witness-pol-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 998744064,
+        "memory_free": 177623040,
+        "memory_total": 2012741632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 20995645440,
+            "used": 3806781440
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846946304,
+            "used": 189485056
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/2564eb096d0ffea2ed199d5b996df2c53b586acfa09f6af34c8fa8b2e76d48df/merged:overlay",
+            "total": 24802426880,
+            "free": 20995645440,
+            "used": 3806781440
+          }
+        ],
+        "uptime": 7650151
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "6623dba3-0df6-4841-ae17-29dbc5f8e60f",
+        "avs_name": "is-witness-pol-mainnet",
+        "avs_type": "witness-chain",
+        "avs_version": "0.0.0",
+        "chain": "mainnet",
+        "version_hash": "sha256:f165157ba833e5ddbfaca941397b3df74258db1c42968dc3ab8874e690bd0b9a",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T12:43:15.266307",
+        "updated_at": "2025-04-22T00:24:43.149368",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 7650151.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "0463d4bf-84ec-4c87-b455-7cafb9441a49",
+    "name": "\"tt-eroacle-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 1002971136,
+        "memory_free": 1765871616,
+        "memory_total": 8127934464,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50839412736,
+            "free": 44371255296,
+            "used": 6468157440
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846942208,
+            "used": 189489152
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/02d06a77a5071c9d2f9e8cc25165938fafd3cbc4691a6b53a6f8e159fa89d1fa/merged:overlay",
+            "total": 50839412736,
+            "free": 44371255296,
+            "used": 6468157440
+          },
+          {
+            "id": "/var/lib/docker/overlay2/6506b7ff334957d93337230de40332c638afb3f357a96afcbb5b9d02dfe6723c/merged:overlay",
+            "total": 50839412736,
+            "free": 44371255296,
+            "used": 6468157440
+          },
+          {
+            "id": "/var/lib/docker/overlay2/cbdb9f5cd4d708b844b9165365d2ce698619072b83406d3a4819f8280d7426e5/merged:overlay",
+            "total": 50839412736,
+            "free": 44371255296,
+            "used": 6468157440
+          },
+          {
+            "id": "/var/lib/docker/overlay2/71e4c57b22d2a0ed1923f32e3e7c664cb3942930093d6cbc1bef008cf65229c8/merged:overlay",
+            "total": 50839412736,
+            "free": 44371255296,
+            "used": 6468157440
+          }
+        ],
+        "uptime": 5320439
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "0463d4bf-84ec-4c87-b455-7cafb9441a49",
+        "avs_name": "tt-eroacle-mainnet",
+        "avs_type": "e-oracle",
+        "avs_version": "v0.1.47",
+        "chain": "mainnet",
+        "version_hash": "sha256:e36a50434bfcbe8d4034ffbfe1c46899a2c462c7d9ea8d8fdc45dd63865f4c48",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-11T12:45:36.603883",
+        "updated_at": "2025-04-22T00:24:44.997655",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 5320439.0,
+        "performance_score": 100.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "93f46405-8a88-4761-bb62-0564734435cf",
+    "name": "\"is-venn-testnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 938758144,
+        "memory_free": 12186939392,
+        "memory_total": 16373194752,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 98466258944,
+            "used": 4449230848
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846946304,
+            "used": 189485056
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/137e41ae45ebcd5f2aa5f12f3728875462b09e21bde001ba19c52549ab108587/merged:overlay",
+            "total": 102915489792,
+            "free": 98466258944,
+            "used": 4449230848
+          }
+        ],
+        "uptime": 10631072
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "c3b122ab-a205-4f67-8242-ea0fa5477978",
+    "name": "\"tt-blockless-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 658026496,
+        "memory_free": 7817101312,
+        "memory_total": 16373907456,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 94248566784,
+            "used": 8639528960
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741605376,
+            "used": 181551104
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/f1406ed231a7c3c43425375bbfc73023558c5324695c3927c693f853940a3cfe/merged:overlay",
+            "total": 102888095744,
+            "free": 94248566784,
+            "used": 8639528960
+          }
+        ],
+        "uptime": 12755124
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "c3b122ab-a205-4f67-8242-ea0fa5477978",
+        "avs_name": "tt-blockless-testnet",
+        "avs_type": "blockless",
+        "avs_version": "Local",
+        "chain": "holesky",
+        "version_hash": "sha256:3a1aa2579190cd92d283a51e6df2c7ad9415e9e7f7c52dd0590e1a84b5fbf952",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T12:55:12.349973",
+        "updated_at": "2025-04-22T00:24:48.319404",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 12755124.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "4ee026c5-6a8c-4bbf-8bad-eb9414426037",
+    "name": "\"tt-chainbase-testnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 3247009792,
+        "memory_free": 529072128,
+        "memory_total": 8128630784,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 9362178048,
+            "used": 41521930240
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741597184,
+            "used": 181559296
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/8ca40bd59193d7a40476ba44d41fd3be1db8fba172fe93b99169be55381a32a6/merged:overlay",
+            "total": 50884108288,
+            "free": 9362178048,
+            "used": 41521930240
+          },
+          {
+            "id": "/var/lib/docker/overlay2/b0b85755ec294a44dab6eb738310b77a7ca83ab49c05eac652e265c9a27d0a42/merged:overlay",
+            "total": 50884108288,
+            "free": 9362178048,
+            "used": 41521930240
+          },
+          {
+            "id": "/var/lib/docker/overlay2/16b689a1f7ea55c35e3a59556776cd5582a0b7a5fc49f2fbd8192aba2157a2ef/merged:overlay",
+            "total": 50884108288,
+            "free": 9362178048,
+            "used": 41521930240
+          },
+          {
+            "id": "/var/lib/docker/overlay2/dc62d9756bbd4679ce443ae671eb5a145894d63466ace9617697aa8d3f96f8a6/merged:overlay",
+            "total": 50884108288,
+            "free": 9362178048,
+            "used": 41521930240
+          },
+          {
+            "id": "/var/lib/docker/overlay2/c8b463cd1c0577aac3442386f5e954a916b4e961889fca1eecd908986dd942f5/merged:overlay",
+            "total": 50884108288,
+            "free": 9362178048,
+            "used": 41521930240
+          },
+          {
+            "id": "/var/lib/docker/overlay2/03dea42e6085a0180b78a9e2f6d0d86021d3da390b8c220f539c02a11b44cca9/merged:overlay",
+            "total": 50884108288,
+            "free": 9362178048,
+            "used": 41521930240
+          }
+        ],
+        "uptime": 10453184
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "3e5bb602-0483-4dcd-8556-027119b56535",
+    "name": "\"tt-ava-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 921776128,
+        "memory_free": 4992880640,
+        "memory_total": 8128598016,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 47493353472,
+            "used": 3390754816
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741588992,
+            "used": 181567488
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/8b38771660831d85f14bf1287c75a1133c7a8ace4246ad95255288aef87b45a6/merged:overlay",
+            "total": 50884108288,
+            "free": 47493353472,
+            "used": 3390754816
+          }
+        ],
+        "uptime": 1245483
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "9816c3db-e329-4dfa-96f6-2aceb99a3fb4",
+    "name": "\"tt-witness-pol\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 1,
+        "cpu_usage": 0.0,
+        "memory_usage": 1014497280,
+        "memory_free": 191377408,
+        "memory_total": 2012737536,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 24802426880,
+            "free": 10625671168,
+            "used": 14176755712
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846946304,
+            "used": 189485056
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          },
+          {
+            "id": "/var/lib/docker/overlay2/cfeaf8aec48259ca45128de3006697e4e1177a6bae66e996d373842fc2793299/merged:overlay",
+            "total": 24802426880,
+            "free": 10625671168,
+            "used": 14176755712
+          }
+        ],
+        "uptime": 9468231
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "9816c3db-e329-4dfa-96f6-2aceb99a3fb4",
+        "avs_name": "tt-witness-pol",
+        "avs_type": "witness-chain",
+        "avs_version": "0.0.0",
+        "chain": "holesky",
+        "version_hash": "sha256:87f475f59c7052171c571bb07578cbf3964e8e09475507a666e8d8dd302fb61b",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-11T13:03:14.761659",
+        "updated_at": "2025-04-22T00:24:52.625301",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 9468231.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "e8ff4771-20ed-4788-83d6-2f02cd63f1b9",
+    "name": "\"tt-eigenda-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "792aa6c0-d6e8-4226-8837-c061233d4f26",
+    "name": "\"tt-chainbase-testnet\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 3240538112,
+        "memory_free": 535535616,
+        "memory_total": 8128630784,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 9362178048,
+            "used": 41521930240
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741597184,
+            "used": 181559296
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 10453186
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "23fe3311-bcf9-49d8-bd28-e95605eccb44",
+    "name": "\"is-eigenda-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "105c0aea-e951-480e-b511-e1afeaf47a7d",
+    "name": "\"is-ungate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "a8681369-f342-4ab8-8b6d-4a409a171b71",
+    "name": "\"tt-ungate-mainnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "a05ab8e0-b4a4-4dd1-9810-499ebd501ad2",
+    "name": "\"ava-is-mainnet-avs\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 675610624,
+        "memory_free": 3729551360,
+        "memory_total": 8128581632,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 45078892544,
+            "used": 5805215744
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741175296,
+            "used": 181981184
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/2f69dd63ac3aecf1a7dcf0d8c4ea7a8ab9d48d5cb5cdf74549339377db5601e3/merged:overlay",
+            "total": 50884108288,
+            "free": 45078892544,
+            "used": 5805215744
+          }
+        ],
+        "uptime": 9410397
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "a05ab8e0-b4a4-4dd1-9810-499ebd501ad2",
+        "avs_name": "is-ava-mainnet",
+        "avs_type": "ava-protocol",
+        "avs_version": "mainnet",
+        "chain": "mainnet",
+        "version_hash": "sha256:9e34b97cf9592ebf662fd2231ef28463308c689910dba4b342c0e758bbc6e566",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-13T21:14:16.302438",
+        "updated_at": "2025-04-04T10:16:16.673187",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 9410397.0,
+        "performance_score": 100.0,
+        "update_status": "Unknown",
+        "errors": [
+          "CrashedNode",
+          "ActiveSetNoDeployment"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "217d6613-bfb5-4f04-9d34-c8cc4f8b9a0b",
+    "name": "\"tt-ava-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 877338624,
+        "memory_free": 3571412992,
+        "memory_total": 8128598016,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 46168457216,
+            "used": 4715651072
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741584896,
+            "used": 181571584
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/f8db08e12aab856aba0b2e24d998153cc3a51ba938d2f959b82929ffd5c1a028/merged:overlay",
+            "total": 50884108288,
+            "free": 46168457216,
+            "used": 4715651072
+          },
+          {
+            "id": "/var/lib/docker/overlay2/deaeb08d6964dc205cbf5adf689fc06d3445336f30ad523c3da8bdf1f7a66a4e/merged:overlay",
+            "total": 50884108288,
+            "free": 46168457216,
+            "used": 4715651072
+          },
+          {
+            "id": "/var/lib/docker/overlay2/4103eaa7ccdc8c18beb1e8deb82bae35dc3c03c7852fb708e2daf145d1a11bae/merged:overlay",
+            "total": 50884108288,
+            "free": 46168457216,
+            "used": 4715651072
+          },
+          {
+            "id": "/var/lib/docker/overlay2/4c70eaa861472da40c461ccd64072472e4424899a9122c2e465f9947303d1bd3/merged:overlay",
+            "total": 50884108288,
+            "free": 46168457216,
+            "used": 4715651072
+          }
+        ],
+        "uptime": 4625289
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "217d6613-bfb5-4f04-9d34-c8cc4f8b9a0b",
+        "avs_name": "ava_protocol_ethereum-ap-operator-run-7b9cceb8bf41",
+        "avs_type": "ava-protocol",
+        "avs_version": "mainnet",
+        "chain": null,
+        "version_hash": "sha256:9e34b97cf9592ebf662fd2231ef28463308c689910dba4b342c0e758bbc6e566",
+        "operator_address": null,
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-04-14T17:20:25.922318",
+        "updated_at": "2025-04-14T17:20:25.922318",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 4625289.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics",
+          "NoChainInfo",
+          "NoOperatorId"
+        ]
+      },
+      {
+        "machine_id": "217d6613-bfb5-4f04-9d34-c8cc4f8b9a0b",
+        "avs_name": "tt-ava-mainnet",
+        "avs_type": "ava-protocol",
+        "avs_version": "mainnet",
+        "chain": "mainnet",
+        "version_hash": "sha256:9e34b97cf9592ebf662fd2231ef28463308c689910dba4b342c0e758bbc6e566",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": true,
+        "created_at": "2025-03-13T21:40:08.897831",
+        "updated_at": "2025-04-22T00:25:09.261362",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 4625289.0,
+        "performance_score": 100.0,
+        "update_status": "Unknown",
+        "errors": []
+      }
+    ]
+  },
+  {
+    "machine_id": "100aeda6-037a-40c1-adf6-341e87e651af",
+    "name": "\"is-ungate-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "8d5eb52b-1302-4607-b495-9831e2f19b09",
+    "name": "\"is-chainbase-instance\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 2960867328,
+        "memory_free": 772640768,
+        "memory_total": 8128622592,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 38384627712,
+            "used": 12499480576
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741232640,
+            "used": 181923840
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          },
+          {
+            "id": "/var/lib/docker/overlay2/2601f6b5797484834d4ece30b9eecb65c39273302f66f981d09ecfcb853290cb/merged:overlay",
+            "total": 50884108288,
+            "free": 38384627712,
+            "used": 12499480576
+          },
+          {
+            "id": "/var/lib/docker/overlay2/e525088e3be3eaf01fcb5851fb5d1dc0fde51b524ab9bc90ce7c437f36f31e6b/merged:overlay",
+            "total": 50884108288,
+            "free": 38384627712,
+            "used": 12499480576
+          },
+          {
+            "id": "/var/lib/docker/overlay2/83bda75d7ec44de6869ed416cfe04ae6afb038591be6bf3a9ba33534b26ac339/merged:overlay",
+            "total": 50884108288,
+            "free": 38384627712,
+            "used": 12499480576
+          },
+          {
+            "id": "/var/lib/docker/overlay2/19299b592a4e111cc7dc0cf70bd512b979cf2a55503fd47ea9a51a0e661a1032/merged:overlay",
+            "total": 50884108288,
+            "free": 38384627712,
+            "used": 12499480576
+          },
+          {
+            "id": "/var/lib/docker/overlay2/bab039638e4b51bed548be6353edf593c1d20991a40831d32c6f53deeb42cb13/merged:overlay",
+            "total": 50884108288,
+            "free": 38384627712,
+            "used": 12499480576
+          },
+          {
+            "id": "/var/lib/docker/overlay2/aa7b6d5c8c2c768b5f9bebbea3e0eddb9b9d757b20ecea7b96f7014329abbb79/merged:overlay",
+            "total": 50884108288,
+            "free": 38384627712,
+            "used": 12499480576
+          }
+        ],
+        "uptime": 10900034
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "e533a68e-76ba-4c4f-9ccc-aed531b80330",
+    "name": "\"is-chainbase-instance\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 2901716992,
+        "memory_free": 705691648,
+        "memory_total": 8128622592,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 38474055680,
+            "used": 12410052608
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741228544,
+            "used": 181927936
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 10117397
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "da126dc4-bd40-4226-b12b-1becb89778e0",
+    "name": "\"is-chainbase-instance\"",
+    "status": "Unhealthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 2907574272,
+        "memory_free": 696332288,
+        "memory_total": 8128622592,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 38464225280,
+            "used": 12419883008
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741228544,
+            "used": 181927936
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 10126212
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "7fc433dc-b048-4f80-a186-2c7f0351bc8a",
+    "name": "\"is-predicate-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "84cd1645-7f3a-4087-8084-9e15e1546d47",
+    "name": "\"is-chainbase-instance\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "4aff6f9d-74a7-4959-97d5-6223f2e9ab95",
+    "name": "\"is-chainbase-instance\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "55e8a77a-d21f-4c39-ad25-544e0529880e",
+    "name": "\"tt-k3-mainnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 1572892672,
+        "memory_free": 532504576,
+        "memory_total": 16373194752,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 65860308992,
+            "used": 37055180800
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846942208,
+            "used": 189489152
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          }
+        ],
+        "uptime": 5159978
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "55e8a77a-d21f-4c39-ad25-544e0529880e",
+        "avs_name": "tt-performer",
+        "avs_type": "k-3-labs-avs",
+        "avs_version": "latest",
+        "chain": null,
+        "version_hash": "sha256:dc6a51380e04cef0e5de2d268696cb02c8671308bcf8c2e5b74e368abbbdcf57",
+        "operator_address": null,
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-04-11T08:48:33.518652",
+        "updated_at": "2025-04-11T08:48:33.518652",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 5159978.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics",
+          "NoChainInfo",
+          "NoOperatorId"
+        ]
+      },
+      {
+        "machine_id": "55e8a77a-d21f-4c39-ad25-544e0529880e",
+        "avs_name": "vigilant_joliot",
+        "avs_type": "k-3-labs-avs",
+        "avs_version": "latest",
+        "chain": null,
+        "version_hash": "sha256:dc6a51380e04cef0e5de2d268696cb02c8671308bcf8c2e5b74e368abbbdcf57",
+        "operator_address": null,
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-04-11T08:51:23.438834",
+        "updated_at": "2025-04-11T08:51:23.438834",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 5159978.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics",
+          "NoChainInfo",
+          "NoOperatorId"
+        ]
+      },
+      {
+        "machine_id": "55e8a77a-d21f-4c39-ad25-544e0529880e",
+        "avs_name": "charming_mccarthy",
+        "avs_type": "k-3-labs-avs",
+        "avs_version": "latest",
+        "chain": null,
+        "version_hash": "sha256:dc6a51380e04cef0e5de2d268696cb02c8671308bcf8c2e5b74e368abbbdcf57",
+        "operator_address": null,
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-04-11T09:03:33.767741",
+        "updated_at": "2025-04-11T09:03:33.767741",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 5159978.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "CrashedNode",
+          "NoMetrics",
+          "NoChainInfo",
+          "NoOperatorId"
+        ]
+      },
+      {
+        "machine_id": "55e8a77a-d21f-4c39-ad25-544e0529880e",
+        "avs_name": "tt-k3-mainnet",
+        "avs_type": "k-3-labs-avs",
+        "avs_version": "latest",
+        "chain": "mainnet",
+        "version_hash": "sha256:d293a6cf976fb7e1217d0278ff80628852d659b93883d0dadf984b840dc37e51",
+        "operator_address": "0xf02fba1624775bf60d4c7bbff28bc78547d67e1e",
+        "active_set": true,
+        "metrics_alive": true,
+        "node_running": false,
+        "created_at": "2025-03-27T09:18:21.156342",
+        "updated_at": "2025-04-22T00:24:21.289526",
+        "protocol": "Eigenlayer",
+        "is_running": false,
+        "uptime": 5159978.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NodeNotRunning",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "47b542bd-e222-4bd7-8e35-2dbdb7916d77",
+    "name": "\"is-k3-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 1392119808,
+        "memory_free": 872185856,
+        "memory_total": 16373907456,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102888095744,
+            "free": 20837580800,
+            "used": 82050514944
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741605376,
+            "used": 181551104
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 16191427
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "47b542bd-e222-4bd7-8e35-2dbdb7916d77",
+        "avs_name": "is-k3-testnet",
+        "avs_type": "k-3-labs-avs",
+        "avs_version": "latest",
+        "chain": "mainnet",
+        "version_hash": "sha256:d293a6cf976fb7e1217d0278ff80628852d659b93883d0dadf984b840dc37e51",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-27T09:32:00.356399",
+        "updated_at": "2025-04-22T00:24:43.918434",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 16191427.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "5fae5261-c65a-451c-885c-96fe27203d8d",
+    "name": "\"is-chainbase-instance\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 2208526336,
+        "memory_free": 1163489280,
+        "memory_total": 8128622592,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 38391689216,
+            "used": 12492419072
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741240832,
+            "used": 181915648
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 13109556
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "5fae5261-c65a-451c-885c-96fe27203d8d",
+        "avs_name": "is-chainbase-mainnet",
+        "avs_type": "chainbase-network",
+        "avs_version": "0.0.0",
+        "chain": "mainnet",
+        "version_hash": "sha256:db1a1122b72757fc10bbfc4da2c83e27e21b998b66b638c7f70b5d74aadcaf48",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-04-16T07:51:49.155598",
+        "updated_at": "2025-04-22T00:24:24.844118",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 13109556.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      },
+      {
+        "machine_id": "5fae5261-c65a-451c-885c-96fe27203d8d",
+        "avs_name": "is-chainbase-mainnet-db",
+        "avs_type": "chainbase-network",
+        "avs_version": "0.0.0",
+        "chain": "mainnet",
+        "version_hash": "sha256:e62fbf9d3e2b49816a32c400ed2dba83e3b361e6833e624024309c35d334b412",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-04-16T07:51:49.300370",
+        "updated_at": "2025-04-22T00:24:24.950621",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 13109556.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      },
+      {
+        "machine_id": "5fae5261-c65a-451c-885c-96fe27203d8d",
+        "avs_name": "is-chainbase-mainnet-jobmanager",
+        "avs_type": "chainbase-network",
+        "avs_version": "0.0.0",
+        "chain": "mainnet",
+        "version_hash": "sha256:db1a1122b72757fc10bbfc4da2c83e27e21b998b66b638c7f70b5d74aadcaf48",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-04-16T07:51:49.224935",
+        "updated_at": "2025-04-22T00:24:24.896448",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 13109556.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      },
+      {
+        "machine_id": "5fae5261-c65a-451c-885c-96fe27203d8d",
+        "avs_name": "is-chainbase-instance",
+        "avs_type": "chainbase-network",
+        "avs_version": "v0.2.6",
+        "chain": "mainnet",
+        "version_hash": "sha256:c40ddb827ef9348280bb379f8b17824e5b607f25a3b394fb298f406b69a4844d",
+        "operator_address": "0x53730f4088b116c807875eb67f71cbb1b065f530",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-27T10:46:07.566400",
+        "updated_at": "2025-04-22T00:24:24.787415",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 13109556.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "d73dbd89-f509-49e3-b782-0c2f8ab6e031",
+    "name": "\"tt-chainbase-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 2,
+        "cpu_usage": 0.0,
+        "memory_usage": 3223076864,
+        "memory_free": 911872000,
+        "memory_total": 8128630784,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 50884108288,
+            "free": 3408429056,
+            "used": 47475679232
+          },
+          {
+            "id": "/boot:/dev/sda16",
+            "total": 923156480,
+            "free": 741605376,
+            "used": 181551104
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103000064,
+            "used": 6395392
+          }
+        ],
+        "uptime": 12654276
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Warning"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "d73dbd89-f509-49e3-b782-0c2f8ab6e031",
+        "avs_name": "tt-chainbase-testnet",
+        "avs_type": "chainbase-network",
+        "avs_version": "v0.2.1",
+        "chain": "holesky",
+        "version_hash": "sha256:c3745881b97fd0f5be28b029e5547d80251a3aee23e996fa88df732f057fbfac",
+        "operator_address": "0x0d84f2cfff72db8b927c27d01ae90e73bf453be3",
+        "active_set": true,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-03-27T13:04:23.114777",
+        "updated_at": "2025-04-22T00:24:23.281634",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 12654276.0,
+        "performance_score": 0.0,
+        "update_status": "Updateable",
+        "errors": [
+          "NoMetrics",
+          "NeedsUpdate"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "42a35586-652f-492e-b479-d3c5aea021da",
+    "name": "\"tt-ungate-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "c5744815-fc62-40eb-8c14-58bbb7b9431d",
+    "name": "\"is-ditto-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "395c0fc9-a939-4947-8680-6914e47dbeb9",
+    "name": "\"ava-is-mainnet-avs\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  },
+  {
+    "machine_id": "9235faa7-864b-4388-830b-5c6a360f1b74",
+    "name": "\"is-venn-testnet\"",
+    "status": "Healthy",
+    "client_version": "0.5.3 (5368c9c4b2b1a7250d0e4d79b92551e473c015c4)",
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 4,
+        "cpu_usage": 0.0,
+        "memory_usage": 915456000,
+        "memory_free": 11980402688,
+        "memory_total": 16373194752,
+        "disks": [
+          {
+            "id": "/:/dev/sda1",
+            "total": 102915489792,
+            "free": 98311032832,
+            "used": 4604456960
+          },
+          {
+            "id": "/boot:/dev/sda13",
+            "total": 1036431360,
+            "free": 846946304,
+            "used": 189485056
+          },
+          {
+            "id": "/boot/efi:/dev/sda15",
+            "total": 109395456,
+            "free": 103012352,
+            "used": 6383104
+          }
+        ],
+        "uptime": 12150378
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [],
+    "avs_list": [
+      {
+        "machine_id": "9235faa7-864b-4388-830b-5c6a360f1b74",
+        "avs_name": "is-venn-testnet",
+        "avs_type": "unknown",
+        "avs_version": "0.0.0",
+        "chain": "holesky",
+        "version_hash": "sha256:9ead191372da31da4785d4fd14fc94d3e8c11a6e64b7bc4ea45fc85e4e2156e6",
+        "operator_address": "0x121298c65a62d6c8a14ee44778bbe38ebea8c869",
+        "active_set": false,
+        "metrics_alive": false,
+        "node_running": true,
+        "created_at": "2025-04-04T10:28:37.830289",
+        "updated_at": "2025-04-22T00:24:37.961955",
+        "protocol": "Eigenlayer",
+        "is_running": true,
+        "uptime": 12150378.0,
+        "performance_score": 0.0,
+        "update_status": "Unknown",
+        "errors": [
+          "UnregisteredFromActiveSet",
+          "NoMetrics"
+        ]
+      }
+    ]
+  },
+  {
+    "machine_id": "debb9eae-8054-4ecc-8469-46e34217e2f7",
+    "name": "\"tt-ungate-testnet\"",
+    "status": "Unhealthy",
+    "client_version": null,
+    "hardware_info": {
+      "sys_metrics": {
+        "cpu_cores": 0,
+        "cpu_usage": 0.0,
+        "memory_usage": 0,
+        "memory_free": 0,
+        "memory_total": 0,
+        "disks": [],
+        "uptime": 0
+      },
+      "memory_status": "Healthy",
+      "disk_status": "Healthy"
+    },
+    "errors": [
+      "Idle",
+      "ClientUpdateRequired"
+    ],
+    "avs_list": []
+  }
+]

@@ -11,6 +11,8 @@ import re
 from urllib.parse import urljoin
 from difflib import SequenceMatcher
 from datetime import datetime
+from dotenv import load_dotenv
+load_dotenv()
 
 # Flask App Initialization
 app = Flask(__name__)
@@ -100,6 +102,10 @@ def fetch_eigenlayer_data():
         response = requests.get(EIGENLAYER_API, timeout=10)
         response.raise_for_status()
         eigen_data = response.json()
+        
+        with open("eigenlayer_raw_data.json", "w") as f:
+            json.dump(eigen_data, f, indent=2)
+
         eigen_mapping = {}
         for protocol, avs in eigen_data.items():
             protocol_name = avs.get("metadata", {}).get("name", protocol).strip().lower()
@@ -181,6 +187,10 @@ def fetch_ivynet_data():
         response = requests.get(IVYNET_API, auth=(IVYNET_USERNAME, IVYNET_PASSWORD), timeout=10)
         response.raise_for_status()
         ivynet_data = response.json()
+
+        with open("ivynet_raw_data.json", "w") as f:
+            json.dump(ivynet_data, f, indent=2)
+
         if not isinstance(ivynet_data, list): return {}
 
         configured_addresses = [addr.strip().lower() for addr in os.getenv("OPERATOR_ADDRESSES", "").split(",")]
@@ -224,7 +234,7 @@ def fetch_ivynet_data():
                     "errors": json.dumps(machine.get("errors", [])),
                     "operator_address": operator_address,
                     "opt_in_date": (
-                        datetime.fromisoformat(matched["optInDate"])
+                        datetime.fromisoformat(matched["optInDate"].replace("Z", "+00:00"))
                         if matched and matched.get("optInDate")
                         else None
                     ),
@@ -329,7 +339,9 @@ def get_avs_by_name(protocol_name):
     avs = AVS.query.filter_by(protocol_name=protocol_name).first()
     if not avs:
         return jsonify({"error": "AVS protocol name not found"}), 404
+
     return jsonify({
+        "avs_name": avs.avs_name,
         "protocol_name": avs.protocol_name,
         "total_staked": avs.total_staked,
         "network_apy": avs.network_apy,
@@ -337,7 +349,12 @@ def get_avs_by_name(protocol_name):
         "uptime": avs.uptime,
         "status": avs.status,
         "errors": json.loads(avs.errors) if avs.errors else [],
-        "operator_address": avs.operator_address
+        "operator_address": avs.operator_address,
+        "total_eth_tvl": avs.total_eth_tvl,
+        "total_eigen_tvl": avs.total_eigen_tvl,
+        "validation_success_score": avs.validation_success_score,
+        "eth_tvl_usd": avs.eth_tvl_usd,
+        "eigen_tvl_usd": avs.eigen_tvl_usd
     })
 
   
@@ -459,4 +476,8 @@ def get_alert_logs():
         } for log in AlertLog.query.order_by(AlertLog.timestamp.desc()).all()])
 
 if __name__ == "__main__":
+    # Test data fetching from 2 sources
+    # eigen_data = fetch_eigenlayer_data() 
+    # ivynet_data = fetch_ivynet_data()
     app.run(debug=True, port=5001)
+
